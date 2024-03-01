@@ -8,13 +8,14 @@ import CoursePage from "@/components/CoursePage";
 import CompanyLogos from "@/components/Companylogos";
 import Navbar from "@/components/Navbar";
 import TeamSection from "@/components/TeamSection";
-
+import Hero2 from "@/components/Hero2";
 
 function HeroParallaxDemo() {
   return (
     <div>
       <Navbar />
-      <HeroSection />
+      <Hero2 />
+      {/* <HeroSection /> */}
       <Aboutus />
       <CoursePage />
       {/* <Scroll /> */}

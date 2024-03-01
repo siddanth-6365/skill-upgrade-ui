@@ -2,14 +2,14 @@ import React from "react";
 
 const Aboutus = () => {
   return (
-    <section id="aboutus" className="p-2">
+    <section id="aboutus" className="p-2 md:mt-4 ">
       <div>
-        <h1 className="text-center text-3xl lg:text-5xl font-semibold">
+        <h1 className="text-center text-3xl lg:text-4xl font-semibold">
           Learn from the experts with our specialised courses
         </h1>
       </div>
-      <div className="flex flex-col lg:flex-row p-16">
-        <div className="w-full lg:w-1/2 p-4 order-2 lg:order-1">
+      <div className="flex flex-col lg:flex-row md:p-16 p-12">
+        <div className="w-full lg:w-1/2 md:p-4 p-2 order-2 lg:order-1">
           <h1 className="text-center text-2xl lg:text-3xl underline font-bold font-mono">
             About Us
           </h1>

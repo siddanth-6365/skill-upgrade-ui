@@ -33,11 +33,11 @@ function TextScrollAnimation() {
         },
         {
           color: element.dataset.fgColor,
-          duration: 0.3,
+          duration: 0.7,
           stagger: 0.02,
           scrollTrigger: {
             trigger: element,
-            start: "top 50%",
+            start: "top 40%",
             end: "top 20%",
             scrub: true,
             markers: false,
@@ -48,9 +48,9 @@ function TextScrollAnimation() {
     });
   }, []);
 
-  const lenis = useLenis(({ scroll }) => {
-    // console.log(scroll); // This will log the scroll event
-  });
+  // const lenis = useLenis(({ scroll }) => {
+  //   // console.log(scroll); // This will log the scroll event
+  // });
 
   return (
     <ReactLenis root={true}>

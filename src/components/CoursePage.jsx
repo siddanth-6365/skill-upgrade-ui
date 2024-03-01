@@ -6,7 +6,6 @@ import { Card } from "./ui/Card";
 
 const CoursePage = () => {
   const [courses, setCourses] = useState([]);
-  console.log(courses);
   useEffect(() => {
     setCourses(courseData);
   }, []);
