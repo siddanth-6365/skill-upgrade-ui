@@ -40,5 +40,34 @@
     "description": "We provide manual and automation testing services to ensure the quality of your software. Our team of experts will help you to identify the bugs and errors in your software and fix them.",
     "imgUrl": "https://static.wixstatic.com/media/f7c979_2f1d33c4f35b4a14a60539dc906613a3~mv2.jpg/v1/fill/w_946,h_462,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/Manual%20and%20automation%20testing%20course.jpg",
     "buylink": ""
+  },
+  {
+    "id": 7,
+    "title": "Manual & Automation Testing",
+    "description": "We provide manual and automation testing services to ensure the quality of your software. Our team of experts will help you to identify the bugs and errors in your software and fix them.",
+    "imgUrl": "https://static.wixstatic.com/media/f7c979_2f1d33c4f35b4a14a60539dc906613a3~mv2.jpg/v1/fill/w_946,h_462,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/Manual%20and%20automation%20testing%20course.jpg",
+    "buylink": ""
+  },
+  {
+    "id": 8,
+    "title": "Embedded Systems",
+    "description": "We provide manual and automation testing services to ensure the quality of your software. Our team of experts will help you to identify the bugs and errors in your software and fix them.",
+    "imgUrl": "https://static.wixstatic.com/media/f7c979_39708bdaf4dd4613af46e36594b13430~mv2.jpg/v1/fill/w_946,h_462,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/Embedded%20systems%20course.jpg",
+    "buylink": ""
+  },
+  {
+    "id": 9,
+    "title": "DevOps (AWS & Azure)",
+    "description": "We provide manual and automation testing services to ensure the quality of your software. Our team of experts will help you to identify the bugs and errors in your software and fix them.",
+    "imgUrl": "https://static.wixstatic.com/media/f7c979_f8a01cb207b74f49ade81b4834a1ac94~mv2.jpg/v1/fill/w_946,h_462,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/DevOps%20AWS%20and%20Azure%20course.jpg",
+    "buylink": ""
+  },
+  {
+    "id": 10,
+    "title": "Web Development",
+    "description": "We provide manual and automation testing services to ensure the quality of your software. Our team of experts will help you to identify the bugs and errors in your software and fix them.",
+    "imgUrl": "https://static.wixstatic.com/media/f7c979_2d46093aa9134b219e6de9f3605d8d5f~mv2.jpg/v1/fill/w_946,h_462,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/full%20stack%20web%20development%20course.jpg",
+    "buylink": ""
   }
+
 ]

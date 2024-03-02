@@ -23,21 +23,7 @@ const people = [
         imageUrl:
           'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
-      {
-        name: 'Leslie Alexander',
-        role: 'Co-Founder / CEO',
-        imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
-      {
-        name: 'Leslie Alexander',
-        role: 'Co-Founder / CEO',
-        imageUrl:
-          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
-    
-    
-    // More people...
+
   ]
   
   export default function Example() {
@@ -47,8 +33,8 @@ const people = [
           <div className="max-w-2xl">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our Instructors</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae elementum enim vitae ullamcorper
-              suspendisse.
+            Our team consists of experienced professionals with diverse backgrounds in software engineering, mechanical engineering, design and development and also in electrical and electronics engineering. We are united by a collaborative passion for innovation and a commitment to excellence in everything we do. Our team consists of well-disciplined tutors who are very friendly with everyone. And also, every time ready to deliver best quality of knowledge to the learners. 
+
             </p>
           </div>
           <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">

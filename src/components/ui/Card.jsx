@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
-export const Card = ({ card }) => {
+export const Card = ({ card, key, isThree }) => {
   return (
     <>
-      <div className="max-w-sm mx-auto overflow-hidden rounded-xl shadow-xl p-4">
+      <div
+        className={`max-w-sm mx-auto overflow-hidden rounded-xl shadow-xl p-4  `}
+      >
         <img
           className="object-cover object-center w-full h-64 rounded-lg"
           src={card.imgUrl}

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useRef, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -21,7 +21,11 @@ const Aboutus = () => {
   }, [controls, inView]);
 
   return (
-    <motion.section id="aboutus" className="p-2 md:mt-4 ">
+    <motion.section
+      id="aboutus"
+      className="p-2 md:mt-4 "
+      style={{ fontFamily: "Cambria, Georgia, serif" }}
+    >
       <div>
         <h1 className="text-center text-3xl lg:text-4xl font-semibold">
           Learn from the experts with our specialised courses
@@ -29,25 +33,26 @@ const Aboutus = () => {
       </div>
       <div className="flex flex-col lg:flex-row md:p-16 p-12">
         <div className="w-full lg:w-1/2 md:p-4 p-2 order-2 lg:order-1">
-          <h1 className="text-center text-2xl lg:text-3xl underline font-bold font-mono">
+          <h1 className="text-center text-2xl lg:text-3xl underline font-bold ">
             About Us
           </h1>
           <p className="text-base lg:text-xl  mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            atque id eligendi consequatur ex reprehenderit blanditiis delectus
-            aut magni provident. Perspiciatis necessitatibus vitae
-            reprehenderit, quis labore quisquam quas facilis voluptatem
-            obcaecati enim quam quia quod repellat blanditiis expedita
-            perferendis a aliquam doloribus, doloremque odit. Neque alias
-            dolores quod quam veniam. Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Natus laboriosam, dolorem rem quia assumenda
-            saepe! Nobis deleniti earum beatae vel?
+            “Hello Everyone” Welcome to the world of learning. You are in the
+            right place to learn new skills and to always stay ahead of the
+            curve. We welcome you to “SKILLUPGRADE”, your destination to
+            lifelong learning and professional development. We SKILLUPGRADE
+            believe that each one of you has the potential to learn new skills
+            and grow at new heights. SKILLUPGRADE academy provides a better
+            platform designed to accommodate all levels of learners. Our
+            user-friendly interface ensures that navigating through our
+            extensive library of courses is effortless, allowing all of you to
+            focus on what matters the most.
           </p>
-          <button className="bg-violet-400 p-2 rounded-md mt-4 w-full lg:w-auto">
+          {/* <button className="bg-violet-400 p-2 rounded-md mt-4 w-full lg:w-auto">
             <a href="/aboutus" className="text-xl underline">
               Read More
             </a>
-          </button>
+          </button> */}
         </div>
         <motion.div
           className="w-full lg:w-1/2 flex justify-center items-center order-1 lg:order-2 mt-8 lg:mt-0"

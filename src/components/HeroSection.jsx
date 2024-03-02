@@ -11,7 +11,6 @@ function HeroSection() {
     >
       <div className="flex flex-col md:flex-row items-center w-full md:w-1/2 ">
         <div className="font-serif md:ml-16 text-left  text-white text-[50px] md:text-[120px] ">
-          {/* <TextScrollAnimation /> */}
           <h1>Upgrade</h1>
           <h1 className="text-gray-500">Your Skills</h1>
           <h1 className="text-gray-500">With Us!</h1>
