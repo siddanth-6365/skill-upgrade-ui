@@ -1,7 +1,7 @@
 "use client";
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
-import Heading from "./ui/heading";
+import Heading from "./heading";
 
 const Scroll = () => {
   return (
