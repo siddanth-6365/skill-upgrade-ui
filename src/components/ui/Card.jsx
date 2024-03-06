@@ -5,6 +5,7 @@ export const Card = ({ card, key, isThree }) => {
     <>
       <div
         className={`max-w-sm mx-auto overflow-hidden rounded-xl shadow-xl p-4  `}
+        key={key}
       >
         <img
           className="object-cover object-center w-full h-64 rounded-lg"

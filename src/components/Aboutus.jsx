@@ -63,7 +63,8 @@ const Aboutus = () => {
         >
           <video
             className="rounded-lg max-w-full h-auto"
-            src="/demov1.mp4"
+            // src="/demov1.mp4"
+            src="https://video.wixstatic.com/video/f7c979_8041ca73bcca4e5eb6722ee958cc9757/480p/mp4/file.mp4"
             controls
             loop
             autoPlay
