@@ -1,0 +1,577 @@
+[
+    {
+        "id": 1,
+        "backgroundImage":"",
+        "title": "Machine Learning ",
+        "tagLine":"Master the art of Machine Learning",
+       "description": "Immerse yourself in the captivating universe of Machine Learning! Decode the complexities of algorithms and data with our expert instructors. Enroll now to pave the way for a future powered by cutting-edge technology!",
+       "overView":" Start an extensive exploration of the machine learning domain with our course. Start with Python basics, advance to supervised and unsupervised learning, and explore algorithms like Linear Regression and Random Forests. Delve into captivating subjects such as Natural Language Processing and Neural Networks. Acquire practical skills by employing popular libraries for effective idea implementation. Culminate your learning journey with hands-on real-world projects crafted to refine your expertise in machine learning. Enhance your abilities with us and unleash your complete potential",
+       "faq": [
+            {   "id":"1",
+                "question": "Catch Up with Python",
+                "answer": "Python basics & fundamentals & tools."
+            },
+            {
+                "id":"2",
+                "question": "Introduction To Machine Learning",
+                "answer": "What is machine learning, Applications of machine learning, Supervised vs Unsupervised Learning, Python libraires suitable for ML."
+            },
+            {
+                "id":"3",
+                "question": "Machine Learning Tools",
+                "answer": "Training& Testing, Cross validation, Features & labels, Pickings & Scaling, Techniques & Error metrics."
+            },
+            {
+                "id":"4",
+                "question": "Machine Learning Algorithms",
+                "answer": "Linear regression & Forecasting, Prediction using regression, Logistic regression & model evaluation, Support vector machines, K-N classification, K–means clustering, Random forest linear."
+            },      
+            {
+                "id":"5",
+               "question":"Recommender Systems" ,
+               "answer":"Content based recommender systems, Collaborative Filtering."
+            },
+            {
+                "id":"6",
+                "question": "Natural Language Processing",
+                "answer": "Introduction to NLTK, BASICS & LAXICAL PROCESSING, Text Classification, stop words stemming lemmatization, named entity recognition, conduct sentiment analysis using Naïve bayes."
+            },
+            {
+                "id":"7",
+                "question": "Neural Networks & Deep Learning",
+                "answer": "Information & Training flow of neural network, Convolutional & Recurrent neural networks, Creating & Deploying networks using Tensorflow & Keras."
+            },
+            {
+                "id":"8",
+                "question": "Implementation",
+                "answer": "Implementation of all algorithms using sklern."
+            },
+            {
+                "id":"9",
+                "question":"MINOR & MAJOR PROJECTS",
+                "answer":"Minor Project, Major Project, Project Overview."
+            }
+            
+        ]
+    },
+    
+    {
+        "id": 2,
+        "title": "Web Development ",
+        "backgroundImage":"",
+        "tagLine":"Master the art of Web Development",
+       "description": "Dive into the world of web development! Unleash your potential, enroll today, and carve out a bright future shaping digital landscapes with our cutting-edge courses. Your coding journey awaits!",
+        "overView":"Join our comprehensive course covering HTML, CSS, Bootstrap, JavaScript, OOP, DOM manipulation, jQuery, Node.js, and database principles, kickstarting your journey into web development. Delve into advanced concepts such as React.js, Angular, Spring Boot, MongoDB, and Node.js, culminating in hands-on projects of varying scales. Elevate your skills by building robust APIs and dynamic webpages. Explore the intricacies of modern web programming with us and turn your dream of becoming a coder into reality.",
+        "faq": [
+            {   "id":"1",
+                "question": "Introduction",
+                "answer": "Intro to web Development & Webpage"
+            },
+            {
+                "id":"2",
+                "question": "How Internet Works",
+                "answer": "Browsing the Web, Domain & IP Address"
+            },
+            {
+                "id":"3",
+                "question": "HTML",
+                "answer": "Basic HTML Tags etc"
+            },
+            {
+                "id":"4",
+                "question": "CSS",
+                "answer": "Introduction, syntax,inline, internal & external, box model CSS3, selectors, background, text, images.BG images, animations, CSS grid & CSS layout , basic html tags,intermediate & advanced html tags."
+            },      
+            {
+                "id":"5",
+               "question":"Bootstrao & SAAS" ,
+               "answer":"Introduction to boot starp, installation & grid system, Forms button Icons integration Introduction to Saas and installation & variable nesting Creating a portfolio with webpage with header & footer Webpage with hero section & animations & responsive."
+            },
+            {
+                "id":"6",
+                "question": "JavaScript",
+                "answer": "Introduction, number, string, Boolean comparison, variables, exercise: make a calculator.control flow, functions, arrays, objects, loops, keywords, section outline documents. "
+            },
+            {
+                "id":"7",
+                "question": "jQuery & NODE.js",
+                "answer": "Basics, selectors, traversing, CSS, Events, ajax, DOM Introduction to Node js, modules, ES6 Modules, types of modules Building a server & Restful ApI Middleware functions & express framework."
+            },
+            {
+                "id":"8",
+                "question": "Database & SQL",
+                "answer": "Introduction to database & SQL, Create table, joining tables, delete & drop, Installing & using postre sql, SQL : insert, select, alter, update, conditional selection, function."
+            },
+            {
+                "id":"9",
+                "question": "DOM Manipulation",
+                "answer": "Introduction, Dom selectors, Events, background generator & background generator files."
+            },
+            {
+                "id":"10",
+                "question": "OOPS",
+                "answer": "Inheritance, constructors, destructors & encapsulation."
+            },
+            {
+                "id":"11",
+                "question": "Understanding Concepts OverViews",
+                "answer": "REACT JS, ANGULAR, Springboot with my SQL Mongo DB & node js."
+            },
+            {
+                "id":"12",
+                "question": "MINOR & MAJOR PROJECTS",
+                "answer": "Minor Project, Major Project, Project overview."
+            }
+            
+        ]
+    },
+    
+    {
+        "id": 3,
+        "title": "Artifical Intelligence",
+        "backgroundImage":"",
+        "tagLine":"Master the art of Artifical Intelligence",
+       "description":"Begin a journey of change! Enroll now in our Artificial Intelligence courses for a future full of innovation and endless potential.",
+       "overView":"Embark on an exhilarating journey into AI with our comprehensive training program. Learn everything from deep learning to Python basics and data analysis using Pandas. Dive into artificial neural networks, convolutional neural networks, and get hands-on experience with practical applications. Enhance your understanding of AI setup, model training, and image processing. Wrap up your learning with engaging capstone projects that provide a holistic grasp of this groundbreaking field.",
+        "faq": [
+            {   "id":"1",
+                "question": "Catch Up with Python",
+                "answer": "Python basics & fundamentals & tools."
+            },
+            {
+                "id":"2",
+                "question": "Introduction To Data Analysis",
+                "answer":"Pandas & visualization"
+            },
+            {
+                "id":"3",
+                "question": "Stastics & Probability",
+                "answer": "Introduction to probability, Distribution central limits theorem & hypothesis testing"
+            },
+            {
+                "id":"4",
+                "question": "AI Introduction",
+                "answer": "Introduction to Artificial intelligence, Applications of Artificial intelligence, Hands on work with Python."
+            },      
+            {
+                "id":"5",
+               "question":"Deep Learning" ,
+               "answer":"Introduction to Neuron deep learning (basics & scope), Evolution of deep learning, Applications of Deep learning, Machine learning Vs. Deep learning, Techniques & types of deep learning, Introduction to ANN"
+            },
+            {
+                "id":"6",
+                "question": "Artifical Neural Networks",
+                "answer": "Neuron Diagram, Neuron Models & NETWORK FUCTIONS, Functions of Neurons activation, Functions of Gradient descent &Stochastic, Ramp function & sigmoid function & Gaussian function"
+            },
+            {
+                "id":"7",
+                "question": "Network Installation",
+                "answer": "Perceptron & multlilayer network, Backpropagation, Deep neural network installing libraries, Creating ANN, Python training the model."
+            },
+            {
+                "id":"8",
+                "question": "Convolutional Neural Networks",
+                "answer": "Introduction to open Cv (Image processing), Learning basic image manipulations, Introduction to CNN, CNN Institution, Convolution Operation pooling, Flattering building a CNN using python Training the model"
+            },
+            {
+                "id":"9",
+                "question":"MINOR & MAJOR PROJECTS",
+                "answer":"Minor Project, Major Project, Project Overview."
+            }
+            
+        ]
+    },
+   
+    {
+        "id": 4,
+        "title": "Data Science",
+        "backgroundImage":"",
+        "tagLine":"Master the art of Data Science",
+       "description":"Explore the world of data science with Skill Upgrade, where you'll unlock insights to transform your career. Join now for a journey towards a brighter future!",
+       "overView":"In this data science course, you'll explore data collection methods, master Python basics, and hone your skills in data wrangling and visualization. Delve into deep learning possibilities, gain hands-on experience with BI tools, and create web apps. Discover the potential of machine learning algorithms. This practical course, blending theory with real-world applications, equips you for a dynamic career in data science.",
+        "faq": [
+            {   "id":"1",
+                "question": "Catch Up with Python",
+                "answer": "Python basics & fundamentals & tools."
+            },
+            {
+                "id":"2",
+                "question": "Introduction To Data Analysis",
+                "answer":"Pandas & visualization"
+            },
+            {
+                "id":"3",
+                "question": "Stastics & Probability",
+                "answer": "Introduction to probability, Distribution central limits theorem & hypothesis testing"
+            },
+            {
+                "id":"4",
+                "question": "AI Introduction",
+                "answer": "Introduction to Artificial intelligence, Applications of Artificial intelligence, Hands on work with Python."
+            },      
+            {
+                "id":"5",
+               "question":"Deep Learning" ,
+               "answer":"Introduction to Neuron deep learning (basics & scope), Evolution of deep learning, Applications of Deep learning, Machine learning Vs. Deep learning, Techniques & types of deep learning, Introduction to ANN"
+            },
+            {
+                "id":"6",
+                "question": "Artifical Neural Networks",
+                "answer": "Neuron Diagram, Neuron Models & NETWORK FUCTIONS, Functions of Neurons activation, Functions of Gradient descent &Stochastic, Ramp function & sigmoid function & Gaussian function"
+            },
+            {
+                "id":"7",
+                "question": "Network Installation",
+                "answer": "Perceptron & multlilayer network, Backpropagation, Deep neural network installing libraries, Creating ANN, Python training the model."
+            },
+            {
+                "id":"8",
+                "question": "Convolutional Neural Networks",
+                "answer": "Introduction to open Cv (Image processing), Learning basic image manipulations, Introduction to CNN, CNN Institution, Convolution Operation pooling, Flattering building a CNN using python Training the model"
+            },
+            {
+                "id":"9",
+                "question":"MINOR & MAJOR PROJECTS",
+                "answer":"Minor Project, Major Project, Project Overview."
+            }
+            
+        ]
+    },
+   
+    {
+        "id": 5,
+        "title": "Anroid Development ",
+        "backgroundImage":"",
+        "tagLine":"Master the art of Anroid Development ",
+       "description":"Explore Android programming with our course, unlocking app development secrets for a brighter tech future!",
+       "overView":"Begin a dynamic journey into Android development with our comprehensive Training Internship. Dive into live projects guided by industry experts, covering the entire spectrum of Android development. Gain hands-on experience in UI/UX, form creation, and navigation, from foundational concepts to advanced Flutter applications. Elevate your skills through a robust curriculum, earning three major certified certificates upon completion. Propel your career with internship and placement opportunities, ensuring you're equipped to thrive in the evolving world of Android development. Let's start your transformative learning experience no",
+        "faq": [
+            {   "id":"1",
+                "question": "Catch Up with Python",
+                "answer": "Python basics & fundamentals & tools."
+            },
+            {
+                "id":"2",
+                "question": "Introduction To Data Analysis",
+                "answer":"Pandas & visualization"
+            },
+            {
+                "id":"3",
+                "question": "Stastics & Probability",
+                "answer": "Introduction to probability, Distribution central limits theorem & hypothesis testing"
+            },
+            {
+                "id":"4",
+                "question": "AI Introduction",
+                "answer": "Introduction to Artificial intelligence, Applications of Artificial intelligence, Hands on work with Python."
+            },      
+            {
+                "id":"5",
+               "question":"Deep Learning" ,
+               "answer":"Introduction to Neuron deep learning (basics & scope), Evolution of deep learning, Applications of Deep learning, Machine learning Vs. Deep learning, Techniques & types of deep learning, Introduction to ANN"
+            },
+            {
+                "id":"6",
+                "question": "Artifical Neural Networks",
+                "answer": "Neuron Diagram, Neuron Models & NETWORK FUCTIONS, Functions of Neurons activation, Functions of Gradient descent &Stochastic, Ramp function & sigmoid function & Gaussian function"
+            },
+            {
+                "id":"7",
+                "question": "Network Installation",
+                "answer": "Perceptron & multlilayer network, Backpropagation, Deep neural network installing libraries, Creating ANN, Python training the model."
+            },
+            {
+                "id":"8",
+                "question": "Convolutional Neural Networks",
+                "answer": "Introduction to open Cv (Image processing), Learning basic image manipulations, Introduction to CNN, CNN Institution, Convolution Operation pooling, Flattering building a CNN using python Training the model"
+            },
+            {
+                "id":"9",
+                "question":"MINOR & MAJOR PROJECTS",
+                "answer":"Minor Project, Major Project, Project Overview."
+            }
+            
+        ]
+    },
+
+    {
+        "id": 6,
+        "title": "Cyber Security ",
+        "backgroundImage":"",
+        "tagLine":"Master the art of Cyber Security  ",
+       "description":"Dive into cybersecurity, enroll to strengthen skills, defend against threats, and secure a bright future in the digital world.",
+       "overView":"Join our comprehensive course covering key concepts, network history, operating system basics, and ethical hacking principles to delve into the realm of cybersecurity. Explore techniques including scanning and reconnaissance, web server security, SQL injection, malware defense, social engineering, and wireless network security. Equip yourself with the necessary tools to identify, prevent, and manage online threats. Learn in a hands-on, immersive environment that combines theory and practical skills, ensuring readiness for the dynamic cybersecurity industry.",
+        "faq": [
+            {   "id":"1",
+                "question": "Catch Up with Python",
+                "answer": "Python basics & fundamentals & tools."
+            },
+            {
+                "id":"2",
+                "question": "Introduction To Data Analysis",
+                "answer":"Pandas & visualization"
+            },
+            {
+                "id":"3",
+                "question": "Stastics & Probability",
+                "answer": "Introduction to probability, Distribution central limits theorem & hypothesis testing"
+            },
+            {
+                "id":"4",
+                "question": "AI Introduction",
+                "answer": "Introduction to Artificial intelligence, Applications of Artificial intelligence, Hands on work with Python."
+            },      
+            {
+                "id":"5",
+               "question":"Deep Learning" ,
+               "answer":"Introduction to Neuron deep learning (basics & scope), Evolution of deep learning, Applications of Deep learning, Machine learning Vs. Deep learning, Techniques & types of deep learning, Introduction to ANN"
+            },
+            {
+                "id":"6",
+                "question": "Artifical Neural Networks",
+                "answer": "Neuron Diagram, Neuron Models & NETWORK FUCTIONS, Functions of Neurons activation, Functions of Gradient descent &Stochastic, Ramp function & sigmoid function & Gaussian function"
+            },
+            {
+                "id":"7",
+                "question": "Network Installation",
+                "answer": "Perceptron & multlilayer network, Backpropagation, Deep neural network installing libraries, Creating ANN, Python training the model."
+            },
+            {
+                "id":"8",
+                "question": "Convolutional Neural Networks",
+                "answer": "Introduction to open Cv (Image processing), Learning basic image manipulations, Introduction to CNN, CNN Institution, Convolution Operation pooling, Flattering building a CNN using python Training the model"
+            },
+            {
+                "id":"9",
+                "question":"MINOR & MAJOR PROJECTS",
+                "answer":"Minor Project, Major Project, Project Overview."
+            }
+            
+        ]
+    },
+
+    {
+        "id": 7,
+        "title": "Cloud Computing ",
+        "backgroundImage":"",
+        "tagLine":"Master the art of Cloud Computing ",
+       "description":"Enroll in our Cloud Computing program to explore the future of technology and ensure a bright tomorrow!",
+       "overView":"Cloud computing is a paradigm that delivers computing services, including storage, processing power, and software applications, over the internet. It offers various service models such as Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS), allowing users to access resources on-demand without the need for managing physical hardware. Deployment models include public, private, and hybrid clouds, each offering different levels of control and customization. Cloud computing provides benefits such as scalability, cost-efficiency, flexibility, and accessibility, but also presents challenges related to security, reliability, and vendor lock-in. Overall, it revolutionizes IT infrastructure by enabling organizations to efficiently utilize resources and focus on innovation and business growth.",
+        "faq": [
+            {   "id":"1",
+                "question": "Catch Up with Python",
+                "answer": "Python basics & fundamentals & tools."
+            },
+            {
+                "id":"2",
+                "question": "Introduction To Data Analysis",
+                "answer":"Pandas & visualization"
+            },
+            {
+                "id":"3",
+                "question": "Stastics & Probability",
+                "answer": "Introduction to probability, Distribution central limits theorem & hypothesis testing"
+            },
+            {
+                "id":"4",
+                "question": "AI Introduction",
+                "answer": "Introduction to Artificial intelligence, Applications of Artificial intelligence, Hands on work with Python."
+            },      
+            {
+                "id":"5",
+               "question":"Deep Learning" ,
+               "answer":"Introduction to Neuron deep learning (basics & scope), Evolution of deep learning, Applications of Deep learning, Machine learning Vs. Deep learning, Techniques & types of deep learning, Introduction to ANN"
+            },
+            {
+                "id":"6",
+                "question": "Artifical Neural Networks",
+                "answer": "Neuron Diagram, Neuron Models & NETWORK FUCTIONS, Functions of Neurons activation, Functions of Gradient descent &Stochastic, Ramp function & sigmoid function & Gaussian function"
+            },
+            {
+                "id":"7",
+                "question": "Network Installation",
+                "answer": "Perceptron & multlilayer network, Backpropagation, Deep neural network installing libraries, Creating ANN, Python training the model."
+            },
+            {
+                "id":"8",
+                "question": "Convolutional Neural Networks",
+                "answer": "Introduction to open Cv (Image processing), Learning basic image manipulations, Introduction to CNN, CNN Institution, Convolution Operation pooling, Flattering building a CNN using python Training the model"
+            },
+            {
+                "id":"9",
+                "question":"MINOR & MAJOR PROJECTS",
+                "answer":"Minor Project, Major Project, Project Overview."
+            }
+            
+        ]
+    },
+
+    {
+        "id": 8,
+        "title": "VLSI ",
+        "backgroundImage":"",
+        "tagLine":"Master the art of VLSI",
+       "description":"Explore the world of robotics, unlock your potential, enroll now, and pave the way for a bright future where innovation and automation combine for unparalleled opportunities!",
+       "overView":"Embark on a groundbreaking journey into robotics with our comprehensive course. Uncover the intricacies of robot design, from laws and types to essential components. Harness the power of the ATmega 328p microcontroller to seamlessly integrate sensors and actuators. Master Arduino programming for precise control of stepper, servo, and DC motors. Explore communication protocols like Bluetooth, SPI, and I2C, immersing yourself in the potential of ROS for intricate robotic maneuvers. Conclude your learning adventure with a hands-on project showcasing your expertise. Ignite your passion for innovation and robotics like never before!",
+        "faq": [
+            {   "id":"1",
+                "question": "Catch Up with Python",
+                "answer": "Python basics & fundamentals & tools."
+            },
+            {
+                "id":"2",
+                "question": "Introduction To Data Analysis",
+                "answer":"Pandas & visualization"
+            },
+            {
+                "id":"3",
+                "question": "Stastics & Probability",
+                "answer": "Introduction to probability, Distribution central limits theorem & hypothesis testing"
+            },
+            {
+                "id":"4",
+                "question": "AI Introduction",
+                "answer": "Introduction to Artificial intelligence, Applications of Artificial intelligence, Hands on work with Python."
+            },      
+            {
+                "id":"5",
+               "question":"Deep Learning" ,
+               "answer":"Introduction to Neuron deep learning (basics & scope), Evolution of deep learning, Applications of Deep learning, Machine learning Vs. Deep learning, Techniques & types of deep learning, Introduction to ANN"
+            },
+            {
+                "id":"6",
+                "question": "Artifical Neural Networks",
+                "answer": "Neuron Diagram, Neuron Models & NETWORK FUCTIONS, Functions of Neurons activation, Functions of Gradient descent &Stochastic, Ramp function & sigmoid function & Gaussian function"
+            },
+            {
+                "id":"7",
+                "question": "Network Installation",
+                "answer": "Perceptron & multlilayer network, Backpropagation, Deep neural network installing libraries, Creating ANN, Python training the model."
+            },
+            {
+                "id":"8",
+                "question": "Convolutional Neural Networks",
+                "answer": "Introduction to open Cv (Image processing), Learning basic image manipulations, Introduction to CNN, CNN Institution, Convolution Operation pooling, Flattering building a CNN using python Training the model"
+            },
+            {
+                "id":"9",
+                "question":"MINOR & MAJOR PROJECTS",
+                "answer":"Minor Project, Major Project, Project Overview."
+            }
+            
+        ]
+    },
+
+    {
+        "id": 9,
+        "title": "IOT ",
+        "backgroundImage":"",
+        "tagLine":"Master the art of IOT ",
+       "description":"Explore robotics now to unlock your potential and open doors to a future where innovation and automation bring endless opportunities!",
+       "overView":"Join our comprehensive course and dive into the realm of robotics, taking a revolutionary step forward. Explore the laws, types, and components of robot design while mastering the ATmega 328p microcontroller for sensor and actuator integration. Learn to program Arduino devices for various motors and uncover communication methods like Bluetooth, SPI, and I2C. Immerse yourself in the potential of ROS for advanced robotic movements. Conclude with a practical project to showcase your acquired knowledge and ignite your enthusiasm for innovation in robotics!",
+        "faq": [
+            {   "id":"1",
+                "question": "Catch Up with Python",
+                "answer": "Python basics & fundamentals & tools."
+            },
+            {
+                "id":"2",
+                "question": "Introduction To Data Analysis",
+                "answer":"Pandas & visualization"
+            },
+            {
+                "id":"3",
+                "question": "Stastics & Probability",
+                "answer": "Introduction to probability, Distribution central limits theorem & hypothesis testing"
+            },
+            {
+                "id":"4",
+                "question": "AI Introduction",
+                "answer": "Introduction to Artificial intelligence, Applications of Artificial intelligence, Hands on work with Python."
+            },      
+            {
+                "id":"5",
+               "question":"Deep Learning" ,
+               "answer":"Introduction to Neuron deep learning (basics & scope), Evolution of deep learning, Applications of Deep learning, Machine learning Vs. Deep learning, Techniques & types of deep learning, Introduction to ANN"
+            },
+            {
+                "id":"6",
+                "question": "Artifical Neural Networks",
+                "answer": "Neuron Diagram, Neuron Models & NETWORK FUCTIONS, Functions of Neurons activation, Functions of Gradient descent &Stochastic, Ramp function & sigmoid function & Gaussian function"
+            },
+            {
+                "id":"7",
+                "question": "Network Installation",
+                "answer": "Perceptron & multlilayer network, Backpropagation, Deep neural network installing libraries, Creating ANN, Python training the model."
+            },
+            {
+                "id":"8",
+                "question": "Convolutional Neural Networks",
+                "answer": "Introduction to open Cv (Image processing), Learning basic image manipulations, Introduction to CNN, CNN Institution, Convolution Operation pooling, Flattering building a CNN using python Training the model"
+            },
+            {
+                "id":"9",
+                "question":"MINOR & MAJOR PROJECTS",
+                "answer":"Minor Project, Major Project, Project Overview."
+            }
+            
+        ]
+    },
+
+    {
+        "id": 10,
+        "title": "Embedded Systems ",
+        "backgroundImage":"",
+        "tagLine":"Master the art of Embedded Systems ",
+       "description":"Explore the world of robotics, unlock your potential, and enroll now for a future filled with innovation and automation opportunities!",
+       "overView":"Embark on a revolutionary journey into robotics with our comprehensive course. Delve into robot design, master microcontroller integration, program Arduino devices, and explore communication methods like Bluetooth and SPI. Conclude with a practical project to showcase your expertise and fuel your passion for innovation in robotics!",
+        "faq": [
+            {   "id":"1",
+                "question": "Catch Up with Python",
+                "answer": "Python basics & fundamentals & tools."
+            },
+            {
+                "id":"2",
+                "question": "Introduction To Data Analysis",
+                "answer":"Pandas & visualization"
+            },
+            {
+                "id":"3",
+                "question": "Stastics & Probability",
+                "answer": "Introduction to probability, Distribution central limits theorem & hypothesis testing"
+            },
+            {
+                "id":"4",
+                "question": "AI Introduction",
+                "answer": "Introduction to Artificial intelligence, Applications of Artificial intelligence, Hands on work with Python."
+            },      
+            {
+                "id":"5",
+               "question":"Deep Learning" ,
+               "answer":"Introduction to Neuron deep learning (basics & scope), Evolution of deep learning, Applications of Deep learning, Machine learning Vs. Deep learning, Techniques & types of deep learning, Introduction to ANN"
+            },
+            {
+                "id":"6",
+                "question": "Artifical Neural Networks",
+                "answer": "Neuron Diagram, Neuron Models & NETWORK FUCTIONS, Functions of Neurons activation, Functions of Gradient descent &Stochastic, Ramp function & sigmoid function & Gaussian function"
+            },
+            {
+                "id":"7",
+                "question": "Network Installation",
+                "answer": "Perceptron & multlilayer network, Backpropagation, Deep neural network installing libraries, Creating ANN, Python training the model."
+            },
+            {
+                "id":"8",
+                "question": "Convolutional Neural Networks",
+                "answer": "Introduction to open Cv (Image processing), Learning basic image manipulations, Introduction to CNN, CNN Institution, Convolution Operation pooling, Flattering building a CNN using python Training the model"
+            },
+            {
+                "id":"9",
+                "question":"MINOR & MAJOR PROJECTS",
+                "answer":"Minor Project, Major Project, Project Overview."
+            }
+            
+        ]
+    }
+   
+]   
