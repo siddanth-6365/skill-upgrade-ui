@@ -7,6 +7,7 @@ import HeroSection from "@/components/HeroSection";
 import CircleComponent from "@/components/CircleComponent";
 import ContactUs from "@/components/ContactUs";
 import About2 from "@/components/About2";
+import Services from "@/components/Services";
 
 function HeroParallaxDemo() {
   return (
@@ -18,6 +19,7 @@ function HeroParallaxDemo() {
       <TeamSection />
       <CompanyLogos />
       <ContactUs />
+      <Services/>
       <Footer />
     </div>
   );

@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Heading from "./ui/heading";
-import courseData from "@/data/courses.json";
+import courseData from "@/data/homeCourses.json";
 import { Card } from "./ui/Card";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
