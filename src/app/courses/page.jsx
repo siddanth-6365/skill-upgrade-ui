@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState, Suspense } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import {
   Accordion,
@@ -48,7 +49,7 @@ const CourseContent = () => {
             <p className="mt-6 leading-relaxed font-serif md:text-xl">{data.tagLine}</p>
             <div className="mt-8 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
               <button className="btn bg-[#7c51f0] btn-outline px-6 py-3 text-base font-medium rounded-md">
-                Join Us
+                <Link href="https://chat.whatsapp.com/LGKwNURO8FUCGD9qJCf2iE">Join Us</Link>
               </button>
             </div>
           </div>

@@ -13,6 +13,7 @@
       "Culminate your learning journey with hands-on real-world projects crafted to refine your expertise in machine learning.",
       "Enhance your abilities with us and unleash your complete potential"
     ],
+    "price": 999,
     "faq": [
       {
         "id": "1",
@@ -94,6 +95,7 @@
       }
     ]
   },
+
   {
     "id": 2,
     "title": "Web Development",
@@ -106,6 +108,7 @@
       "Elevate your skills by building robust APIs and dynamic webpages.",
       "Explore the intricacies of modern web programming with us and turn your dream of becoming a coder into reality."
     ],
+    "price": 999,
     "faq": [
       {
         "id": "1",
@@ -220,6 +223,7 @@
       }
     ]
   },
+
   {
     "id": 3,
     "title": "Artificial Intelligence",
@@ -233,6 +237,7 @@
       "Enhance your understanding of AI setup, model training, and image processing.",
       "Wrap up your learning with engaging capstone projects that provide a holistic grasp of this groundbreaking field."
     ],
+    "price": 999,
     "faq": [
       {
         "id": "1",
@@ -313,6 +318,7 @@
       }
     ]
   },
+
   {
     "id": 4,
     "title": "Data Science",
@@ -325,6 +331,7 @@
       "Discover the potential of machine learning algorithms.",
       "This practical course, blending theory with real-world applications, equips you for a dynamic career in data science."
     ],
+    "price": 999,
     "faq": [
       {
         "id": "1",
@@ -405,6 +412,7 @@
       }
     ]
   },
+
   {
     "id": 5,
     "title": "Anroid Development",
@@ -419,6 +427,7 @@
       "Propel your career with internship and placement opportunities, ensuring you're equipped to thrive in the evolving world of Android development.",
       "Let's start your transformative learning experience no"
     ],
+    "price": 999,
     "faq": [
       {
         "id": "1",
@@ -504,6 +513,7 @@
       "Equip yourself with the necessary tools to identify, prevent, and manage online threats.",
       "Learn in a hands-on, immersive environment that combines theory and practical skills, ensuring readiness for the dynamic cybersecurity industry."
     ],
+    "price": 999,
     "faq": [
       {
         "id": "1",
@@ -648,6 +658,7 @@
       }
     ]
   },
+
   {
     "id": 7,
     "title": "Cloud Computing",
@@ -661,6 +672,7 @@
       "Cloud computing provides benefits such as scalability, cost-efficiency, flexibility, and accessibility, but also presents challenges related to security, reliability, and vendor lock-in.",
       "Overall, it revolutionizes IT infrastructure by enabling organizations to efficiently utilize resources and focus on innovation and business growth."
     ],
+    "price": 999,
     "faq": [
       {
         "id": "1",
@@ -754,6 +766,7 @@
       }
     ]
   },
+
   {
     "id": 8,
     "title": "VLSI",
@@ -769,6 +782,7 @@
       "Conclude your learning adventure with a hands-on project showcasing your expertise.",
       "Ignite your passion for innovation and robotics like never before!"
     ],
+    "price": 999,
     "faq": [
       {
         "id": "1",
@@ -850,6 +864,7 @@
       }
     ]
   },
+
   {
     "id": 9,
     "title": "IOT ",
@@ -863,6 +878,7 @@
       "Immerse yourself in the potential of ROS for advanced robotic movements.",
       "Conclude with a practical project to showcase your acquired knowledge and ignite your enthusiasm for innovation in robotics!"
     ],
+    "price": 999,
     "faq": [
       {
         "id": "1",
@@ -906,6 +922,7 @@
       }
     ]
   },
+
   {
     "id": 10,
     "title": "Embedded Systems ",
@@ -917,6 +934,7 @@
       "Delve into robot design, master microcontroller integration, program Arduino devices, and explore communication methods like Bluetooth and SPI.",
       "Conclude with a practical project to showcase your expertise and fuel your passion for innovation in robotics!"
     ],
+    "price": 999,
     "faq": [
       {
         "id": "1",
@@ -969,10 +987,18 @@
   {
     "id": 11,
     "title": "Basics of mechanical engineering, Mechanical design and development",
-    "backgroundImage": "",
+    "backgroundImage": "/background_ME.webp",
     "tagLine": "Master the art of Mechanical design and development ",
     "description": "This course introduces the fundamental principles of mechanical engineering, with a centre of attention on mechanical design and development. Students will acquire a comprehensive understanding of the core concepts of mechanical engineering, theories, and methodologies essential for designing and developing mechanical systems and components. Through a combination of theoretical lectures, practical exercises, and hands-on projects, participants will learn how to apply engineering principles to solve real-world problems in the field of mechanical design.",
-    "overView": "",
+    "overView": [
+      "To present students to the foundational concepts and principles of mechanical engineering and design.",
+      "To Introduce students with the basics of mechanical design, including design processes, methodologies, and standards.",
+      "To Develop problem-solving skills and critical thinking abilities in the context of mechanical design and development.",
+      "To explore advanced topics in mechanical engineering, such as finite element analysis (FEA), computer-aided design (CAD), and simulation techniques.",
+      "To encourage the students by teamwork, collaboration, and effective communication skills through group projects and presentations.",
+      "To prepare students for further studies or careers in mechanical engineering and related fields."
+    ],
+    "price": 599,
     "faq": [
       {
         "id": "1",
@@ -1076,13 +1102,24 @@
       }
     ]
   },
+
   {
     "id": 12,
     "title": "Basic CAD modeling using CATIA, SOLIDWORKS",
-    "backgroundImage": "",
+    "backgroundImage": "/background_12.jpeg",
     "tagLine": "Master the art of CAD ",
     "description": "This course provides an introduction to Computer-Aided Design (CAD) using CATIA and SOLIDWORKS software. Participants will learn fundamental principles and techniques for creating 3D models, assemblies, and drawings using these industry-standard CAD tools. Through hands-on exercises and practical examples, students will gain proficiency in creating geometric shapes, applying constraints, and generating engineering drawings. This two CAD software’s are widely used in industries. No prior experience in CAD is required, although familiarity with basic engineering concepts and computer usage is beneficial. ",
-    "overView": "",
+    "overView": [
+      "Understand the basics of CAD software interface and functionality.",
+      "Learn how to create and modify 3D models using CATIA and SOLIDWORKS.",
+      "Explore various sketching techniques for creating 2D profiles.",
+      "Master the use of features such as extrusions, revolve, sweeps, and lofts.",
+      "Practice assembling components and creating assembly constraints.",
+      "Generate detailed engineering drawings with annotations and dimensions.",
+      "Develop proficiency in navigating the software environment and customizing settings.",
+      "Gain practical skills applicable to mechanical design and product development projects."
+    ],
+    "price": 999,
     "faq": [
       {
         "id": 1,
@@ -1347,13 +1384,21 @@
       }
     ]
   },
+
   {
     "id": "13",
     "title": "Basic CAD modeling using UG NX, PTC Creo",
-    "backgroundImage": "",
+    "backgroundImage": "/background_13.jpeg",
     "tagLine": "Master the art of CAD modeling ",
     "description": "This course is designed to introduce participants to the fundamental concepts and techniques of Computer-Aided Design (CAD) using two industry-leading software’s: UG NX and PTC Creo. Through hands-on exercises and practical examples, participants will learn the essential skills required to create 3D models, assemblies, and drawings using both software platforms. By the end of this course, participants will have gained a solid foundation in CAD modeling using UG NX and PTC Creo, enabling them to create and manipulate 3D models efficiently for various engineering applications.",
-    "overView": "",
+    "overView": [
+      "This course introduces students with the user interface of software’s and navigation tools of UG NX and PTC Creo.",
+      "Introduce basic sketching techniques for creating 2D profiles.",
+      "Educate participants how to create and modify 3D solid models using parametric modeling techniques.",
+      "Explore assembly modeling concepts, including component relationships and constraints.",
+      "Provide an overview of drawing creation and annotation tools for documenting designs."
+    ],
+    "price": 999,
     "faq": [
       {
         "id": 1,
@@ -1467,149 +1512,21 @@
       }
     ]
   },
-  {
-    "id": "14",
-    "title": "GD & T ( Geometric Dimensioning and Tolerance )",
-    "backgroundImage": "",
-    "tagLine": "Master the art of Geometric Dimensioning and Tolerance ",
-    "description": "This course provides an in-depth understanding of the principles, concepts, and applications of Geometric Dimensioning and Tolerancing (GD&T). Participants will learn how to create, interpret, and apply GD&T symbols and control frames to engineering drawings, ensuring clear communication of design intent and tolerance requirements.",
-    "overView": [""],
-    "faq": [
-      {
-        "id": 1,
-        "question": "Introduction to GD&T",
-        "answer": [
-          "Overview of GD&T principles and terminology",
-          "Importance of GD&T in engineering design and manufacturing",
-          "Historical background and evolution of GD&T standards",
-          "Quiz 10 Questions"
-        ]
-      },
-      {
-        "id": 2,
-        "question": "Basic Dimensioning",
-        "answer": [
-          "Understanding traditional dimensioning practices",
-          "Limitations of traditional dimensioning methods",
-          "Introduction to tolerances and their significance",
-          "Quiz 10 Questions"
-        ]
-      },
-      {
-        "id": 3,
-        "question": "Symbols and Feature Control Frames (FCFs)",
-        "answer": [
-          "Explanation of GD&T symbols: datum, feature control, geometric characteristic symbols",
-          "Interpretation of feature control frames (FCFs) on engineering drawings",
-          "Representation of tolerances using GD&T symbols",
-          "Quiz 10 Questions"
-        ]
-      },
-      {
-        "id": 4,
-        "question": "Datum Reference Frames (DRFs)",
-        "answer": [
-          "Definition and purpose of datum reference frames (DRFs)",
-          "Establishing datums and datum features",
-          "Hierarchical relationship of datums and their impact on part inspection",
-          "Quiz 10 Questions"
-        ]
-      },
-      {
-        "id": 5,
-        "question": "Form Tolerances",
-        "answer": [
-          "Understanding form tolerances: flatness, straightness, circularity, cylindricity",
-          "Interpretation and application of form tolerances on engineering drawings",
-          "Practical examples and exercises for form tolerances",
-          "Quiz 10 Questions"
-        ]
-      },
-      {
-        "id": 6,
-        "question": "Orientation Tolerances",
-        "answer": [
-          "Explanation of orientation tolerances: parallelism, perpendicularity, angularity",
-          "Proper application of orientation tolerances in engineering drawings",
-          "Real-world examples and case studies",
-          "Quiz 10 Questions"
-        ]
-      },
-      {
-        "id": 7,
-        "question": "Profile Tolerances",
-        "answer": [
-          "Definition and significance of profile tolerances",
-          "Understanding profile of a line (straightness) and profile of a surface (profile)",
-          "Practical application and interpretation of profile tolerances",
-          "Quiz 10 Questions"
-        ]
-      },
-      {
-        "id": 8,
-        "question": "Position Tolerances",
-        "answer": [
-          "Explanation of position tolerances: basic dimension, positional tolerance zone, virtual condition",
-          "Calculation and interpretation of position tolerances",
-          "Case studies illustrating the application of position tolerances",
-          "Quiz 10 Questions"
-        ]
-      },
-      {
-        "id": 9,
-        "question": "Runout and Concentricity Tolerances",
-        "answer": [
-          "Understanding runout tolerances: circular runout, total runout",
-          "Interpretation and application of runout tolerances",
-          "Introduction to concentricity tolerance and its application",
-          "Quiz 10 Questions"
-        ]
-      },
-      {
-        "id": 10,
-        "question": "Tolerance Stacks and Analysis",
-        "answer": [
-          "Introduction to tolerance stack-up analysis",
-          "Understanding the concept of worst-case and statistical tolerance analysis",
-          "Practical techniques for managing tolerance stacks in engineering design",
-          "Quiz 10 Questions"
-        ]
-      },
-      {
-        "id": 11,
-        "question": "GD&T Inspection Methods",
-        "answer": [
-          "Overview of inspection methods for GD&T features",
-          "Coordinate measuring machines (CMMs), gauge blocks, optical comparators, etc.",
-          "Best practices for GD&T inspection and measurement",
-          "Quiz 10 Questions"
-        ]
-      },
-      {
-        "id": 12,
-        "question": "GD&T in Manufacturing and Quality Control",
-        "answer": [
-          "Integration of GD&T principles into manufacturing processes",
-          "Role of GD&T in quality control and assurance",
-          "Application of GD&T in ensuring part interchangeability and functionality",
-          "Quiz 10 Questions"
-        ]
-      },
-      {
-        "id": 13,
-        "question": "Final Quiz",
-        "answer": ["30 Questions"]
-      }
-    ]
-  },
 
   {
     "id": "14",
-    "backgroundImage": "",
     "title": "GD & T ( Geometric Dimensioning and Tolerance )",
+    "backgroundImage": "/background_14.jpeg",
     "tagLine": "Master the art of Geometric Dimensioning and Tolerance ",
     "description": "This course provides an in-depth understanding of the principles, concepts, and applications of Geometric Dimensioning and Tolerancing (GD&T). Participants will learn how to create, interpret, and apply GD&T symbols and control frames to engineering drawings, ensuring clear communication of design intent and tolerance requirements.",
-    "overView": "",
+    "overView": [
+      "Understand the fundamental principles and benefits of GD&T.",
+      "Interpret engineering drawings containing GD&T symbols and annotations.",
+      "Apply GD&T symbols and control frames to specify dimensional and geometric tolerances.",
+      "Study the relationship between GD&T, manufacturing processes, and inspection techniques.",
+      "Reveal proficiency in using GD&T to communicate design requirements accurately."
+    ],
+    "price": 699,
     "faq": [
       {
         "id": 1,
@@ -1741,11 +1658,23 @@
 
   {
     "id": "15",
-    "backgroundImage": "",
+    "backgroundImage": "/background_15.jpeg",
     "title": "SKILLPLUS [ Basic mechanical design + CAD modeling using CATIA, SOLIDWORKS and Solidedge ]",
     "tagLine": "Master the art of CAD modeling ",
     "description": "Explore the world of mechanical design. This course in the combination of two different courses. This course enables to students to learn all three things at once and gain a In-depth knowledge about Mechanical design, CAD modelling software’s. This course aims to equip learners with the necessary expertise to create 3D models, assemblies, and engineering drawings for various mechanical components and systems.",
-    "overView": "",
+    "overView": [
+      "To present students to the foundational concepts and principles of mechanical engineering and design.",
+      "To Introduce students with the basics of mechanical design, including design processes, methodologies, and standards.",
+      "Understand the basics of CAD software interface and functionality.",
+      "Learn how to create and modify 3D models using CATIA, SOLIDWORKS, and SOLIDEDGE.",
+      "Explore various sketching techniques for creating 2D profiles.",
+      "Master the use of features such as extrusions, revolve, sweeps, and lofts.",
+      "Practice assembling components and creating assembly constraints.",
+      "Generate detailed engineering drawings with annotations and dimensions.",
+      "Develop proficiency in navigating the software environment and customizing settings.",
+      "Gain practical skills applicable to mechanical design and product development projects."
+    ],
+    "price": 1999,
     "faq": [
       {
         "id": 1,
@@ -2077,11 +2006,19 @@
 
   {
     "id": "16",
-    "backgroundImage": "",
+    "backgroundImage": "/background_16.jpeg",
     "title": "SKILLPLUS+ [ Mechanical Design + CAD modeling using UG NX, PTC Croe + GD & T Geometric dimensioning and tolerance ]",
     "tagLine": "Master the art of CAD modeling with Mechanical Design ",
     "description": "Explore the world of mechanical design. This course in the combination of two different courses. This course enables to students to learn all three things at once and gain a In-depth knowledge about Mechanical design, CAD modelling software’s. This course aims to equip learners with the necessary expertise to create 3D models, assemblies, and engineering drawings for various mechanical components and systems.",
-    "overView": "",
+    "overView": [
+      "Develop a solid understanding of mechanical design fundamentals.",
+      "Gain proficiency in CAD modeling using UG NX and PTC Creo.",
+      "Learn advanced features and techniques for 3D modeling and assembly creation.",
+      "Acquire skills in dimensioning, tolerancing, and annotation according to GD&T standards.",
+      "Understand the role of GD&T in ensuring manufacturability and quality control.",
+      "Apply learned concepts to real-world mechanical design projects."
+    ],
+    "price": 2299,
     "faq": [
       {
         "id": 1,
