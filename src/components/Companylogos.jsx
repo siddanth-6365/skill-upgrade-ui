@@ -1,6 +1,6 @@
-"use client";
-import React, { useRef } from "react";
+import React from "react";
 import Image from "next/image";
+import Marquee from "react-fast-marquee";
 
 // Array of logos
 const logos = [
@@ -17,39 +17,21 @@ const logos = [
   "https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png",
 ];
 
-function Slider() {
-  const sliderRef = useRef(null);
-
-  const handleScroll = () => {
-    if (sliderRef.current) {
-      if (sliderRef.current.scrollLeft === sliderRef.current.scrollWidth - sliderRef.current.clientWidth) {
-        sliderRef.current.scrollLeft = 0;
-      }
-    }
-  };
-
+function Slider(){
   return (
-    <div className="slider bg-whitesmoke p-8 mt-8 overflow-hidden relative">
-      <div
-        ref={sliderRef}
-        className="slide-track flex overflow-x-auto"
-        onScroll={handleScroll}
-        style={{ scrollSnapType: "x mandatory" }}
-      >
-        {logos.map((logo, index) => (
-          <div key={index} className="slide flex-shrink-0">
-            <Image
-              layout="responsive"
-              src={logo}
-              alt="logo"
-              width={100}
-              height={100}
-            />
-          </div>
-        ))}
-      </div>
+    <div className="mt-12 text-center">
+      <Marquee direction="left" speed={100} delay={5}>
+        {
+          logos.map((logo,index)=>(
+            <div key={index} className="mx-8">
+              <Image src={logo} width={40} height={40} alt="Logo" className=" w-24" />
+            </div>
+          ))
+        }
+      </Marquee>
     </div>
-  );
+  )
 }
 
 export default Slider;
+
