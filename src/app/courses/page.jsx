@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState,Suspense } from "react";
+import React, { useEffect, useState, Suspense } from "react";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import {
@@ -22,7 +22,18 @@ const LandingPage = () => {
 
   return (
     <>
-    <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div>Loading...</div>}>
+        <CourseContent data={data} />
+      </Suspense>
+    </>
+  );
+};
+
+export default LandingPage;
+
+const CourseContent = ({ data }) => {
+  return (
+    <>
       <div className="bg-cover bg-center h-screen min-h-screen relative">
         <Image
           src={data.backgroundImage}
@@ -31,6 +42,7 @@ const LandingPage = () => {
           objectFit="cover"
           priority
         />
+          <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="flex flex-col   md:flex-row items-center justify-between h-full px-6 py-16 md:px-20 md:py-40">
           <div className="text-white text-center md:text-left z-[1] ">
             <h1 className="text-4xl font-bold md:text-6xl leading-tight">
@@ -38,9 +50,6 @@ const LandingPage = () => {
             </h1>
             <p className="mt-6 leading-relaxed md:text-xl">{data.tagLine}</p>
             <div className="mt-8 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
-              {/* <button className="btn bg-[#7c51f0] btn-primary px-6 py-3 text-base font-medium rounded-md md:mr-4">
-                                Get Started
-                            </button> */}
               <button className="btn bg-[#7c51f0] btn-outline px-6 py-3 text-base font-medium rounded-md">
                 Join Us
               </button>
@@ -117,9 +126,6 @@ const LandingPage = () => {
           and unlock a world of possibilities!
         </p>
       </div>
-      </Suspense>
     </>
   );
 };
-
-export default LandingPage;
