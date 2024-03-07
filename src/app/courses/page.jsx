@@ -38,10 +38,9 @@ const CourseContent = () => {
           src={data.backgroundImage}
           alt="Landing page background"
           fill
-          
         />
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="flex flex-col   md:flex-row items-center justify-between h-full px-6 py-16 md:px-20 md:py-40">
+        <div className="flex flex-col md:flex-row items-center justify-between h-full px-6 py-16 md:px-20 md:py-40">
           <div className="text-white text-center md:text-left z-[1] ">
             <h1 className="text-4xl font-bold md:text-6xl font-serif leading-tight">
               {data.title} Traineeship Program
@@ -53,7 +52,7 @@ const CourseContent = () => {
               </button>
             </div>
           </div>
-          <div className="bg-white rounded-lg px-8 py-12 sfont-serifhadow-md md:w-1/2 mt-8 md:mt-0 z-[1]">
+          <div className="bg-white rounded-lg px-8 py-12 shadow-md md:w-1/2 mt-8 md:mt-0 z-[1]">
             <h2 className="text-2xl font-semibold mb-4">Key Features</h2>
             <ul className="list-disc space-y-2">
               <li>Live conversations with industry professionals</li>
@@ -78,11 +77,11 @@ const CourseContent = () => {
           <h2 className="md:text-4xl text-2xl text-center font-serif font-semibold mt-8 mb-4">
             Overview
           </h2>
-          <p className="md:text-xl text-md leading-relaxed font-serif">{data.overView}</p>
+          <p className="md:text-xl text-md leading-relaxed font-serif">{data.overView && data.overView.join("\n")}</p>
         </div>
       </div>
 
-      <div className="md:mt-6 mt-4 px-6 flex flex-col justify-center items-center   w-full">
+      <div className="md:mt-6 mt-4 px-6 flex flex-col justify-center items-center w-full">
         <div className="flex flex-col justify-center items-center md:p-6 p-2">
           <h1 className="font-bold text-center text-3xl font-serif md:text-5xl">
             Course Overview
@@ -104,10 +103,14 @@ const CourseContent = () => {
                   key={faqItem.id}
                 >
                   <AccordionTrigger className="text-xl focus:outline-none">
-                    {faqItem.question}
+                   {faqItem.id}.{faqItem.question}
                   </AccordionTrigger>
                   <AccordionContent className="text-xl pt-4">
-                    {faqItem.answer}
+                    <ol className="custom-ordered-list">
+                      {faqItem.answer && faqItem.answer.map((item, index) => (
+                        <li key={index}>{String.fromCharCode(97 + index)}. {item}</li>
+                      ))}
+                    </ol>
                   </AccordionContent>
                 </AccordionItem>
               ))}
@@ -127,3 +130,4 @@ const CourseContent = () => {
     </>
   );
 };
+
