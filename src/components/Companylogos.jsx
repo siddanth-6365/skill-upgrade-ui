@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 import Image from "next/image";
 
 // Array of logos
@@ -18,15 +18,26 @@ const logos = [
 ];
 
 function Slider() {
+  const sliderRef = useRef(null);
+
+  const handleScroll = () => {
+    if (sliderRef.current) {
+      if (sliderRef.current.scrollLeft === sliderRef.current.scrollWidth - sliderRef.current.clientWidth) {
+        sliderRef.current.scrollLeft = 0;
+      }
+    }
+  };
+
   return (
-    <div className="slider bg-whitesmoke p-8 mt-8">
-      <div className="slide-track w-full flex gap-12 overflow-hidden">
+    <div className="slider bg-whitesmoke p-8 mt-8 overflow-hidden relative">
+      <div
+        ref={sliderRef}
+        className="slide-track flex overflow-x-auto"
+        onScroll={handleScroll}
+        style={{ scrollSnapType: "x mandatory" }}
+      >
         {logos.map((logo, index) => (
-          <div
-            key={index}
-            className="slide "
-            style={{ animation: "scroll 60s linear infinite" }}
-          >
+          <div key={index} className="slide flex-shrink-0">
             <Image
               layout="responsive"
               src={logo}
