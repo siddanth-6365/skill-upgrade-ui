@@ -108,3 +108,15 @@ body {
   z-index: 1000;
   text-align: center; /* Center the content inside the circle */
 }
+
+
+
+.slide {
+  width: calc(100% / (11)); 
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-1000%); }
+}
+

@@ -16,10 +16,11 @@ function HeroParallaxDemo() {
       <CircleComponent />
       <About2 />
       <CoursePage />
+      <Services/>
       <TeamSection />
       <CompanyLogos />
       <ContactUs />
-      <Services/>
+      
       <Footer />
     </div>
   );
