@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState,Suspense } from "react";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import {
@@ -22,6 +22,7 @@ const LandingPage = () => {
 
   return (
     <>
+    <Suspense fallback={<div>Loading...</div>}>
       <div className="bg-cover bg-center h-screen min-h-screen relative">
         <Image
           src={data.backgroundImage}
@@ -86,15 +87,15 @@ const LandingPage = () => {
           </p>
         </div>
         <div>
-          <Accordion
-            type="single"
-            collapsible
-            className=" bg-gray-200 p-4"
-          >
+          <Accordion type="single" collapsible className=" bg-gray-200 p-4">
             {data &&
               data.faq &&
               data.faq.map((faqItem) => (
-                <AccordionItem className="w-[300px] md:w-[600px]" value={faqItem.id} key={faqItem.id}>
+                <AccordionItem
+                  className="w-[300px] md:w-[600px]"
+                  value={faqItem.id}
+                  key={faqItem.id}
+                >
                   <AccordionTrigger className="text-xl focus:outline-none">
                     {faqItem.question}
                   </AccordionTrigger>
@@ -116,6 +117,7 @@ const LandingPage = () => {
           and unlock a world of possibilities!
         </p>
       </div>
+      </Suspense>
     </>
   );
 };
