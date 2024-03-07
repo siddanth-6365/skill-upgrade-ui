@@ -109,8 +109,6 @@ body {
   text-align: center; /* Center the content inside the circle */
 }
 
-
-
 .slide {
   width: calc(100% / (11)); 
 }
