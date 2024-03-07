@@ -1,577 +1,2332 @@
 [
-    {
+  {
+    "id": 1,
+    "backgroundImage": "/background_ML.jpeg",
+    "title": "Machine Learning",
+    "tagLine": "Master the art of Machine Learning",
+    "description": "Immerse yourself in the captivating universe of Machine Learning! Decode the complexities of algorithms and data with our expert instructors. Enroll now to pave the way for a future powered by cutting-edge technology!",
+    "overView": [
+      "Start an extensive exploration of the machine learning domain with our course.",
+      "Start with Python basics, advance to supervised and unsupervised learning, and explore algorithms like Linear Regression and Random Forests.",
+      "Delve into captivating subjects such as Natural Language Processing and Neural Networks.",
+      "Acquire practical skills by employing popular libraries for effective idea implementation.",
+      "Culminate your learning journey with hands-on real-world projects crafted to refine your expertise in machine learning.",
+      "Enhance your abilities with us and unleash your complete potential"
+    ],
+    "faq": [
+      {
+        "id": "1",
+        "question": "Catch Up with Python",
+        "answer": ["Python basics & fundamentals & tools."]
+      },
+      {
+        "id": "2",
+        "question": "Introduction To Machine Learning",
+        "answer": [
+          "What is machine learning",
+          "Applications of machine learning",
+          "Supervised vs Unsupervised Learning",
+          "Python libraries suitable for ML."
+        ]
+      },
+      {
+        "id": "3",
+        "question": "Machine Learning Tools",
+        "answer": [
+          "Training & Testing",
+          "Cross validation",
+          "Features & labels",
+          "Pickings & Scaling",
+          "Techniques & Error metrics."
+        ]
+      },
+      {
+        "id": "4",
+        "question": "Machine Learning Algorithms",
+        "answer": [
+          "Linear regression & Forecasting",
+          "Prediction using regression",
+          "Logistic regression & model evaluation",
+          "Support vector machines",
+          "K-N classification",
+          "K–means clustering",
+          "Random forest linear."
+        ]
+      },
+      {
+        "id": "5",
+        "question": "Recommender Systems",
+        "answer": [
+          "Content based recommender systems",
+          "Collaborative Filtering."
+        ]
+      },
+      {
+        "id": "6",
+        "question": "Natural Language Processing",
+        "answer": [
+          "Introduction to NLTK",
+          "BASICS & LAXICAL PROCESSING",
+          "Text Classification",
+          "Stop words stemming lemmatization",
+          "Named entity recognition",
+          "Conduct sentiment analysis using Naïve bayes."
+        ]
+      },
+      {
+        "id": "7",
+        "question": "Neural Networks & Deep Learning",
+        "answer": [
+          "Information & Training flow of neural network",
+          "Convolutional & Recurrent neural networks",
+          "Creating & Deploying networks using Tensorflow & Keras."
+        ]
+      },
+      {
+        "id": "8",
+        "question": "Implementation",
+        "answer": ["Implementation of all algorithms using sklern."]
+      },
+      {
+        "id": "9",
+        "question": "MINOR & MAJOR PROJECTS",
+        "answer": ["Minor Project", "Major Project", "Project Overview."]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Web Development",
+    "backgroundImage": "/background_WD.jpeg",
+    "tagLine": "Master the art of Web Development",
+    "description": "Dive into the world of web development! Unleash your potential, enroll today, and carve out a bright future shaping digital landscapes with our cutting-edge courses. Your coding journey awaits!",
+    "overView": [
+      "Join our comprehensive course covering HTML, CSS, Bootstrap, JavaScript, OOP, DOM manipulation, jQuery, Node.js, and database principles, kickstarting your journey into web development.",
+      "Delve into advanced concepts such as React.js, Angular, Spring Boot, MongoDB, and Node.js, culminating in hands-on projects of varying scales.",
+      "Elevate your skills by building robust APIs and dynamic webpages.",
+      "Explore the intricacies of modern web programming with us and turn your dream of becoming a coder into reality."
+    ],
+    "faq": [
+      {
+        "id": "1",
+        "question": "Introduction",
+        "answer": ["Intro to web Development & Webpage"]
+      },
+      {
+        "id": "2",
+        "question": "How Internet Works",
+        "answer": ["Browsing the Web", "Domain & IP Address"]
+      },
+      {
+        "id": "3",
+        "question": "HTML",
+        "answer": ["Basic HTML Tags etc"]
+      },
+      {
+        "id": "4",
+        "question": "CSS",
+        "answer": [
+          "Introduction",
+          "Syntax",
+          "Inline, internal & external",
+          "Box model CSS3",
+          "Selectors",
+          "Background, text, images",
+          "BG images, animations",
+          "CSS grid & CSS layout",
+          "Basic html tags",
+          "Intermediate & advanced html tags."
+        ]
+      },
+      {
+        "id": "5",
+        "question": "Bootstrao & SAAS",
+        "answer": [
+          "Introduction to boot starp",
+          "Installation & grid system",
+          "Forms button Icons integration",
+          "Introduction to Saas and installation & variable nesting",
+          "Creating a portfolio with webpage with header & footer",
+          "Webpage with hero section & animations & responsive."
+        ]
+      },
+      {
+        "id": "6",
+        "question": "JavaScript",
+        "answer": [
+          "Introduction",
+          "Number, string",
+          "Boolean comparison",
+          "Variables",
+          "Exercise: make a calculator",
+          "Control flow",
+          "Functions",
+          "Arrays, objects",
+          "Loops, keywords",
+          "Section outline documents."
+        ]
+      },
+      {
+        "id": "7",
+        "question": "jQuery & NODE.js",
+        "answer": [
+          "Basics, selectors",
+          "Traversing, CSS",
+          "Events, ajax",
+          "DOM Introduction to Node js",
+          "Modules, ES6 Modules",
+          "Types of modules Building a server & Restful ApI",
+          "Middleware functions & express framework."
+        ]
+      },
+      {
+        "id": "8",
+        "question": "Database & SQL",
+        "answer": [
+          "Introduction to database & SQL",
+          "Create table, joining tables",
+          "Delete & drop",
+          "Installing & using postre sql",
+          "SQL : insert, select, alter, update, conditional selection",
+          "Function."
+        ]
+      },
+      {
+        "id": "9",
+        "question": "DOM Manipulation",
+        "answer": [
+          "Introduction, Dom selectors",
+          "Events, background generator & background generator files."
+        ]
+      },
+      {
+        "id": "10",
+        "question": "OOPS",
+        "answer": ["Inheritance, constructors", "Destructors & encapsulation."]
+      },
+      {
+        "id": "11",
+        "question": "Understanding Concepts OverViews",
+        "answer": [
+          "REACT JS, ANGULAR",
+          "Springboot with my SQL",
+          "Mongo DB & node js."
+        ]
+      },
+      {
+        "id": "12",
+        "question": "MINOR & MAJOR PROJECTS",
+        "answer": ["Minor Project", "Major Project", "Project overview."]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Artificial Intelligence",
+    "backgroundImage": "/background_AI.webp",
+    "tagLine": "Master the art of Artificial Intelligence",
+    "description": "Begin a journey of change! Enroll now in our Artificial Intelligence courses for a future full of innovation and endless potential.",
+    "overView": [
+      "Embark on an exhilarating journey into AI with our comprehensive training program.",
+      "Learn everything from deep learning to Python basics and data analysis using Pandas.",
+      "Dive into artificial neural networks, convolutional neural networks, and get hands-on experience with practical applications.",
+      "Enhance your understanding of AI setup, model training, and image processing.",
+      "Wrap up your learning with engaging capstone projects that provide a holistic grasp of this groundbreaking field."
+    ],
+    "faq": [
+      {
+        "id": "1",
+        "question": "Catch Up with Python",
+        "answer": ["Python basics & fundamentals & tools."]
+      },
+      {
+        "id": "2",
+        "question": "Introduction To Data Analysis",
+        "answer": ["Pandas & visualization"]
+      },
+      {
+        "id": "3",
+        "question": "Stastics & Probability",
+        "answer": [
+          "Introduction to probability",
+          "Distribution central limits theorem & hypothesis testing"
+        ]
+      },
+      {
+        "id": "4",
+        "question": "AI Introduction",
+        "answer": [
+          "Introduction to Artificial intelligence",
+          "Applications of Artificial intelligence",
+          "Hands on work with Python."
+        ]
+      },
+      {
+        "id": "5",
+        "question": "Deep Learning",
+        "answer": [
+          "Introduction to Neuron deep learning (basics & scope)",
+          "Evolution of deep learning",
+          "Applications of Deep learning",
+          "Machine learning Vs. Deep learning",
+          "Techniques & types of deep learning",
+          "Introduction to ANN"
+        ]
+      },
+      {
+        "id": "6",
+        "question": "Artificial Neural Networks",
+        "answer": [
+          "Neuron Diagram, Neuron Models & NETWORK FUCTIONS",
+          "Functions of Neurons activation",
+          "Functions of Gradient descent & Stochastic",
+          "Ramp function & sigmoid function & Gaussian function"
+        ]
+      },
+      {
+        "id": "7",
+        "question": "Network Installation",
+        "answer": [
+          "Perceptron & multilayer network",
+          "Backpropagation",
+          "Deep neural network installing libraries",
+          "Creating ANN",
+          "Python training the model."
+        ]
+      },
+      {
+        "id": "8",
+        "question": "Convolutional Neural Networks",
+        "answer": [
+          "Introduction to open Cv (Image processing)",
+          "Learning basic image manipulations",
+          "Introduction to CNN",
+          "CNN Institution",
+          "Convolution Operation pooling",
+          "Flattering building a CNN using python Training the model"
+        ]
+      },
+      {
+        "id": "9",
+        "question": "MINOR & MAJOR PROJECTS",
+        "answer": ["Minor Project", "Major Project", "Project Overview."]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Data Science",
+    "backgroundImage": "/background_DS.jpeg",
+    "tagLine": "Master the art of Data Science",
+    "description": "Explore the world of data science with Skill Upgrade, where you'll unlock insights to transform your career. Join now for a journey towards a brighter future!",
+    "overView": [
+      "In this data science course, you'll explore data collection methods, master Python basics, and hone your skills in data wrangling and visualization.",
+      "Delve into deep learning possibilities, gain hands-on experience with BI tools, and create web apps.",
+      "Discover the potential of machine learning algorithms.",
+      "This practical course, blending theory with real-world applications, equips you for a dynamic career in data science."
+    ],
+    "faq": [
+      {
+        "id": "1",
+        "question": "Catch Up with Python",
+        "answer": ["Python basics & fundamentals & tools."]
+      },
+      {
+        "id": "2",
+        "question": "Introduction To Data Analysis",
+        "answer": ["Pandas & visualization"]
+      },
+      {
+        "id": "3",
+        "question": "Stastics & Probability",
+        "answer": [
+          "Introduction to probability",
+          "Distribution central limits theorem & hypothesis testing"
+        ]
+      },
+      {
+        "id": "4",
+        "question": "AI Introduction",
+        "answer": [
+          "Introduction to Artificial intelligence",
+          "Applications of Artificial intelligence",
+          "Hands on work with Python."
+        ]
+      },
+      {
+        "id": "5",
+        "question": "Deep Learning",
+        "answer": [
+          "Introduction to Neuron deep learning (basics & scope)",
+          "Evolution of deep learning",
+          "Applications of Deep learning",
+          "Machine learning Vs. Deep learning",
+          "Techniques & types of deep learning",
+          "Introduction to ANN"
+        ]
+      },
+      {
+        "id": "6",
+        "question": "Artificial Neural Networks",
+        "answer": [
+          "Neuron Diagram, Neuron Models & NETWORK FUCTIONS",
+          "Functions of Neurons activation",
+          "Functions of Gradient descent & Stochastic",
+          "Ramp function & sigmoid function & Gaussian function"
+        ]
+      },
+      {
+        "id": "7",
+        "question": "Network Installation",
+        "answer": [
+          "Perceptron & multilayer network",
+          "Backpropagation",
+          "Deep neural network installing libraries",
+          "Creating ANN",
+          "Python training the model."
+        ]
+      },
+      {
+        "id": "8",
+        "question": "Convolutional Neural Networks",
+        "answer": [
+          "Introduction to open Cv (Image processing)",
+          "Learning basic image manipulations",
+          "Introduction to CNN",
+          "CNN Institution",
+          "Convolution Operation pooling",
+          "Flattering building a CNN using python Training the model"
+        ]
+      },
+      {
+        "id": "9",
+        "question": "MINOR & MAJOR PROJECTS",
+        "answer": ["Minor Project", "Major Project", "Project Overview."]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Anroid Development",
+    "backgroundImage": "/background_AD.jpeg",
+    "tagLine": "Master the art of Anroid Development",
+    "description": "Explore Android programming with our course, unlocking app development secrets for a brighter tech future!",
+    "overView": [
+      "Begin a dynamic journey into Android development with our comprehensive Training Internship.",
+      "Dive into live projects guided by industry experts, covering the entire spectrum of Android development.",
+      "Gain hands-on experience in UI/UX, form creation, and navigation, from foundational concepts to advanced Flutter applications.",
+      "Elevate your skills through a robust curriculum, earning three major certified certificates upon completion.",
+      "Propel your career with internship and placement opportunities, ensuring you're equipped to thrive in the evolving world of Android development.",
+      "Let's start your transformative learning experience no"
+    ],
+    "faq": [
+      {
+        "id": "1",
+        "question": "Introduction To Android Development",
+        "answer": [
+          "Introduction to android, History of Android, Android version list, Android applications, Android vs IOS, OHA"
+        ]
+      },
+      {
+        "id": "2",
+        "question": "Environment & Setup",
+        "answer": [
+          "Setup android studio, AVD, Debugging tools & emulator, Development of Ide, jdk, Structure & Components of android applications, Architecture of android & MVC, Importance of UI, Common components (Images, buttons, label, text fields, radio button, checkbox layout –horizontal & vertical, links WBI, calls, emails, messages, firebase & intro & services, Java requirement for app"
+        ]
+      },
+      {
+        "id": "3",
+        "question": "Hybrid Android Devlopment",
+        "answer": [
+          "Frameworks for HMD, Introduction to flutter, Introduction to Dart."
+        ]
+      },
+      {
+        "id": "4",
+        "question": "Dart",
+        "answer": [
+          "Overview & intro, Functions & Types, String interpolation, Object oriented programming, Classes, instances, constructions & methods, OOP design flow, Loops & lists & variable 7 parameters, Reactive programming, Streams with controllers & transformers."
+        ]
+      },
+      {
+        "id": "5",
+        "question": "Flutter",
+        "answer": [
+          "Introduction to flutter, Setup – android, iOS, pc, App overview, 4 step design process, Import statements & scaffold, Parameter clarification"
+        ]
+      },
+      {
+        "id": "6",
+        "question": "Flutter & Flutter Apps",
+        "answer": [
+          "Widgets (stateless vs stateful) Local import & refactoring stateless & stateful",
+          "Triggering validation & retrieving form values, Code reuse with mixins & mixins validator implementation, Grid & horizontal list, Long list & alert & toast."
+        ]
+      },
+      {
+        "id": "7",
+        "question": "Forms using Flutter",
+        "answer": [
+          "Boilerplate app code, create login screen & STYLE CONTAINERS, Keyboard type customizing & labels & hint text, Handling password prints, Layout control, Form validation & widget & form state"
+        ]
+      },
+      {
+        "id": "8",
+        "question": "Understanding themes",
+        "answer": [
+          "Intro to UI & UX, Theme in flutter, data class-app brightness, over writing theme properties, Refactoring text theme & adding custom fonts, Applying font family to all text theme, Material. Oi overview, Color theme, typography & iconography."
+        ]
+      },
+      {
+        "id": "9",
+        "question": "Navigation",
+        "answer": [
+          "Navigation to new routes, Navigation to named routes, Send data from one screen to another."
+        ]
+      },
+      {
+        "id": "10",
+        "question": "MINOR & MAJOR PROJECTS",
+        "answer": ["Minor Project, Major Project, Project overview."]
+      }
+    ]
+  },
+
+  {
+    "id": 6,
+    "title": "Cyber Security",
+    "backgroundImage": "/background_CS.jpeg",
+    "tagLine": "Master the art of Cyber Security",
+    "description": "Dive into cybersecurity, enroll to strengthen skills, defend against threats, and secure a bright future in the digital world.",
+    "overView": [
+      "Join our comprehensive course covering key concepts, network history, operating system basics, and ethical hacking principles to delve into the realm of cybersecurity.",
+      "Explore techniques including scanning and reconnaissance, web server security, SQL injection, malware defense, social engineering, and wireless network security.",
+      "Equip yourself with the necessary tools to identify, prevent, and manage online threats.",
+      "Learn in a hands-on, immersive environment that combines theory and practical skills, ensuring readiness for the dynamic cybersecurity industry."
+    ],
+    "faq": [
+      {
+        "id": "1",
+        "question": "Cyber Security Concepts",
+        "answer": [
+          "Intro to cyber security",
+          "History of cyber security",
+          "Security essential concepts"
+        ]
+      },
+      {
+        "id": "2",
+        "question": "Internet & Network",
+        "answer": [
+          "History of internet & life cycle",
+          "Submarine cable map types of networks",
+          "Topologies & Subnet masking",
+          "OSI / TCP/ IP Model & address"
+        ]
+      },
+      {
+        "id": "3",
+        "question": "Operating system",
+        "answer": ["Kernel’s & BIOS", "Function & architectures of OS"]
+      },
+      {
+        "id": "4",
+        "question": "Introduction To Ethical Hacking",
+        "answer": [
+          "Ethical hacking & importance",
+          "Ethical hacking scope & limitations",
+          "Hacker & skills & types",
+          "Reasons of hacking & risk of hacking attack",
+          "Effects of hacking in organization",
+          "Security, functionality, usability triangle"
+        ]
+      },
+      {
+        "id": "5",
+        "question": "Scanning & Reconnaissance",
+        "answer": [
+          "Foot printing & objectives, finding company’s details, domain name, internal, URL’S, Server details, domain registration, range of IP address & DNS information, Location of servers & traceroute analysis & email communications, Network scanning & objectives, finding live hosts in a network, SNMP & SMTP & DNS Enumeration, Finding open ports & service on a server, OS fingerprinting server banner tools, Vulnerability scanning, Proxy server & work & use, TOR Network & Its use."
+        ]
+      },
+      {
+        "id": "6",
+        "question": "Hacking WebServers and Web Applications",
+        "answer": [
+          "Web server & applications",
+          "Webservers hacked & its consequences",
+          "Directory traversal attacks",
+          "Website defacement & password brute forcing",
+          "Cross site scripting"
+        ]
+      },
+      {
+        "id": "7",
+        "question": "SQL Injection & Hijacking",
+        "answer": [
+          "SQL injection",
+          "Effects of SQL injection attacks",
+          "Types",
+          "SQL injection detection tools",
+          "Session hijacking attacks & defending",
+          "DOS & DDOS attack",
+          "Dos symptoms & attack techniques",
+          "Botnet"
+        ]
+      },
+      {
+        "id": "8",
+        "question": "Social Enginnering & Attacks",
+        "answer": [
+          "Phishing & phishing website",
+          "Tricks to access phishing websites",
+          "Differentiate phishing & original webpage",
+          "Defend against phishing attacks & homograph attack",
+          "Firewall & functions & types",
+          "IDS & its work",
+          "Honeypot & kali linux",
+          "Kali linux VS. other linux distributions",
+          "Uses of kali linux",
+          "Tools for footprinting,scanning,sniffing",
+          "Metasploit framework & its use",
+          "Using metasploit framework to attack windows"
+        ]
+      },
+      {
+        "id": "9",
+        "question": "Worms,Viruses & Trojans",
+        "answer": [
+          "Malware & types of malware virus",
+          "Virus program and its properties",
+          "How Computer infected by virus",
+          "Types of virus & tools",
+          "Defend against virus attack worm and worm program",
+          "Worms different from virus",
+          "Trojans & Trojans horse & operating",
+          "Defending against Trojans",
+          "Spyware & types and defending",
+          "Rootkits & types & operating & defending",
+          "Sniffer introduction to cloud & Consequences",
+          "Mitigation introduction",
+          "Symmetric & public & private key"
+        ]
+      },
+      {
+        "id": "10",
+        "question": "System Hacking & Security",
+        "answer": [
+          "System hacking & goals",
+          "Password cracking & complexity",
+          "Default password of network devices & softwares",
+          "Password cracking methods online & offline",
+          "MIM attack",
+          "Brute forcing & dictionary based cracking",
+          "Usb passwords stealers",
+          "Elcomsoft distributed password recovery tools",
+          "Active password changer",
+          "Keylogger & deploy to remote pc & defending",
+          "Mobile hacking & goals",
+          "Countermeasures & sniffers & its works",
+          "Types & active & passive in sniffing",
+          "ARP & Posio attack",
+          "Threats of ARP poison attack",
+          "MAC Spoofing works & flooding",
+          "Defend against MAC spoofing attack",
+          "Defend against sniffers in network",
+          "Wireless network & types",
+          "Wifi network & types of wifi authentications",
+          "Using a centralized authentication server & local authentication",
+          "Types of encryption network( WEP/ WPA/ WPA2)",
+          "Hardware & software required to crack wi-fi networks",
+          "Cracking of WEP/ WPA/WPA2 Encryption",
+          "Defend against Wifi cracking attack"
+        ]
+      },
+      {
+        "id": "11",
+        "question": "MINOR & MAJOR PROJECTS",
+        "answer": ["Minor Project", "Major Project", "Project Overview"]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Cloud Computing",
+    "backgroundImage": "/background_CC.webp",
+    "tagLine": "Master the art of Cloud Computing",
+    "description": "Enroll in our Cloud Computing program to explore the future of technology and ensure a bright tomorrow!",
+    "overView": [
+      "Cloud computing is a paradigm that delivers computing services, including storage, processing power, and software applications, over the internet.",
+      "It offers various service models such as Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS), allowing users to access resources on-demand without the need for managing physical hardware.",
+      "Deployment models include public, private, and hybrid clouds, each offering different levels of control and customization.",
+      "Cloud computing provides benefits such as scalability, cost-efficiency, flexibility, and accessibility, but also presents challenges related to security, reliability, and vendor lock-in.",
+      "Overall, it revolutionizes IT infrastructure by enabling organizations to efficiently utilize resources and focus on innovation and business growth."
+    ],
+    "faq": [
+      {
+        "id": "1",
+        "question": "Cloud Fundamentals",
+        "answer": [
+          "Introduction",
+          "Why cloud fundamental & benefits",
+          "Types & models of cloud computing"
+        ]
+      },
+      {
+        "id": "2",
+        "question": "Azure Fundamentals",
+        "answer": [
+          "Introduction to azure",
+          "Azure service tour",
+          "Azure subscription others"
+        ]
+      },
+      {
+        "id": "3",
+        "question": "Azure Networking",
+        "answer": [
+          "Azure VPN",
+          "Azure Region",
+          "VNET & N-tier architecture",
+          "Network Security groups",
+          "Azure load balancer",
+          "Availability & High availability",
+          "Azure application gateway",
+          "Azure DNS & Traffic manager"
+        ]
+      },
+      {
+        "id": "4",
+        "question": "Azure Concepts",
+        "answer": [
+          "Backup & recovery",
+          "ARM and overview of azure backup",
+          "Cost optimization & Spending",
+          "Vaults & configure DR",
+          "Scheduling backups for azure VM’S"
+        ]
+      },
+      {
+        "id": "5",
+        "question": "Azure Storage",
+        "answer": [
+          "Intro to azure storage",
+          "Types of azure storage",
+          "Azure SQL DB & Cosmos DB",
+          "Azure blob storage",
+          "Azure data lake storage",
+          "Azure files & queue",
+          "Disk storage & tiers",
+          "Encryption & replication",
+          "Storage explorer",
+          "Comparison between azure, Data & on-prem storage",
+          "Hands-on blobs & files storage"
+        ]
+      },
+      {
+        "id": "6",
+        "question": "Azure Security",
+        "answer": [
+          "Usage scenarios",
+          "Identity & access management",
+          "Encryption & Azure Certificates",
+          "Protect network & shared documents",
+          "Azure advanced threat protection"
+        ]
+      },
+      {
+        "id": "7",
+        "question": "Azure Monitoring",
+        "answer": [
+          "Setting up monitoring",
+          "Azure service health",
+          "Azure policy",
+          "Azure IT compliance with azure policy",
+          "Organize policy with initiatives",
+          "Enterprise governance management",
+          "Define standard resources with azure",
+          "Blueprints"
+        ]
+      },
+      {
+        "id": "8",
+        "question": "MINOR & MAJOR PROJECT",
+        "answer": ["Minor Project", "Major Project", "Project overview"]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "VLSI",
+    "backgroundImage": "/background_VLSI.jpeg",
+    "tagLine": "Master the art of VLSI",
+    "description": "Explore the world of robotics, unlock your potential, enroll now, and pave the way for a bright future where innovation and automation combine for unparalleled opportunities!",
+    "overView": [
+      "Embark on a groundbreaking journey into robotics with our comprehensive course.",
+      "Uncover the intricacies of robot design, from laws and types to essential components.",
+      "Harness the power of the ATmega 328p microcontroller to seamlessly integrate sensors and actuators.",
+      "Master Arduino programming for precise control of stepper, servo, and DC motors.",
+      "Explore communication protocols like Bluetooth, SPI, and I2C, immersing yourself in the potential of ROS for intricate robotic maneuvers.",
+      "Conclude your learning adventure with a hands-on project showcasing your expertise.",
+      "Ignite your passion for innovation and robotics like never before!"
+    ],
+    "faq": [
+      {
+        "id": "1",
+        "question": "1. Introduction to VLSI Systems",
+        "answer": [
+          "What is VLSI",
+          "Historical Background",
+          "Importance of VLSI",
+          "Key Concepts in VLSI",
+          "Design Process",
+          "Applications",
+          "Future Trends"
+        ]
+      },
+      {
+        "id": "2",
+        "question": "2. MOS Transistor theory",
+        "answer": [
+          "MOS Transistor Structure",
+          "MOS Transistor Operation",
+          "Threshold Voltage (VT)",
+          "MOS Transistor Modes",
+          "MOS Transistor as a Switch",
+          "Layout Design Rules: - Minimum Feature Size (Minimum Width and Minimum Spacing), Aspect Ratio, Minimum Area, Clearance and Encroachment, Minimum Metal Width and Spacing, Contact and Via Rules, Minimum Gate Length, Well and Substrate Taps, Corner and Edge Spacing, Design Layer Ordering, Text and Labeling, Dummies and Fill Patterns, Alignment Marks, Keep-Out Zones, Electrical Rules"
+        ]
+      },
+      {
+        "id": "3",
+        "question": "3. CMOS logic, fabrication and layout",
+        "answer": ["CMOS Logic", "CMOS Fabrication", "CMOS Layout"]
+      },
+      {
+        "id": "4",
+        "question": "4. Circuit Simulation & Memory system design",
+        "answer": [
+          "Purpose of Circuit Simulation",
+          "Components of Circuit Simulation",
+          "Types of Circuit Simulators",
+          "Simulation Steps",
+          "Types of Circuit Analysis",
+          "Result Analysis",
+          "Iterative Process",
+          "Types of Memory in a System",
+          "Design Considerations",
+          "Memory Hierarchy",
+          "Memory Interface and Controller",
+          "Virtual Memory",
+          "Power Consumption",
+          "Error Handling and Redundancy",
+          "Testing and Validation"
+        ]
+      },
+      {
+        "id": "5",
+        "question": "5. Circuit characterization and performance estimation",
+        "answer": [
+          "Circuit Characterization",
+          "Performance Estimation",
+          "Simulation and Tools"
+        ]
+      },
+      {
+        "id": "6",
+        "question": "6. Combinational and sequential circuit design",
+        "answer": ["Combinational Circuit Design", "Sequential Circuit Design"]
+      },
+      {
+        "id": "7",
+        "question": "7. Design methodology and tools",
+        "answer": [
+          "Design Methodology (Design Thinking, Agile Development, Waterfall Model)",
+          "Design Tools (Computer-Aided Design (CAD) Software, Electronic Design Automation (EDA) Tools, Simulation and Modeling Software)"
+        ]
+      },
+      {
+        "id": "8",
+        "question": "8. MINOR & MAJOR PROJECT",
+        "answer": ["Minor Project", "Major Project", "Project Overview"]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "IOT ",
+    "backgroundImage": "/background_IOT.avif",
+    "tagLine": "Master the art of IOT ",
+    "description": "Explore robotics now to unlock your potential and open doors to a future where innovation and automation bring endless opportunities!",
+    "overView": [
+      "Join our comprehensive course and dive into the realm of robotics, taking a revolutionary step forward.",
+      "Explore the laws, types, and components of robot design while mastering the ATmega 328p microcontroller for sensor and actuator integration.",
+      "Learn to program Arduino devices for various motors and uncover communication methods like Bluetooth, SPI, and I2C.",
+      "Immerse yourself in the potential of ROS for advanced robotic movements.",
+      "Conclude with a practical project to showcase your acquired knowledge and ignite your enthusiasm for innovation in robotics!"
+    ],
+    "faq": [
+      {
+        "id": "1",
+        "question": "1. Study about Microcontrollers and their uses in Arduino using the Arduino IDE tool.",
+        "answer": [
+          "What is a Microcontroller, Architecture of Microcontroller, How is Microcontroller different from Microprocessor, ATMEGA 328p."
+        ]
+      },
+      {
+        "id": "2",
+        "question": "2. Learn about virtual platforms, build your circuits and gain skills in coding the Arduino board.",
+        "answer": [
+          "What is Arduino, Architecture of Arduino, Virtual simulator for Arduino, Working with Arduino ID, Programming an Arduino using C++, Arduino Code Implementation, Mini project discussion."
+        ]
+      },
+      {
+        "id": "3",
+        "question": "3. Enhance the communication between device and microcontroller",
+        "answer": [
+          "12C, SPI, BLUETOOTH, Zigbee/Rfd, Bluetooth/Nfc, Wifi, Protocols-TCP, UDP, MQTT/MQTTS, HTTP/HTTPS."
+        ]
+      },
+      {
+        "id": "4",
+        "question": "4. Make use of Thing speak api and learns how to integrate different apps by developing your own skills.",
+        "answer": [
+          "Weather Reporting System, Social distancing alarm system, Smart parking system, Home automation, Password door lock system, IFTTT App • Sending notification using various applications, Smart agriculture system, Remote control robotic system."
+        ]
+      },
+      {
+        "id": "5",
+        "question": "5. Dive deep into developing IOT technology and it’s wireless protocols standards",
+        "answer": [
+          "What is IOT, What are the challenges and future of IOT, IOT Architecture, Introduction to Sensors, Esp8266 Wifi Module, Connection using HTTP, Rules for React, Using Matlab for Analysis."
+        ]
+      },
+      {
+        "id": "6",
+        "question": "6. MINOR & MAJOR PROJECT",
+        "answer": ["Minor Project, Major Project, Project Overview."]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Embedded Systems ",
+    "backgroundImage": "/background_ES.webp",
+    "tagLine": "Master the art of Embedded Systems ",
+    "description": "Explore the world of robotics, unlock your potential, and enroll now for a future filled with innovation and automation opportunities!",
+    "overView": [
+      "Embark on a revolutionary journey into robotics with our comprehensive course.",
+      "Delve into robot design, master microcontroller integration, program Arduino devices, and explore communication methods like Bluetooth and SPI.",
+      "Conclude with a practical project to showcase your expertise and fuel your passion for innovation in robotics!"
+    ],
+    "faq": [
+      {
+        "id": "1",
+        "question": "1. The Course starts with the theoretical basics of Embedded Sysrems.",
+        "answer": [
+          "Basics of an embedded system, Types of an embedded system, Components of an embedded system."
+        ]
+      },
+      {
+        "id": "2",
+        "question": "2. Understand the ins and outs of microchips using Atmega328.",
+        "answer": [
+          "Architecture of Atmega328, Features of Atmega328, Components of Atmega328, SPI / UART, 12C."
+        ]
+      },
+      {
+        "id": "3",
+        "question": "3. Learn how to work on Ardunio using Ardunio IDE.",
+        "answer": [
+          "Introduction to Arduino IDE, Installation of Arduino IDE, Embedded tools (Programmer/Debugger), Circuit connections using Breadboard, Program overview on IDE, Data types, Program lifecycle / Program structure, Memory management."
+        ]
+      },
+      {
+        "id": "4",
+        "question": "4. Understand the architecture of Arduino and learn how to program them.",
+        "answer": [
+          "GPIO / EEPROM, ADC and PWM, SPI / 12C, UART, Serial Port and Serial plotter."
+        ]
+      },
+      {
+        "id": "5",
+        "question": "5. Learn programming using TinkerCAD.",
+        "answer": ["Introduction to Tinkercad, Programming using Tinkercad."]
+      },
+      {
+        "id": "6",
+        "question": "6. Get a brief introduction to Bare Metal Programming.",
+        "answer": [
+          "Bare Metal programming with Arduino, Programming Arduino using Linux CLI, Optimization techniques, Boot loader. Zigbee/Rfd, Bluetooth/Nfc, Wifi, Protocols-TCP, UDP, MQTT/MQTTS,HTTP/HTTPS."
+        ]
+      },
+      {
+        "id": "7",
+        "question": "7. MINOR & MAJOR PROJECT",
+        "answer": ["Minor Project, Major Project, Project Overview."]
+      }
+    ]
+  },
+
+  {
+    "id": 11,
+    "title": "Basics of mechanical engineering, Mechanical design and development",
+    "backgroundImage": "",
+    "tagLine": "Master the art of Mechanical design and development ",
+    "description": "This course introduces the fundamental principles of mechanical engineering, with a centre of attention on mechanical design and development. Students will acquire a comprehensive understanding of the core concepts of mechanical engineering, theories, and methodologies essential for designing and developing mechanical systems and components. Through a combination of theoretical lectures, practical exercises, and hands-on projects, participants will learn how to apply engineering principles to solve real-world problems in the field of mechanical design.",
+    "overView": "",
+    "faq": [
+      {
+        "id": "1",
+        "question": "Introduction to Mechanical Engineering",
+        "answer": []
+      },
+      {
+        "id": "2",
+        "question": "Fundamental Principles of Mechanics",
+        "answer": []
+      },
+      {
+        "id": "3",
+        "question": "Thermodynamics and Heat Transfer",
+        "answer": []
+      },
+      {
+        "id": "4",
+        "question": "Fluid Mechanics",
+        "answer": []
+      },
+      {
+        "id": "5",
+        "question": "Material Science and Engineering",
+        "answer": []
+      },
+      {
+        "id": "6",
+        "question": "Manufacturing Processes",
+        "answer": []
+      },
+      {
+        "id": "7",
+        "question": "Machine Elements and Design",
+        "answer": []
+      },
+      {
+        "id": "8",
+        "question": "Kinematics and Dynamics of Machinery",
+        "answer": []
+      },
+      {
+        "id": "9",
+        "question": "Control Systems in Mechanical Engineering",
+        "answer": []
+      },
+      {
+        "id": "10",
+        "question": "Mechanical Vibrations",
+        "answer": []
+      },
+      {
+        "id": "11",
+        "question": "Quiz 25 questions",
+        "answer": []
+      },
+      {
+        "id": "12",
+        "question": "Design and Development Process",
+        "answer": []
+      },
+      {
+        "id": "13",
+        "question": "Computer-Aided Design (CAD) and Computer-Aided Manufacturing (CAM)",
+        "answer": []
+      },
+      {
+        "id": "14",
+        "question": "Finite Element Analysis (FEA) and Computational Fluid Dynamics (CFD)",
+        "answer": []
+      },
+      {
+        "id": "15",
+        "question": "Prototyping and Testing",
+        "answer": []
+      },
+      {
+        "id": "16",
+        "question": "Product Lifecycle Management (PLM)",
+        "answer": []
+      },
+      {
+        "id": "17",
+        "question": "Sustainability in Mechanical Engineering",
+        "answer": []
+      },
+      {
+        "id": "18",
+        "question": "Case Studies and Practical Applications",
+        "answer": []
+      },
+      {
+        "id": "19",
+        "question": "Emerging Technologies in Mechanical Engineering",
+        "answer": []
+      },
+      {
+        "id": "20",
+        "question": "Quiz 25 questions",
+        "answer": []
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Basic CAD modeling using CATIA, SOLIDWORKS",
+    "backgroundImage": "",
+    "tagLine": "Master the art of CAD ",
+    "description": "This course provides an introduction to Computer-Aided Design (CAD) using CATIA and SOLIDWORKS software. Participants will learn fundamental principles and techniques for creating 3D models, assemblies, and drawings using these industry-standard CAD tools. Through hands-on exercises and practical examples, students will gain proficiency in creating geometric shapes, applying constraints, and generating engineering drawings. This two CAD software’s are widely used in industries. No prior experience in CAD is required, although familiarity with basic engineering concepts and computer usage is beneficial. ",
+    "overView": "",
+    "faq": [
+      {
         "id": 1,
-        "backgroundImage":"/background_ML.jpeg",
-        "title": "Machine Learning ",
-        "tagLine":"Master the art of Machine Learning",
-       "description": "Immerse yourself in the captivating universe of Machine Learning! Decode the complexities of algorithms and data with our expert instructors. Enroll now to pave the way for a future powered by cutting-edge technology!",
-       "overView":" Start an extensive exploration of the machine learning domain with our course. Start with Python basics, advance to supervised and unsupervised learning, and explore algorithms like Linear Regression and Random Forests. Delve into captivating subjects such as Natural Language Processing and Neural Networks. Acquire practical skills by employing popular libraries for effective idea implementation. Culminate your learning journey with hands-on real-world projects crafted to refine your expertise in machine learning. Enhance your abilities with us and unleash your complete potential",
-       "faq": [
-            {   "id":"1",
-                "question": "Catch Up with Python",
-                "answer": "Python basics & fundamentals & tools."
-            },
-            {
-                "id":"2",
-                "question": "Introduction To Machine Learning",
-                "answer": "What is machine learning, Applications of machine learning, Supervised vs Unsupervised Learning, Python libraires suitable for ML."
-            },
-            {
-                "id":"3",
-                "question": "Machine Learning Tools",
-                "answer": "Training& Testing, Cross validation, Features & labels, Pickings & Scaling, Techniques & Error metrics."
-            },
-            {
-                "id":"4",
-                "question": "Machine Learning Algorithms",
-                "answer": "Linear regression & Forecasting, Prediction using regression, Logistic regression & model evaluation, Support vector machines, K-N classification, K–means clustering, Random forest linear."
-            },      
-            {
-                "id":"5",
-               "question":"Recommender Systems" ,
-               "answer":"Content based recommender systems, Collaborative Filtering."
-            },
-            {
-                "id":"6",
-                "question": "Natural Language Processing",
-                "answer": "Introduction to NLTK, BASICS & LAXICAL PROCESSING, Text Classification, stop words stemming lemmatization, named entity recognition, conduct sentiment analysis using Naïve bayes."
-            },
-            {
-                "id":"7",
-                "question": "Neural Networks & Deep Learning",
-                "answer": "Information & Training flow of neural network, Convolutional & Recurrent neural networks, Creating & Deploying networks using Tensorflow & Keras."
-            },
-            {
-                "id":"8",
-                "question": "Implementation",
-                "answer": "Implementation of all algorithms using sklern."
-            },
-            {
-                "id":"9",
-                "question":"MINOR & MAJOR PROJECTS",
-                "answer":"Minor Project, Major Project, Project Overview."
-            }
-            
+        "question": "Introduction",
+        "answer": [
+          "Introuction to CAD ( computer aided design )",
+          "Introduction to CAD softwares"
         ]
-    },
-    
-    {
+      },
+      {
         "id": 2,
-        "title": "Web Development ",
-        "backgroundImage":"/background_WD.jpeg",
-        "tagLine":"Master the art of Web Development",
-       "description": "Dive into the world of web development! Unleash your potential, enroll today, and carve out a bright future shaping digital landscapes with our cutting-edge courses. Your coding journey awaits!",
-        "overView":"Join our comprehensive course covering HTML, CSS, Bootstrap, JavaScript, OOP, DOM manipulation, jQuery, Node.js, and database principles, kickstarting your journey into web development. Delve into advanced concepts such as React.js, Angular, Spring Boot, MongoDB, and Node.js, culminating in hands-on projects of varying scales. Elevate your skills by building robust APIs and dynamic webpages. Explore the intricacies of modern web programming with us and turn your dream of becoming a coder into reality.",
-        "faq": [
-            {   "id":"1",
-                "question": "Introduction",
-                "answer": "Intro to web Development & Webpage"
-            },
-            {
-                "id":"2",
-                "question": "How Internet Works",
-                "answer": "Browsing the Web, Domain & IP Address"
-            },
-            {
-                "id":"3",
-                "question": "HTML",
-                "answer": "Basic HTML Tags etc"
-            },
-            {
-                "id":"4",
-                "question": "CSS",
-                "answer": "Introduction, syntax,inline, internal & external, box model CSS3, selectors, background, text, images.BG images, animations, CSS grid & CSS layout , basic html tags,intermediate & advanced html tags."
-            },      
-            {
-                "id":"5",
-               "question":"Bootstrao & SAAS" ,
-               "answer":"Introduction to boot starp, installation & grid system, Forms button Icons integration Introduction to Saas and installation & variable nesting Creating a portfolio with webpage with header & footer Webpage with hero section & animations & responsive."
-            },
-            {
-                "id":"6",
-                "question": "JavaScript",
-                "answer": "Introduction, number, string, Boolean comparison, variables, exercise: make a calculator.control flow, functions, arrays, objects, loops, keywords, section outline documents. "
-            },
-            {
-                "id":"7",
-                "question": "jQuery & NODE.js",
-                "answer": "Basics, selectors, traversing, CSS, Events, ajax, DOM Introduction to Node js, modules, ES6 Modules, types of modules Building a server & Restful ApI Middleware functions & express framework."
-            },
-            {
-                "id":"8",
-                "question": "Database & SQL",
-                "answer": "Introduction to database & SQL, Create table, joining tables, delete & drop, Installing & using postre sql, SQL : insert, select, alter, update, conditional selection, function."
-            },
-            {
-                "id":"9",
-                "question": "DOM Manipulation",
-                "answer": "Introduction, Dom selectors, Events, background generator & background generator files."
-            },
-            {
-                "id":"10",
-                "question": "OOPS",
-                "answer": "Inheritance, constructors, destructors & encapsulation."
-            },
-            {
-                "id":"11",
-                "question": "Understanding Concepts OverViews",
-                "answer": "REACT JS, ANGULAR, Springboot with my SQL Mongo DB & node js."
-            },
-            {
-                "id":"12",
-                "question": "MINOR & MAJOR PROJECTS",
-                "answer": "Minor Project, Major Project, Project overview."
-            }
-            
+        "question": "CATIA",
+        "answer": [
+          "Introduction to CATIA",
+          "Importance of CAD modeling software CATIA",
+          "CATIA user interface"
         ]
-    },
-    
-    {
+      },
+      {
         "id": 3,
-        "title": "Artifical Intelligence",
-        "backgroundImage":"/background_AI.webp",
-        "tagLine":"Master the art of Artifical Intelligence",
-       "description":"Begin a journey of change! Enroll now in our Artificial Intelligence courses for a future full of innovation and endless potential.",
-       "overView":"Embark on an exhilarating journey into AI with our comprehensive training program. Learn everything from deep learning to Python basics and data analysis using Pandas. Dive into artificial neural networks, convolutional neural networks, and get hands-on experience with practical applications. Enhance your understanding of AI setup, model training, and image processing. Wrap up your learning with engaging capstone projects that provide a holistic grasp of this groundbreaking field.",
-        "faq": [
-            {   "id":"1",
-                "question": "Catch Up with Python",
-                "answer": "Python basics & fundamentals & tools."
-            },
-            {
-                "id":"2",
-                "question": "Introduction To Data Analysis",
-                "answer":"Pandas & visualization"
-            },
-            {
-                "id":"3",
-                "question": "Stastics & Probability",
-                "answer": "Introduction to probability, Distribution central limits theorem & hypothesis testing"
-            },
-            {
-                "id":"4",
-                "question": "AI Introduction",
-                "answer": "Introduction to Artificial intelligence, Applications of Artificial intelligence, Hands on work with Python."
-            },      
-            {
-                "id":"5",
-               "question":"Deep Learning" ,
-               "answer":"Introduction to Neuron deep learning (basics & scope), Evolution of deep learning, Applications of Deep learning, Machine learning Vs. Deep learning, Techniques & types of deep learning, Introduction to ANN"
-            },
-            {
-                "id":"6",
-                "question": "Artifical Neural Networks",
-                "answer": "Neuron Diagram, Neuron Models & NETWORK FUCTIONS, Functions of Neurons activation, Functions of Gradient descent &Stochastic, Ramp function & sigmoid function & Gaussian function"
-            },
-            {
-                "id":"7",
-                "question": "Network Installation",
-                "answer": "Perceptron & multlilayer network, Backpropagation, Deep neural network installing libraries, Creating ANN, Python training the model."
-            },
-            {
-                "id":"8",
-                "question": "Convolutional Neural Networks",
-                "answer": "Introduction to open Cv (Image processing), Learning basic image manipulations, Introduction to CNN, CNN Institution, Convolution Operation pooling, Flattering building a CNN using python Training the model"
-            },
-            {
-                "id":"9",
-                "question":"MINOR & MAJOR PROJECTS",
-                "answer":"Minor Project, Major Project, Project Overview."
-            }
-            
+        "question": "User Interface Navigation",
+        "answer": [
+          "Navigating the interface: menus, toolbars, workbenches",
+          "Customizing the interface for efficiency",
+          "Quiz 10 Questions"
         ]
-    },
-   
-    {
+      },
+      {
         "id": 4,
-        "title": "Data Science",
-        "backgroundImage":"/background_DS.jpeg",
-        "tagLine":"Master the art of Data Science",
-       "description":"Explore the world of data science with Skill Upgrade, where you'll unlock insights to transform your career. Join now for a journey towards a brighter future!",
-       "overView":"In this data science course, you'll explore data collection methods, master Python basics, and hone your skills in data wrangling and visualization. Delve into deep learning possibilities, gain hands-on experience with BI tools, and create web apps. Discover the potential of machine learning algorithms. This practical course, blending theory with real-world applications, equips you for a dynamic career in data science.",
-        "faq": [
-            {   "id":"1",
-                "question": "Catch Up with Python",
-                "answer": "Python basics & fundamentals & tools."
-            },
-            {
-                "id":"2",
-                "question": "Introduction To Data Analysis",
-                "answer":"Pandas & visualization"
-            },
-            {
-                "id":"3",
-                "question": "Stastics & Probability",
-                "answer": "Introduction to probability, Distribution central limits theorem & hypothesis testing"
-            },
-            {
-                "id":"4",
-                "question": "AI Introduction",
-                "answer": "Introduction to Artificial intelligence, Applications of Artificial intelligence, Hands on work with Python."
-            },      
-            {
-                "id":"5",
-               "question":"Deep Learning" ,
-               "answer":"Introduction to Neuron deep learning (basics & scope), Evolution of deep learning, Applications of Deep learning, Machine learning Vs. Deep learning, Techniques & types of deep learning, Introduction to ANN"
-            },
-            {
-                "id":"6",
-                "question": "Artifical Neural Networks",
-                "answer": "Neuron Diagram, Neuron Models & NETWORK FUCTIONS, Functions of Neurons activation, Functions of Gradient descent &Stochastic, Ramp function & sigmoid function & Gaussian function"
-            },
-            {
-                "id":"7",
-                "question": "Network Installation",
-                "answer": "Perceptron & multlilayer network, Backpropagation, Deep neural network installing libraries, Creating ANN, Python training the model."
-            },
-            {
-                "id":"8",
-                "question": "Convolutional Neural Networks",
-                "answer": "Introduction to open Cv (Image processing), Learning basic image manipulations, Introduction to CNN, CNN Institution, Convolution Operation pooling, Flattering building a CNN using python Training the model"
-            },
-            {
-                "id":"9",
-                "question":"MINOR & MAJOR PROJECTS",
-                "answer":"Minor Project, Major Project, Project Overview."
-            }
-            
+        "question": "Basic Sketching",
+        "answer": [
+          "Introduction to sketching tools",
+          "Creating and editing 2D sketches",
+          "Applying constraints and dimensions",
+          "Quiz 15 Questions",
+          "10 Practice Exercises"
         ]
-    },
-   
-    {
+      },
+      {
         "id": 5,
-        "title": "Anroid Development ",
-        "backgroundImage":"/background_AD.jpeg",
-        "tagLine":"Master the art of Anroid Development ",
-       "description":"Explore Android programming with our course, unlocking app development secrets for a brighter tech future!",
-       "overView":"Begin a dynamic journey into Android development with our comprehensive Training Internship. Dive into live projects guided by industry experts, covering the entire spectrum of Android development. Gain hands-on experience in UI/UX, form creation, and navigation, from foundational concepts to advanced Flutter applications. Elevate your skills through a robust curriculum, earning three major certified certificates upon completion. Propel your career with internship and placement opportunities, ensuring you're equipped to thrive in the evolving world of Android development. Let's start your transformative learning experience no",
-        "faq": [
-            {   "id":"1",
-                "question": "Catch Up with Python",
-                "answer": "Python basics & fundamentals & tools."
-            },
-            {
-                "id":"2",
-                "question": "Introduction To Data Analysis",
-                "answer":"Pandas & visualization"
-            },
-            {
-                "id":"3",
-                "question": "Stastics & Probability",
-                "answer": "Introduction to probability, Distribution central limits theorem & hypothesis testing"
-            },
-            {
-                "id":"4",
-                "question": "AI Introduction",
-                "answer": "Introduction to Artificial intelligence, Applications of Artificial intelligence, Hands on work with Python."
-            },      
-            {
-                "id":"5",
-               "question":"Deep Learning" ,
-               "answer":"Introduction to Neuron deep learning (basics & scope), Evolution of deep learning, Applications of Deep learning, Machine learning Vs. Deep learning, Techniques & types of deep learning, Introduction to ANN"
-            },
-            {
-                "id":"6",
-                "question": "Artifical Neural Networks",
-                "answer": "Neuron Diagram, Neuron Models & NETWORK FUCTIONS, Functions of Neurons activation, Functions of Gradient descent &Stochastic, Ramp function & sigmoid function & Gaussian function"
-            },
-            {
-                "id":"7",
-                "question": "Network Installation",
-                "answer": "Perceptron & multlilayer network, Backpropagation, Deep neural network installing libraries, Creating ANN, Python training the model."
-            },
-            {
-                "id":"8",
-                "question": "Convolutional Neural Networks",
-                "answer": "Introduction to open Cv (Image processing), Learning basic image manipulations, Introduction to CNN, CNN Institution, Convolution Operation pooling, Flattering building a CNN using python Training the model"
-            },
-            {
-                "id":"9",
-                "question":"MINOR & MAJOR PROJECTS",
-                "answer":"Minor Project, Major Project, Project Overview."
-            }
-            
+        "question": "Part Design",
+        "answer": [
+          "Extrusion and Revolve",
+          "Sketch based features",
+          "Extruding and revolving sketches to create 3D geometry",
+          "Modifying extrusions and revolutions",
+          "Advanced Sketching Techniques",
+          "Sketching on different planes",
+          "Using advanced sketching tools like splines and guides",
+          "Adding holes and fillets to parts",
+          "Different types of holes and fillets and their applications",
+          "Dress up features",
+          "Transformation features",
+          "Reference elements",
+          "Assembly",
+          "Quiz 25 Questions",
+          "10 Practice Exercises"
         ]
-    },
-
-    {
+      },
+      {
         "id": 6,
-        "title": "Cyber Security ",
-        "backgroundImage":"/background_CS.jpeg",
-        "tagLine":"Master the art of Cyber Security  ",
-       "description":"Dive into cybersecurity, enroll to strengthen skills, defend against threats, and secure a bright future in the digital world.",
-       "overView":"Join our comprehensive course covering key concepts, network history, operating system basics, and ethical hacking principles to delve into the realm of cybersecurity. Explore techniques including scanning and reconnaissance, web server security, SQL injection, malware defense, social engineering, and wireless network security. Equip yourself with the necessary tools to identify, prevent, and manage online threats. Learn in a hands-on, immersive environment that combines theory and practical skills, ensuring readiness for the dynamic cybersecurity industry.",
-        "faq": [
-            {   "id":"1",
-                "question": "Catch Up with Python",
-                "answer": "Python basics & fundamentals & tools."
-            },
-            {
-                "id":"2",
-                "question": "Introduction To Data Analysis",
-                "answer":"Pandas & visualization"
-            },
-            {
-                "id":"3",
-                "question": "Stastics & Probability",
-                "answer": "Introduction to probability, Distribution central limits theorem & hypothesis testing"
-            },
-            {
-                "id":"4",
-                "question": "AI Introduction",
-                "answer": "Introduction to Artificial intelligence, Applications of Artificial intelligence, Hands on work with Python."
-            },      
-            {
-                "id":"5",
-               "question":"Deep Learning" ,
-               "answer":"Introduction to Neuron deep learning (basics & scope), Evolution of deep learning, Applications of Deep learning, Machine learning Vs. Deep learning, Techniques & types of deep learning, Introduction to ANN"
-            },
-            {
-                "id":"6",
-                "question": "Artifical Neural Networks",
-                "answer": "Neuron Diagram, Neuron Models & NETWORK FUCTIONS, Functions of Neurons activation, Functions of Gradient descent &Stochastic, Ramp function & sigmoid function & Gaussian function"
-            },
-            {
-                "id":"7",
-                "question": "Network Installation",
-                "answer": "Perceptron & multlilayer network, Backpropagation, Deep neural network installing libraries, Creating ANN, Python training the model."
-            },
-            {
-                "id":"8",
-                "question": "Convolutional Neural Networks",
-                "answer": "Introduction to open Cv (Image processing), Learning basic image manipulations, Introduction to CNN, CNN Institution, Convolution Operation pooling, Flattering building a CNN using python Training the model"
-            },
-            {
-                "id":"9",
-                "question":"MINOR & MAJOR PROJECTS",
-                "answer":"Minor Project, Major Project, Project Overview."
-            }
-            
+        "question": "Creating Assemblies",
+        "answer": [
+          "Inserting parts into assemblies",
+          "Constraining parts using various constraints",
+          "Organizing and managing assembly structures"
         ]
-    },
-
-    {
+      },
+      {
         "id": 7,
-        "title": "Cloud Computing ",
-        "backgroundImage":"/background_CC.webp",
-        "tagLine":"Master the art of Cloud Computing ",
-       "description":"Enroll in our Cloud Computing program to explore the future of technology and ensure a bright tomorrow!",
-       "overView":"Cloud computing is a paradigm that delivers computing services, including storage, processing power, and software applications, over the internet. It offers various service models such as Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS), allowing users to access resources on-demand without the need for managing physical hardware. Deployment models include public, private, and hybrid clouds, each offering different levels of control and customization. Cloud computing provides benefits such as scalability, cost-efficiency, flexibility, and accessibility, but also presents challenges related to security, reliability, and vendor lock-in. Overall, it revolutionizes IT infrastructure by enabling organizations to efficiently utilize resources and focus on innovation and business growth.",
-        "faq": [
-            {   "id":"1",
-                "question": "Catch Up with Python",
-                "answer": "Python basics & fundamentals & tools."
-            },
-            {
-                "id":"2",
-                "question": "Introduction To Data Analysis",
-                "answer":"Pandas & visualization"
-            },
-            {
-                "id":"3",
-                "question": "Stastics & Probability",
-                "answer": "Introduction to probability, Distribution central limits theorem & hypothesis testing"
-            },
-            {
-                "id":"4",
-                "question": "AI Introduction",
-                "answer": "Introduction to Artificial intelligence, Applications of Artificial intelligence, Hands on work with Python."
-            },      
-            {
-                "id":"5",
-               "question":"Deep Learning" ,
-               "answer":"Introduction to Neuron deep learning (basics & scope), Evolution of deep learning, Applications of Deep learning, Machine learning Vs. Deep learning, Techniques & types of deep learning, Introduction to ANN"
-            },
-            {
-                "id":"6",
-                "question": "Artifical Neural Networks",
-                "answer": "Neuron Diagram, Neuron Models & NETWORK FUCTIONS, Functions of Neurons activation, Functions of Gradient descent &Stochastic, Ramp function & sigmoid function & Gaussian function"
-            },
-            {
-                "id":"7",
-                "question": "Network Installation",
-                "answer": "Perceptron & multlilayer network, Backpropagation, Deep neural network installing libraries, Creating ANN, Python training the model."
-            },
-            {
-                "id":"8",
-                "question": "Convolutional Neural Networks",
-                "answer": "Introduction to open Cv (Image processing), Learning basic image manipulations, Introduction to CNN, CNN Institution, Convolution Operation pooling, Flattering building a CNN using python Training the model"
-            },
-            {
-                "id":"9",
-                "question":"MINOR & MAJOR PROJECTS",
-                "answer":"Minor Project, Major Project, Project Overview."
-            }
-            
+        "question": "Assembly Motion",
+        "answer": [
+          "Applying motion to components",
+          "Creating basic animations for assembly visualization"
         ]
-    },
-
-    {
+      },
+      {
         "id": 8,
-        "title": "VLSI ",
-        "backgroundImage":"/background_VLSI.jpeg",
-        "tagLine":"Master the art of VLSI",
-       "description":"Explore the world of robotics, unlock your potential, enroll now, and pave the way for a bright future where innovation and automation combine for unparalleled opportunities!",
-       "overView":"Embark on a groundbreaking journey into robotics with our comprehensive course. Uncover the intricacies of robot design, from laws and types to essential components. Harness the power of the ATmega 328p microcontroller to seamlessly integrate sensors and actuators. Master Arduino programming for precise control of stepper, servo, and DC motors. Explore communication protocols like Bluetooth, SPI, and I2C, immersing yourself in the potential of ROS for intricate robotic maneuvers. Conclude your learning adventure with a hands-on project showcasing your expertise. Ignite your passion for innovation and robotics like never before!",
-        "faq": [
-            {   "id":"1",
-                "question": "Catch Up with Python",
-                "answer": "Python basics & fundamentals & tools."
-            },
-            {
-                "id":"2",
-                "question": "Introduction To Data Analysis",
-                "answer":"Pandas & visualization"
-            },
-            {
-                "id":"3",
-                "question": "Stastics & Probability",
-                "answer": "Introduction to probability, Distribution central limits theorem & hypothesis testing"
-            },
-            {
-                "id":"4",
-                "question": "AI Introduction",
-                "answer": "Introduction to Artificial intelligence, Applications of Artificial intelligence, Hands on work with Python."
-            },      
-            {
-                "id":"5",
-               "question":"Deep Learning" ,
-               "answer":"Introduction to Neuron deep learning (basics & scope), Evolution of deep learning, Applications of Deep learning, Machine learning Vs. Deep learning, Techniques & types of deep learning, Introduction to ANN"
-            },
-            {
-                "id":"6",
-                "question": "Artifical Neural Networks",
-                "answer": "Neuron Diagram, Neuron Models & NETWORK FUCTIONS, Functions of Neurons activation, Functions of Gradient descent &Stochastic, Ramp function & sigmoid function & Gaussian function"
-            },
-            {
-                "id":"7",
-                "question": "Network Installation",
-                "answer": "Perceptron & multlilayer network, Backpropagation, Deep neural network installing libraries, Creating ANN, Python training the model."
-            },
-            {
-                "id":"8",
-                "question": "Convolutional Neural Networks",
-                "answer": "Introduction to open Cv (Image processing), Learning basic image manipulations, Introduction to CNN, CNN Institution, Convolution Operation pooling, Flattering building a CNN using python Training the model"
-            },
-            {
-                "id":"9",
-                "question":"MINOR & MAJOR PROJECTS",
-                "answer":"Minor Project, Major Project, Project Overview."
-            }
-            
+        "question": "Interference Detection",
+        "answer": [
+          "Detecting and resolving interferences within assemblies",
+          "Checking clearances and tolerances",
+          "Quiz 20 questions",
+          "5 practice Exercises"
         ]
-    },
-
-    {
+      },
+      {
         "id": 9,
-        "title": "IOT ",
-        "backgroundImage":"/background_IOT.avif",
-        "tagLine":"Master the art of IOT ",
-       "description":"Explore robotics now to unlock your potential and open doors to a future where innovation and automation bring endless opportunities!",
-       "overView":"Join our comprehensive course and dive into the realm of robotics, taking a revolutionary step forward. Explore the laws, types, and components of robot design while mastering the ATmega 328p microcontroller for sensor and actuator integration. Learn to program Arduino devices for various motors and uncover communication methods like Bluetooth, SPI, and I2C. Immerse yourself in the potential of ROS for advanced robotic movements. Conclude with a practical project to showcase your acquired knowledge and ignite your enthusiasm for innovation in robotics!",
-        "faq": [
-            {   "id":"1",
-                "question": "Catch Up with Python",
-                "answer": "Python basics & fundamentals & tools."
-            },
-            {
-                "id":"2",
-                "question": "Introduction To Data Analysis",
-                "answer":"Pandas & visualization"
-            },
-            {
-                "id":"3",
-                "question": "Stastics & Probability",
-                "answer": "Introduction to probability, Distribution central limits theorem & hypothesis testing"
-            },
-            {
-                "id":"4",
-                "question": "AI Introduction",
-                "answer": "Introduction to Artificial intelligence, Applications of Artificial intelligence, Hands on work with Python."
-            },      
-            {
-                "id":"5",
-               "question":"Deep Learning" ,
-               "answer":"Introduction to Neuron deep learning (basics & scope), Evolution of deep learning, Applications of Deep learning, Machine learning Vs. Deep learning, Techniques & types of deep learning, Introduction to ANN"
-            },
-            {
-                "id":"6",
-                "question": "Artifical Neural Networks",
-                "answer": "Neuron Diagram, Neuron Models & NETWORK FUCTIONS, Functions of Neurons activation, Functions of Gradient descent &Stochastic, Ramp function & sigmoid function & Gaussian function"
-            },
-            {
-                "id":"7",
-                "question": "Network Installation",
-                "answer": "Perceptron & multlilayer network, Backpropagation, Deep neural network installing libraries, Creating ANN, Python training the model."
-            },
-            {
-                "id":"8",
-                "question": "Convolutional Neural Networks",
-                "answer": "Introduction to open Cv (Image processing), Learning basic image manipulations, Introduction to CNN, CNN Institution, Convolution Operation pooling, Flattering building a CNN using python Training the model"
-            },
-            {
-                "id":"9",
-                "question":"MINOR & MAJOR PROJECTS",
-                "answer":"Minor Project, Major Project, Project Overview."
-            }
-            
+        "question": "Drafting",
+        "answer": [
+          "Drawing Generation",
+          "Creating 2D drawings from 3D models",
+          "Adding dimensions, annotations, and other detailing",
+          "Quiz 15 Questions",
+          "10 Practice Exercises"
         ]
-    },
-
-    {
+      },
+      {
         "id": 10,
-        "title": "Embedded Systems ",
-        "backgroundImage":"/background_ES.webp",
-        "tagLine":"Master the art of Embedded Systems ",
-       "description":"Explore the world of robotics, unlock your potential, and enroll now for a future filled with innovation and automation opportunities!",
-       "overView":"Embark on a revolutionary journey into robotics with our comprehensive course. Delve into robot design, master microcontroller integration, program Arduino devices, and explore communication methods like Bluetooth and SPI. Conclude with a practical project to showcase your expertise and fuel your passion for innovation in robotics!",
-        "faq": [
-            {   "id":"1",
-                "question": "Catch Up with Python",
-                "answer": "Python basics & fundamentals & tools."
-            },
-            {
-                "id":"2",
-                "question": "Introduction To Data Analysis",
-                "answer":"Pandas & visualization"
-            },
-            {
-                "id":"3",
-                "question": "Stastics & Probability",
-                "answer": "Introduction to probability, Distribution central limits theorem & hypothesis testing"
-            },
-            {
-                "id":"4",
-                "question": "AI Introduction",
-                "answer": "Introduction to Artificial intelligence, Applications of Artificial intelligence, Hands on work with Python."
-            },      
-            {
-                "id":"5",
-               "question":"Deep Learning" ,
-               "answer":"Introduction to Neuron deep learning (basics & scope), Evolution of deep learning, Applications of Deep learning, Machine learning Vs. Deep learning, Techniques & types of deep learning, Introduction to ANN"
-            },
-            {
-                "id":"6",
-                "question": "Artifical Neural Networks",
-                "answer": "Neuron Diagram, Neuron Models & NETWORK FUCTIONS, Functions of Neurons activation, Functions of Gradient descent &Stochastic, Ramp function & sigmoid function & Gaussian function"
-            },
-            {
-                "id":"7",
-                "question": "Network Installation",
-                "answer": "Perceptron & multlilayer network, Backpropagation, Deep neural network installing libraries, Creating ANN, Python training the model."
-            },
-            {
-                "id":"8",
-                "question": "Convolutional Neural Networks",
-                "answer": "Introduction to open Cv (Image processing), Learning basic image manipulations, Introduction to CNN, CNN Institution, Convolution Operation pooling, Flattering building a CNN using python Training the model"
-            },
-            {
-                "id":"9",
-                "question":"MINOR & MAJOR PROJECTS",
-                "answer":"Minor Project, Major Project, Project Overview."
-            }
-            
+        "question": "Introuction to solidworks",
+        "answer": [
+          "Solidworks use interface",
+          "Overview of SOLIDWORKS interface and navigation",
+          "Understanding the document structure: parts, assemblies, and drawings",
+          "Quiz 10 Questions"
         ]
-    }
-   
-]   
+      },
+      {
+        "id": 11,
+        "question": "Sketching",
+        "answer": [
+          "Introduction to Sketching",
+          "Understanding the role of sketches in SOLIDWORKS",
+          "Overview of sketching environment and tools"
+        ]
+      },
+      {
+        "id": 12,
+        "question": "Sketch Entities",
+        "answer": [
+          "Lines and construction lines",
+          "Circles, arcs, and ellipses",
+          "Rectangles and polygons",
+          "Splines and style splines"
+        ]
+      },
+      {
+        "id": 13,
+        "question": "Sketch Tools",
+        "answer": [
+          "Constraints: geometric and dimensional constraints",
+          "Relations: coincident, concentric, parallel, perpendicular, etc.",
+          "Sketch fillet and chamfer",
+          "Offset entities and convert entities"
+        ]
+      },
+      {
+        "id": 14,
+        "question": "Sketch Manipulation",
+        "answer": [
+          "Move, copy, and rotate sketch entities",
+          "Scale and mirror sketch entities",
+          "Trim and extend sketch entities"
+        ]
+      },
+      {
+        "id": 15,
+        "question": "Sketch Dimensioning",
+        "answer": [
+          "Applying dimensions to sketches",
+          "Smart dimension tool and driven dimensions",
+          "Dimension types: linear, angular, radial, ordinate, etc."
+        ]
+      },
+      {
+        "id": 16,
+        "question": "Sketch Editing",
+        "answer": [
+          "Editing sketch geometry: move, resize, delete, etc.",
+          "Modifying dimensions and constraints"
+        ]
+      },
+      {
+        "id": 17,
+        "question": "Advanced Sketching Techniques",
+        "answer": [
+          "Using sketch patterns: linear, circular, and sketch-driven patterns",
+          "Quiz 15 Questions",
+          "10 Practice Exercises"
+        ]
+      },
+      {
+        "id": 18,
+        "question": "PART MODELING",
+        "answer": [
+          "Creating Reference Features",
+          "Creating the Extrude Features Part 01",
+          "Creating the Extrude Features Part 02",
+          "Creating the Revolve Features",
+          "Creating Boundary Feature",
+          "Creating the Sweep Features Part 01",
+          "Creating the Sweep Features Part 02",
+          "Creating the Loft Features Part 01",
+          "Creating the Loft Features Part 02",
+          "Creating Thicken Feature",
+          "Extrude Cut",
+          "Revolve Cut",
+          "Boundary Cut",
+          "Sweep Cut",
+          "Loft Cut",
+          "Creating Fillet",
+          "Inserting Hole Type",
+          "Advanced Hole",
+          "Creating Thread",
+          "Stud Wizard",
+          "Creating Chamfer",
+          "Creating Ribs",
+          "Creating Pattern",
+          "Creating Circular Pattern",
+          "Creating Curve Pattern",
+          "Creating Mirror",
+          "Sketch Driven Pattern",
+          "Table Driven Pattern",
+          "Creating Fill Pattern",
+          "Variable Pattern",
+          "Quiz 25 Questions",
+          "10 Practice Exercises"
+        ]
+      },
+      {
+        "id": 19,
+        "question": "Assembly",
+        "answer": [
+          "Introduction to assembly and types of assembly approach",
+          "Assembly Modelling Tools",
+          "Applying Mates",
+          "Creating Coincident Mates",
+          "Creating Parallel Mates",
+          "Creating Perpendicular Mates",
+          "Creating Distance Mates",
+          "Angle Mate",
+          "Creating Tangent Mates",
+          "Creating Lock Mate",
+          "Creating Rack and Pinion Mate",
+          "Advance Mates",
+          "Symmetric Mates",
+          "Creating the width Mate",
+          "Creating Path Mate",
+          "Creating Linear and Coupler Mate",
+          "Creating Limit Mates",
+          "Mechanical Mates",
+          "Creating Slot Mate",
+          "Creating Hinge Mate",
+          "Creating Gear Mate",
+          "Creating Screw Mate",
+          "Universal Joints",
+          "Quiz 20 questions",
+          "5 practice Exercises"
+        ]
+      },
+      {
+        "id": 20,
+        "question": "Drafting",
+        "answer": [
+          "Generating Drawing Views",
+          "Generating Model Views",
+          "Generating Standard and Projected Views",
+          "Creating Auxiliary Views",
+          "Creating Detailed Views",
+          "Creating Crop Views",
+          "Creating Broken-Out Section View",
+          "Creating Break View",
+          "Creating Section and Aligned Section Views",
+          "Creating Alternate Position View",
+          "Creating Empty Views",
+          "Working with Assembly Specific Views",
+          "Drawing Properties",
+          "Manipulating Views",
+          "Quiz 15 Questions",
+          "10 Practice Exercises"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Basic CAD modeling using UG NX, PTC Creo",
+    "backgroundImage": "",
+    "tagLine": "Master the art of CAD modeling ",
+    "description": "This course is designed to introduce participants to the fundamental concepts and techniques of Computer-Aided Design (CAD) using two industry-leading software’s: UG NX and PTC Creo. Through hands-on exercises and practical examples, participants will learn the essential skills required to create 3D models, assemblies, and drawings using both software platforms. By the end of this course, participants will have gained a solid foundation in CAD modeling using UG NX and PTC Creo, enabling them to create and manipulate 3D models efficiently for various engineering applications.",
+    "overView": "",
+    "faq": [
+      {
+        "id": 1,
+        "question": "Introduction to UG NX",
+        "answer": [
+          "Overview of UG NX interface and navigation",
+          "Understanding the document structure: parts, assemblies, and drawings",
+          "Introduction to parametric modeling",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Sketching in UG NX",
+        "answer": [
+          "Creating 2D sketches on desired planes",
+          "Sketch tools: lines, circles, arcs, etc.",
+          "Applying constraints and dimensions to sketches",
+          "Quiz 15 questions",
+          "10 Practice Exercises"
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Part Modeling in UG NX",
+        "answer": [
+          "Extruding and revolving sketches to create 3D features",
+          "Adding fillets, chamfers, and drafts",
+          "Creating holes, patterns, and shells",
+          "Quiz 20 questions",
+          "10 Practice exercises",
+          "Advanced Part Modeling in UG NX",
+          "Using advanced features such as sweeps, lofts, and blends"
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Assembly Modeling in UG NX",
+        "answer": [
+          "Creating assemblies by inserting parts and mating components",
+          "Different types of assembly constraints: coincident, parallel, etc.",
+          "Exploding assemblies and creating assembly drawings",
+          "Quiz 15 questions",
+          "5 Practice exercise"
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Drawing Creation in UG NX",
+        "answer": [
+          "Generating 2D drawings from 3D models",
+          "Adding drawing views, dimensions, and annotations",
+          "Creating detailed section views and auxiliary views",
+          "Quiz 10 Questions",
+          "10 Practice Exercises"
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Introduction to PTC Creo",
+        "answer": [
+          "Overview of PTC Creo interface and navigation",
+          "Understanding the document structure: parts, assemblies, and drawings",
+          "Introduction to parametric modeling",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Sketching in PTC Creo",
+        "answer": [
+          "Creating 2D sketches on desired planes",
+          "Sketch tools: lines, circles, arcs, etc.",
+          "Applying constraints and dimensions to sketches",
+          "Quiz 15 questions",
+          "10 Practice Exercises"
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Part Modeling in PTC Creo",
+        "answer": [
+          "Extruding and revolving sketches to create 3D features",
+          "Adding rounds, chamfers, and drafts",
+          "Creating holes, patterns, and shells",
+          "Quiz 20 questions",
+          "10 Practice exercises"
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Assembly Modeling in PTC Creo",
+        "answer": [
+          "Creating assemblies by inserting parts and mating components",
+          "Different types of assembly constraints: coincident, parallel, etc.",
+          "Exploding assemblies and creating assembly drawings",
+          "Quiz 15 questions",
+          "5 Practice exercise"
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Drawing Creation in PTC Creo",
+        "answer": [
+          "Generating 2D drawings from 3D models",
+          "Adding drawing views, dimensions, and annotations",
+          "Creating detailed section views and auxiliary views",
+          "Quiz 10 Questions",
+          "10 Practice Exercises"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "title": "GD & T ( Geometric Dimensioning and Tolerance )",
+    "backgroundImage": "",
+    "tagLine": "Master the art of Geometric Dimensioning and Tolerance ",
+    "description": "This course provides an in-depth understanding of the principles, concepts, and applications of Geometric Dimensioning and Tolerancing (GD&T). Participants will learn how to create, interpret, and apply GD&T symbols and control frames to engineering drawings, ensuring clear communication of design intent and tolerance requirements.",
+    "overView": [""],
+    "faq": [
+      {
+        "id": 1,
+        "question": "Introduction to GD&T",
+        "answer": [
+          "Overview of GD&T principles and terminology",
+          "Importance of GD&T in engineering design and manufacturing",
+          "Historical background and evolution of GD&T standards",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Basic Dimensioning",
+        "answer": [
+          "Understanding traditional dimensioning practices",
+          "Limitations of traditional dimensioning methods",
+          "Introduction to tolerances and their significance",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Symbols and Feature Control Frames (FCFs)",
+        "answer": [
+          "Explanation of GD&T symbols: datum, feature control, geometric characteristic symbols",
+          "Interpretation of feature control frames (FCFs) on engineering drawings",
+          "Representation of tolerances using GD&T symbols",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Datum Reference Frames (DRFs)",
+        "answer": [
+          "Definition and purpose of datum reference frames (DRFs)",
+          "Establishing datums and datum features",
+          "Hierarchical relationship of datums and their impact on part inspection",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Form Tolerances",
+        "answer": [
+          "Understanding form tolerances: flatness, straightness, circularity, cylindricity",
+          "Interpretation and application of form tolerances on engineering drawings",
+          "Practical examples and exercises for form tolerances",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Orientation Tolerances",
+        "answer": [
+          "Explanation of orientation tolerances: parallelism, perpendicularity, angularity",
+          "Proper application of orientation tolerances in engineering drawings",
+          "Real-world examples and case studies",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Profile Tolerances",
+        "answer": [
+          "Definition and significance of profile tolerances",
+          "Understanding profile of a line (straightness) and profile of a surface (profile)",
+          "Practical application and interpretation of profile tolerances",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Position Tolerances",
+        "answer": [
+          "Explanation of position tolerances: basic dimension, positional tolerance zone, virtual condition",
+          "Calculation and interpretation of position tolerances",
+          "Case studies illustrating the application of position tolerances",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Runout and Concentricity Tolerances",
+        "answer": [
+          "Understanding runout tolerances: circular runout, total runout",
+          "Interpretation and application of runout tolerances",
+          "Introduction to concentricity tolerance and its application",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Tolerance Stacks and Analysis",
+        "answer": [
+          "Introduction to tolerance stack-up analysis",
+          "Understanding the concept of worst-case and statistical tolerance analysis",
+          "Practical techniques for managing tolerance stacks in engineering design",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 11,
+        "question": "GD&T Inspection Methods",
+        "answer": [
+          "Overview of inspection methods for GD&T features",
+          "Coordinate measuring machines (CMMs), gauge blocks, optical comparators, etc.",
+          "Best practices for GD&T inspection and measurement",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 12,
+        "question": "GD&T in Manufacturing and Quality Control",
+        "answer": [
+          "Integration of GD&T principles into manufacturing processes",
+          "Role of GD&T in quality control and assurance",
+          "Application of GD&T in ensuring part interchangeability and functionality",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 13,
+        "question": "Final Quiz",
+        "answer": ["30 Questions"]
+      }
+    ]
+  },
+
+  {
+    "id": "14",
+    "backgroundImage": "",
+    "title": "GD & T ( Geometric Dimensioning and Tolerance )",
+    "tagLine": "Master the art of Geometric Dimensioning and Tolerance ",
+    "description": "This course provides an in-depth understanding of the principles, concepts, and applications of Geometric Dimensioning and Tolerancing (GD&T). Participants will learn how to create, interpret, and apply GD&T symbols and control frames to engineering drawings, ensuring clear communication of design intent and tolerance requirements.",
+    "overView": "",
+    "faq": [
+      {
+        "id": 1,
+        "question": "Introduction to GD&T",
+        "answer": [
+          "Overview of GD&T principles and terminology",
+          "Importance of GD&T in engineering design and manufacturing",
+          "Historical background and evolution of GD&T standards",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Basic Dimensioning",
+        "answer": [
+          "Understanding traditional dimensioning practices",
+          "Limitations of traditional dimensioning methods",
+          "Introduction to tolerances and their significance",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Symbols and Feature Control Frames (FCFs)",
+        "answer": [
+          "Explanation of GD&T symbols: datum, feature control, geometric characteristic symbols",
+          "Interpretation of feature control frames (FCFs) on engineering drawings",
+          "Representation of tolerances using GD&T symbols",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Datum Reference Frames (DRFs)",
+        "answer": [
+          "Definition and purpose of datum reference frames (DRFs)",
+          "Establishing datums and datum features",
+          "Hierarchical relationship of datums and their impact on part inspection",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Form Tolerances",
+        "answer": [
+          "Understanding form tolerances: flatness, straightness, circularity, cylindricity",
+          "Interpretation and application of form tolerances on engineering drawings",
+          "Practical examples and exercises for form tolerances",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Orientation Tolerances",
+        "answer": [
+          "Explanation of orientation tolerances: parallelism, perpendicularity, angularity",
+          "Proper application of orientation tolerances in engineering drawings",
+          "Real-world examples and case studies",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Profile Tolerances",
+        "answer": [
+          "Definition and significance of profile tolerances",
+          "Understanding profile of a line (straightness) and profile of a surface (profile)",
+          "Practical application and interpretation of profile tolerances",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Position Tolerances",
+        "answer": [
+          "Explanation of position tolerances: basic dimension, positional tolerance zone, virtual condition",
+          "Calculation and interpretation of position tolerances",
+          "Case studies illustrating the application of position tolerances",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Runout and Concentricity Tolerances",
+        "answer": [
+          "Understanding runout tolerances: circular runout, total runout",
+          "Interpretation and application of runout tolerances",
+          "Introduction to concentricity tolerance and its application",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Tolerance Stacks and Analysis",
+        "answer": [
+          "Introduction to tolerance stack-up analysis",
+          "Understanding the concept of worst-case and statistical tolerance analysis",
+          "Practical techniques for managing tolerance stacks in engineering design",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 11,
+        "question": "GD&T Inspection Methods",
+        "answer": [
+          "Overview of inspection methods for GD&T features",
+          "Coordinate measuring machines (CMMs), gauge blocks, optical comparators, etc.",
+          "Best practices for GD&T inspection and measurement",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 12,
+        "question": "GD&T in Manufacturing and Quality Control",
+        "answer": [
+          "Integration of GD&T principles into manufacturing processes",
+          "Role of GD&T in quality control and assurance",
+          "Application of GD&T in ensuring part interchangeability and functionality",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 13,
+        "question": "Final Quiz",
+        "answer": ["30 Questions"]
+      }
+    ]
+  },
+
+  {
+    "id": "15",
+    "backgroundImage": "",
+    "title": "SKILLPLUS [ Basic mechanical design + CAD modeling using CATIA, SOLIDWORKS and Solidedge ]",
+    "tagLine": "Master the art of CAD modeling ",
+    "description": "Explore the world of mechanical design. This course in the combination of two different courses. This course enables to students to learn all three things at once and gain a In-depth knowledge about Mechanical design, CAD modelling software’s. This course aims to equip learners with the necessary expertise to create 3D models, assemblies, and engineering drawings for various mechanical components and systems.",
+    "overView": "",
+    "faq": [
+      {
+        "id": 1,
+        "question": "Basic Mechanical design",
+        "answer": [
+          "Design and Development Process",
+          "Computer-Aided Design (CAD) and Computer-Aided Manufacturing (CAM)",
+          "Finite Element Analysis (FEA) and Computational Fluid Dynamics (CFD)",
+          "Prototyping and Testing",
+          "Product Lifecycle Management (PLM)",
+          "Sustainability in Mechanical Engineering",
+          "Case Studies and Practical Applications",
+          "Emerging Technologies in Mechanical Engineering"
+        ]
+      },
+      {
+        "id": 2,
+        "question": "CAD Modeling using CATIA, Solidworks and solidedge",
+        "answer": [
+          "CATIA",
+          "Introduction to CATIA",
+          "Impotance of CAD modeling software CATIA",
+          "CATIA user interface",
+          "User Interface Navigation",
+          "Navigating the interface: menus, toolbars, workbenches",
+          "Customizing the interface for efficiency",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Basic Sketching",
+        "answer": [
+          "Introduction to sketching tools",
+          "Creating and editing 2D sketches",
+          "Applying constraints and dimensions",
+          "Quiz 15 Questions",
+          "10 Practice Exercises"
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Part Design",
+        "answer": [
+          "Extrusion and Revolve",
+          "Sketch based features",
+          "Extruding and revolving sketches to create 3D geometry",
+          "Modifying extrusions and revolutions",
+          "Advanced Sketching Techniques",
+          "Sketching on different planes",
+          "Using advanced sketching tools like splines and guides",
+          "Adding holes and fillets to parts",
+          "Different types of holes and fillets and their applications",
+          "Dress up features",
+          "Transformation features",
+          "Reference elements",
+          "Aasembly",
+          "Quiz 25 Questions",
+          "10 Practice Exercises"
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Creating Assemblies",
+        "answer": [
+          "Inserting parts into assemblies",
+          "Constraining parts using various constraints",
+          "Organizing and managing assembly structures"
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Assembly Motion",
+        "answer": [
+          "Applying motion to components",
+          "Creating basic animations for assembly visualization",
+          "Interference Detection",
+          "Detecting and resolving interferences within assemblies",
+          "Checking clearances and tolerances",
+          "Quiz 20 questions",
+          "5 practice Exercises"
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Drafting",
+        "answer": [
+          "Drawing Generation",
+          "Creating 2D drawings from 3D models",
+          "Adding dimensions, annotations, and other detailing",
+          "Quiz 15 Questions",
+          "10 Practice Exercises"
+        ]
+      },
+      {
+        "id": 8,
+        "question": "SOLIDWORKS",
+        "answer": [
+          "Introuction to solidworks",
+          "Solidworks use interface",
+          "Overview of SOLIDWORKS interface and navigation",
+          "Understanding the document structure: parts, assemblies, and drawings",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Sketching in SOLIDWORKS",
+        "answer": [
+          "Introduction to Sketching",
+          "Understanding the role of sketches in SOLIDWORKS",
+          "Overview of sketching environment and tools"
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Sketch Entities in SOLIDWORKS",
+        "answer": [
+          "Lines and construction lines",
+          "Circles, arcs, and ellipses",
+          "Rectangles and polygons",
+          "Splines and style splines"
+        ]
+      },
+      {
+        "id": 11,
+        "question": "Sketch Tools in SOLIDWORKS",
+        "answer": [
+          "Constraints: geometric and dimensional constraints",
+          "Relations: coincident, concentric, parallel, perpendicular, etc.",
+          "Sketch fillet and chamfer",
+          "Offset entities and convert entities"
+        ]
+      },
+      {
+        "id": 12,
+        "question": "Sketch Manipulation in SOLIDWORKS",
+        "answer": [
+          "Move, copy, and rotate sketch entities",
+          "Scale and mirror sketch entities",
+          "Trim and extend sketch entities"
+        ]
+      },
+      {
+        "id": 13,
+        "question": "Sketch Dimensioning in SOLIDWORKS",
+        "answer": [
+          "Applying dimensions to sketches",
+          "Smart dimension tool and driven dimensions",
+          "Dimension types: linear, angular, radial, ordinate, etc."
+        ]
+      },
+      {
+        "id": 14,
+        "question": "Sketch Editing in SOLIDWORKS",
+        "answer": [
+          "Editing sketch geometry: move, resize, delete, etc.",
+          "Modifying dimensions and constraints"
+        ]
+      },
+      {
+        "id": 15,
+        "question": "Advanced Sketching Techniques in SOLIDWORKS",
+        "answer": [
+          "Using sketch patterns: linear, circular, and sketch-driven patterns",
+          "Quiz 15 Questions",
+          "10 Practice Exercises"
+        ]
+      },
+      {
+        "id": 16,
+        "question": "PART MODELING in SOLIDWORKS",
+        "answer": [
+          "Creating Reference Features",
+          "Creating the Extrude Features Part 01",
+          "Creating the Extrude Features Part 02",
+          "Creating the Revolve Features",
+          "Creating Boundary Feature",
+          "Creating the Sweep Features Part 01",
+          "Creating the Sweep Features Part 02",
+          "Creating the Loft Features Part 01",
+          "Creating the Loft Features Part 02",
+          "Creating Thicken Feature",
+          "Extrude Cut",
+          "Revolve Cut",
+          "Boundary Cut",
+          "Sweep Cut",
+          "Loft Cut",
+          "Creating Fillet",
+          "Inserting Hole Type",
+          "Advanced Hole",
+          "Creating Thread",
+          "Stud Wizard",
+          "Creating Chamfer",
+          "Creating Ribs",
+          "Creating Pattern",
+          "Creating Circular Pattern",
+          "Creating Curve Pattern",
+          "Creating Mirror",
+          "Sketch Driven Pattern",
+          "Table Driven Pattern",
+          "Creating Fill Pattern",
+          "Variable Pattern",
+          "Quiz 25 Questions",
+          "10 Practice Exercises"
+        ]
+      },
+      {
+        "id": 17,
+        "question": "Assembly in SOLIDWORKS",
+        "answer": [
+          "Introduction to assembly and types of assembly approach",
+          "Assembly Modelling Tools",
+          "Applying Mates",
+          "Creating Coincident Mates",
+          "Creating Parallel Mates",
+          "Creating Perpendicular Mates",
+          "Creating Distance Mates",
+          "Angle Mate",
+          "Creating Tangent Mates",
+          "Creating Lock Mate",
+          "Creating Rack and Pinion Mate",
+          "Advance Mates",
+          "Symmetric Mates",
+          "Creating the width Mate",
+          "Creating Path Mate",
+          "Creating Linear and Coupler Mate",
+          "Creating Limit Mates",
+          "Mechanical Mates",
+          "Creating Slot Mate",
+          "Creating Hinge Mate",
+          "Creating Gear Mate",
+          "Creating Screw Mate",
+          "Universal Joints",
+          "Quiz 20 questions",
+          "5 practice Exercises"
+        ]
+      },
+      {
+        "id": 18,
+        "question": "Drafting in SOLIDWORKS",
+        "answer": [
+          "Generating Drawing Views",
+          "Generating Model Views",
+          "Generating Standard and Projected Views",
+          "Creating Auxilliary Views",
+          "Creating Detailed Views",
+          "Creating Crop Views",
+          "Creating Broken-Out Section View",
+          "Creating Break View",
+          "Creating Section and Aligned Section Views",
+          "Creating Alternate Position View",
+          "Creating Empty Views",
+          "Working with Assembly Specific Views",
+          "Drawing Properties",
+          "Manupulating Views",
+          "Quiz 15 Questions",
+          "10 Practice Exercises"
+        ]
+      },
+      {
+        "id": 19,
+        "question": "SOLIDEDGE",
+        "answer": [
+          "Introduction to SolidEdge",
+          "Overview of SolidEdge interface",
+          "Understanding the workspace",
+          "Setting up preferences and options",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 20,
+        "question": "Sketching in SOLIDEDGE",
+        "answer": [
+          "Creating 2D sketches",
+          "Dimensioning and constraining sketches",
+          "Using sketch tools (lines, arcs, circles, etc.)",
+          "Quiz 15 Questions",
+          "10 Practice Exercises"
+        ]
+      },
+      {
+        "id": 21,
+        "question": "Part Modeling in SOLIDEDGE",
+        "answer": [
+          "Creating basic 3D parts",
+          "Extruding, revolving, sweeping, and lofting features",
+          "Applying fillets, chamfers, and other modifications",
+          "Advanced part modeling techniques",
+          "Quiz 20 Questions",
+          "10 Practice Exercise"
+        ]
+      },
+      {
+        "id": 22,
+        "question": "Assembly Modeling in SOLIDEDGE",
+        "answer": [
+          "Building assemblies from parts",
+          "Inserting components",
+          "Applying constraints and mates",
+          "Exploding assemblies",
+          "Quiz 10 Questions",
+          "5 Practice Exercises"
+        ]
+      },
+      {
+        "id": 23,
+        "question": "Drafting and Detailing in SOLIDEDGE",
+        "answer": [
+          "Generating 2D drawings from 3D models",
+          "Adding dimensions, annotations, and GD&T symbols",
+          "Creating drawing views and sections",
+          "Customizing drawing templates",
+          "Quiz 15 Questions",
+          "10 Practice Exercises"
+        ]
+      },
+      {
+        "id": 24,
+        "question": "Final Quiz",
+        "answer": [
+          "40 Questions",
+          "4 Industry related practice exercises which has to be done using any one of the CAD modeling software"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "16",
+    "backgroundImage": "",
+    "title": "SKILLPLUS+ [ Mechanical Design + CAD modeling using UG NX, PTC Croe + GD & T Geometric dimensioning and tolerance ]",
+    "tagLine": "Master the art of CAD modeling with Mechanical Design ",
+    "description": "Explore the world of mechanical design. This course in the combination of two different courses. This course enables to students to learn all three things at once and gain a In-depth knowledge about Mechanical design, CAD modelling software’s. This course aims to equip learners with the necessary expertise to create 3D models, assemblies, and engineering drawings for various mechanical components and systems.",
+    "overView": "",
+    "faq": [
+      {
+        "id": 1,
+        "question": "Basic Mechanical design",
+        "answer": [
+          "Design and Development Process",
+          "Computer-Aided Design (CAD) and Computer-Aided Manufacturing (CAM)",
+          "Finite Element Analysis (FEA) and Computational Fluid Dynamics (CFD)",
+          "Prototyping and Testing",
+          "Product Lifecycle Management (PLM)",
+          "Sustainability in Mechanical Engineering",
+          "Case Studies and Practical Applications",
+          "Emerging Technologies in Mechanical Engineering"
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Introduction to UG NX",
+        "answer": [
+          "Overview of UG NX interface and navigation",
+          "Understanding the document structure: parts, assemblies, and drawings",
+          "Introduction to parametric modeling",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Sketching in UG NX",
+        "answer": [
+          "Creating 2D sketches on desired planes",
+          "Sketch tools: lines, circles, arcs, etc.",
+          "Applying constraints and dimensions to sketches",
+          "Quiz 15 questions",
+          "10 Practice Exercises"
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Part Modeling in UG NX",
+        "answer": [
+          "Extruding and revolving sketches to create 3D features",
+          "Adding fillets, chamfers, and drafts",
+          "Creating holes, patterns, and shells",
+          "Quiz 20 questions",
+          "10 Practice exercises",
+          "Advanced Part Modeling in UG NX",
+          "Using advanced features such as sweeps, lofts, and blends"
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Assembly Modeling in UG NX",
+        "answer": [
+          "Creating assemblies by inserting parts and mating components",
+          "Different types of assembly constraints: coincident, parallel, etc.",
+          "Exploding assemblies and creating assembly drawings",
+          "Quiz 15 questions",
+          "5 Practice exercise"
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Drawing Creation in UG NX",
+        "answer": [
+          "Generating 2D drawings from 3D models",
+          "Adding drawing views, dimensions, and annotations",
+          "Creating detailed section views and auxiliary views",
+          "Quiz 10 Questions",
+          "10 Practice Exercises"
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Introduction to PTC Creo",
+        "answer": [
+          "Overview of PTC Creo interface and navigation",
+          "Understanding the document structure: parts, assemblies, and drawings",
+          "Introduction to parametric modeling",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Sketching in PTC Creo",
+        "answer": [
+          "Creating 2D sketches on desired planes",
+          "Sketch tools: lines, circles, arcs, etc.",
+          "Applying constraints and dimensions to sketches",
+          "Quiz 15 questions",
+          "10 Practice Exercises"
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Part Modeling in PTC Creo",
+        "answer": [
+          "Extruding and revolving sketches to create 3D features",
+          "Adding rounds, chamfers, and drafts",
+          "Creating holes, patterns, and shells",
+          "Quiz 20 questions",
+          "10 Practice exercises"
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Assembly Modeling in PTC Creo",
+        "answer": [
+          "Creating assemblies by inserting parts and mating components",
+          "Different types of assembly constraints: coincident, parallel, etc.",
+          "Exploding assemblies and creating assembly drawings",
+          "Quiz 15 questions",
+          "5 Practice exercise"
+        ]
+      },
+      {
+        "id": 11,
+        "question": "Drawing Creation in PTC Creo",
+        "answer": [
+          "Generating 2D drawings from 3D models",
+          "Adding drawing views, dimensions, and annotations",
+          "Creating detailed section views and auxiliary views",
+          "Quiz 10 Questions",
+          "10 Practice Exercises"
+        ]
+      },
+      {
+        "id": 12,
+        "question": "Introduction to GD&T",
+        "answer": [
+          "Overview of GD&T principles and terminology",
+          "Importance of GD&T in engineering design and manufacturing",
+          "Historical background and evolution of GD&T standards",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 13,
+        "question": "Basic Dimensioning",
+        "answer": [
+          "Understanding traditional dimensioning practices",
+          "Limitations of traditional dimensioning methods",
+          "Introduction to tolerances and their significance",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 14,
+        "question": "Symbols and Feature Control Frames (FCFs)",
+        "answer": [
+          "Explanation of GD&T symbols: datum, feature control, geometric characteristic symbols",
+          "Interpretation of feature control frames (FCFs) on engineering drawings",
+          "Representation of tolerances using GD&T symbols",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 15,
+        "question": "Datum Reference Frames (DRFs)",
+        "answer": [
+          "Definition and purpose of datum reference frames (DRFs)",
+          "Establishing datums and datum features",
+          "Hierarchical relationship of datums and their impact on part inspection",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 16,
+        "question": "Form Tolerances",
+        "answer": [
+          "Understanding form tolerances: flatness, straightness, circularity, cylindricity",
+          "Interpretation and application of form tolerances on engineering drawings",
+          "Practical examples and exercises for form tolerances",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 17,
+        "question": "Orientation Tolerances",
+        "answer": [
+          "Explanation of orientation tolerances: parallelism, perpendicularity, angularity",
+          "Proper application of orientation tolerances in engineering drawings",
+          "Real-world examples and case studies",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 18,
+        "question": "Profile Tolerances",
+        "answer": [
+          "Definition and significance of profile tolerances",
+          "Understanding profile of a line (straightness) and profile of a surface (profile)",
+          "Practical application and interpretation of profile tolerances",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 19,
+        "question": "Position Tolerances",
+        "answer": [
+          "Explanation of position tolerances: basic dimension, positional tolerance zone, virtual condition",
+          "Calculation and interpretation of position tolerances",
+          "Case studies illustrating the application of position tolerances",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 20,
+        "question": "Runout and Concentricity Tolerances",
+        "answer": [
+          "Understanding runout tolerances: circular runout, total runout",
+          "Interpretation and application of runout tolerances",
+          "Introduction to concentricity tolerance and its application",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 21,
+        "question": "Tolerance Stacks and Analysis",
+        "answer": [
+          "Introduction to tolerance stack-up analysis",
+          "Understanding the concept of worst-case and statistical tolerance analysis",
+          "Practical techniques for managing tolerance stacks in engineering design",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 22,
+        "question": "GD&T Inspection Methods",
+        "answer": [
+          "Overview of inspection methods for GD&T features",
+          "Coordinate measuring machines (CMMs), gauge blocks, optical comparators, etc.",
+          "Best practices for GD&T inspection and measurement",
+          "Quiz 10 Questions"
+        ]
+      },
+      {
+        "id": 23,
+        "question": "GD&T in Manufacturing and Quality Control",
+        "answer": [
+          "Integration of GD&T principles into manufacturing processes",
+          "Role of GD&T in quality control and assurance",
+          "Application of GD&T in ensuring part interchangeability and functionality",
+          "Quiz 10 Questions"
+        ]
+      }
+    ]
+  }
+]
