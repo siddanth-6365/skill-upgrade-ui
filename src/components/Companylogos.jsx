@@ -28,7 +28,6 @@ function Slider() {
             style={{ animation: "scroll 60s linear infinite" }}
           >
             <Image
-              layout="responsive"
               src={logo}
               alt="logo"
               width={100}
