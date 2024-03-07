@@ -31,28 +31,25 @@ const Aboutus = () => {
           Learn from the experts with our specialised courses
         </h1>
       </div>
-      <div className="flex flex-col lg:flex-row md:p-16 p-12">
+      <div className="flex flex-col lg:flex-row md:p-16 p-8">
         <div className="w-full lg:w-1/2 md:p-4 p-2 order-2 lg:order-1">
-          <h1 className="text-center text-2xl lg:text-3xl underline font-bold ">
-            About Us
-          </h1>
-          <p className="text-base lg:text-xl  mt-4">
-            “Hello Everyone” Welcome to the world of learning. You are in the
-            right place to learn new skills and to always stay ahead of the
-            curve. We welcome you to “SKILLUPGRADE”, your destination to
-            lifelong learning and professional development. We SKILLUPGRADE
-            believe that each one of you has the potential to learn new skills
-            and grow at new heights. SKILLUPGRADE academy provides a better
-            platform designed to accommodate all levels of learners. Our
-            user-friendly interface ensures that navigating through our
-            extensive library of courses is effortless, allowing all of you to
-            focus on what matters the most.
-          </p>
-          {/* <button className="bg-violet-400 p-2 rounded-md mt-4 w-full lg:w-auto">
-            <a href="/aboutus" className="text-xl underline">
-              Read More
-            </a>
-          </button> */}
+          <div className="mx-auto mt-4 max-w-7xl  px-2 md:px-6 lg:px-8 ">
+            <h2 className="text-3xl  text-left font-bold tracking-tight text-gray-900 sm:text-4xl">
+              About Us
+            </h2>
+            <p className="mt-4 text-left text-md md:text-xl leading-6 md:leading-8 text-gray-600">
+              “Hello Everyone” Welcome to the world of learning. You are in the
+              right place to learn new skills and to always stay ahead of the
+              curve. We welcome you to “SKILLUPGRADE”, your destination to
+              lifelong learning and professional development. We SKILLUPGRADE
+              believe that each one of you has the potential to learn new skills
+              and grow at new heights. SKILLUPGRADE academy provides a better
+              platform designed to accommodate all levels of learners. Our
+              user-friendly interface ensures that navigating through our
+              extensive library of courses is effortless, allowing all of you to
+              focus on what matters the most.
+            </p>
+          </div>
         </div>
         <motion.div
           className="w-full lg:w-1/2 flex justify-center items-center order-1 lg:order-2 mt-8 lg:mt-0"
