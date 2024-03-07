@@ -94,7 +94,7 @@ const LandingPage = () => {
             {data &&
               data.faq &&
               data.faq.map((faqItem) => (
-                <AccordionItem className="w-[600px]" value={faqItem.id} key={faqItem.id}>
+                <AccordionItem className="w-[300px] md:w-[600px]" value={faqItem.id} key={faqItem.id}>
                   <AccordionTrigger className="text-xl focus:outline-none">
                     {faqItem.question}
                   </AccordionTrigger>
