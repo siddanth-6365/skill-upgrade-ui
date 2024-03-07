@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState, Suspense } from "react";
 import Image from "next/image";
-// import { useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import {
   Accordion,
   AccordionContent,
@@ -10,35 +10,28 @@ import {
 } from "@/components/ui/accordion";
 import courseData from "@/data/courseData.json";
 
-const LandingPage = () => {
+const Page = () => {
+  return (
+    <>
+      <Suspense>
+        <CourseContent />
+      </Suspense>
+    </>
+  );
+};
+
+export default Page;
+
+const CourseContent = () => {
   const [data, setData] = useState({});
-  // const searchParams = useSearchParams();
-  const searchParams = new URLSearchParams(document.location.search);
+  const searchParams = useSearchParams();
+  // const searchParams = new URLSearchParams(document.location.search);
   const courseId = searchParams.get("id");
 
   useEffect(() => {
     const course = courseData.find((course) => course.id == courseId);
     setData(course);
   }, [courseData, courseId]);
-
-  return (
-    <>
-       <Suspense fallback={<div>Loading...</div>}> 
-       {
-        data && <CourseContent data={data} />
-       }
-      
-      </Suspense>
-      
-        
-
-    </>
-  );
-};
-
-export default LandingPage;
-
-const CourseContent = ({ data }) => {
   return (
     <>
       <div className="bg-cover bg-center h-screen min-h-screen relative">
@@ -49,7 +42,7 @@ const CourseContent = ({ data }) => {
           objectFit="cover"
           priority
         />
-          <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="flex flex-col   md:flex-row items-center justify-between h-full px-6 py-16 md:px-20 md:py-40">
           <div className="text-white text-center md:text-left z-[1] ">
             <h1 className="text-4xl font-bold md:text-6xl leading-tight">

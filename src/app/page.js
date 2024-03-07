@@ -20,7 +20,6 @@ function HeroParallaxDemo() {
       <TeamSection />
       <CompanyLogos />
       <ContactUs />
-      
       <Footer />
     </div>
   );
