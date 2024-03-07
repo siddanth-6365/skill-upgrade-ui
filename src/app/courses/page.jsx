@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState, Suspense } from "react";
 import Image from "next/image";
-import { useSearchParams } from "next/navigation";
+// import { useSearchParams } from "next/navigation";
 import {
   Accordion,
   AccordionContent,
@@ -12,7 +12,8 @@ import courseData from "@/data/courseData.json";
 
 const LandingPage = () => {
   const [data, setData] = useState({});
-  const searchParams = useSearchParams();
+  // const searchParams = useSearchParams();
+  const searchParams = new URLSearchParams(document.location.search);
   const courseId = searchParams.get("id");
 
   useEffect(() => {
@@ -22,9 +23,15 @@ const LandingPage = () => {
 
   return (
     <>
-      <Suspense fallback={<div>Loading...</div>}>
-        <CourseContent data={data} />
+       <Suspense fallback={<div>Loading...</div>}> 
+       {
+        data && <CourseContent data={data} />
+       }
+      
       </Suspense>
+      
+        
+
     </>
   );
 };
