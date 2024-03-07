@@ -1,8 +1,7 @@
-"use client";
 import React from "react";
 import Image from "next/image";
+import Marquee from "react-fast-marquee";
 
-// Array of logos
 const logos = [
   "https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png",
   "https://cdn.freebiesupply.com/logos/large/2x/general-electric-black-logo-png-transparent.png",
@@ -17,27 +16,20 @@ const logos = [
   "https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png",
 ];
 
-function Slider() {
+function Slider(){
   return (
-    <div className="slider bg-whitesmoke p-8 mt-8">
-      <div className="slide-track w-full flex gap-12 overflow-hidden">
-        {logos.map((logo, index) => (
-          <div
-            key={index}
-            className="slide "
-            style={{ animation: "scroll 60s linear infinite" }}
-          >
-            <Image
-              src={logo}
-              alt="logo"
-              width={100}
-              height={100}
-            />
-          </div>
-        ))}
-      </div>
+    <div className="mt-12 text-center">
+      <Marquee direction="left" speed={60} delay={1}>
+        {
+          logos.map((logo,index)=>(
+            <div key={index} className="mx-8">
+              <Image src={logo} width={40} height={40} alt="Logo" className=" w-24" />
+            </div>
+          ))
+        }
+      </Marquee>
     </div>
-  );
+  )
 }
 
 export default Slider;
