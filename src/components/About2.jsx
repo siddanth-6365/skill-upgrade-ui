@@ -1,9 +1,20 @@
-import React from "react";
+"use client"
+import React, { useRef } from "react";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const About2 = () => {
+  const [ref, inView] = useInView({
+    threshold: 0.5,
+  });
+
   return (
     <>
-      <section
+      <motion.section
+        ref={ref}
+        initial={{ opacity: 0, y: 50 }}
+        animate={inView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 0.5, ease: "easeOut" }}
         className="flex flex-col justify-center items-center p-8 gap-8"
         style={{
           fontFamily: "Cambria, Georgia, serif",
@@ -41,7 +52,7 @@ const About2 = () => {
             support you need to succeed in your career.
           </p>
         </div>
-      </section>
+      </motion.section>
     </>
   );
 };

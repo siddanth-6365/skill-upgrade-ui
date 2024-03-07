@@ -44,9 +44,8 @@ const Form = () => {
           style={{ visibility: inView ? "visible" : "hidden" }}
         >
           <Image
-            layout="responsive"
-            width={500}
-            height={400}
+            width={600}
+            height={500}
             src="/contact.jpg"
             alt="about"
           />

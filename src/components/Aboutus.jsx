@@ -27,7 +27,7 @@ const Aboutus = () => {
       style={{ fontFamily: "Cambria, Georgia, serif" }}
     >
       <div>
-        <h1 className="text-center text-3xl lg:text-4xl font-semibold">
+        <h1 className="text-center text-4xl lg:text-5xl ">
           Learn from the experts with our specialised courses
         </h1>
       </div>

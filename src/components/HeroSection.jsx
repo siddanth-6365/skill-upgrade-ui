@@ -1,4 +1,4 @@
-// import TextScrollAnimation from "./ui/textanimate";
+import TextScrollAnimation from "./ui/textanimate";
 import Image from "next/image";
 
 function HeroSection() {
@@ -14,6 +14,7 @@ function HeroSection() {
           <h1>Upgrade</h1>
           <h1 className="text-gray-500">Your Skills</h1>
           <h1 className="text-gray-500">With Us!</h1>
+          {/* <TextScrollAnimation /> */}
         </div>
       </div>
       <div className="w-full md:w-1/2 flex justify-center md:justify-end">

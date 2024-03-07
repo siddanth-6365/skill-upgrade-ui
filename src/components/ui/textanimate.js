@@ -49,10 +49,6 @@ function TextScrollAnimation() {
     });
   }, []);
 
-  // const lenis = useLenis(({ scroll }) => {
-  //   // console.log(scroll); // This will log the scroll event
-  // });
-
   return (
     <ReactLenis root={true}>
       <h1>Upgrade</h1>

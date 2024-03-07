@@ -1,34 +1,10 @@
-const people = [
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-  },
-];
+import CompanyLogos from "./ui/Companylogos";
 
 export default function Example() {
   return (
-    <div id="instructors" className="bg-white py-4 sm:py-[5rem] ">
-      <div className="mx-auto  max-w-7xl  px-6 lg:px-8 ">
+    <>
+      <div id="instructors" className="bg-white py-4 sm:py-[5rem] ">
+        <div className="mx-auto  max-w-7xl  px-6 lg:px-8 ">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Meet our Instructors
           </h2>
@@ -42,7 +18,9 @@ export default function Example() {
             also, every time ready to deliver best quality of knowledge to the
             learners.
           </p>
+        </div>
       </div>
-    </div>
+      <CompanyLogos />
+    </>
   );
 }

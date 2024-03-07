@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "@/components/Footer";
 import CoursePage from "@/components/CoursePage";
-import CompanyLogos from "@/components/Companylogos";
 import TeamSection from "@/components/TeamSection";
 import HeroSection from "@/components/HeroSection";
 import CircleComponent from "@/components/CircleComponent";
@@ -11,17 +10,19 @@ import Services from "@/components/Services";
 
 function HeroParallaxDemo() {
   return (
-    <div>
+    <>
       <HeroSection />
       <CircleComponent />
       <About2 />
       <CoursePage />
-      <Services/>
+      <Services />
       <TeamSection />
-      <CompanyLogos />
       <ContactUs />
       <Footer />
-    </div>
+      <div className="fixed bottom-10 right-10 bg-green-500 rounded-2xl">
+        <button className="p-4 text-gray-700">Join Us</button>
+      </div>
+    </>
   );
 }
 
