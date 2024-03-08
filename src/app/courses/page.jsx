@@ -111,7 +111,7 @@ const CourseContent = () => {
                   value={faqItem.id}
                   key={faqItem.id}
                 >
-                  <AccordionTrigger className="text-xl font-sans focus:outline-none">
+                  <AccordionTrigger className="text-xl text-left font-sans focus:outline-none">
                     {faqItem.id}.{faqItem.question}
                   </AccordionTrigger>
                   <AccordionContent className="text-[16px] font-sans pt-4">
