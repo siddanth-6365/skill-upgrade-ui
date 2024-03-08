@@ -47,14 +47,14 @@ const CourseContent = () => {
               {data.title} Traineeship Program
             </h1>
             <p className="mt-6 leading-relaxed font-serif md:text-xl">{data.tagLine}</p>
-            
+
             <div className="mt-8 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
-            <h1 className="leading-relaxed font-serif md:text-xl">₹{data.price}</h1>
+              <h1 className="leading-relaxed font-serif md:text-xl">₹{data.price}</h1>
               <button className="btn bg-[#7c51f0] btn-outline px-6 py-3 text-base font-medium rounded-md">
                 <Link href="https://chat.whatsapp.com/LGKwNURO8FUCGD9qJCf2iE">Join Us</Link>
               </button>
             </div>
-            
+
           </div>
           <div className="bg-white rounded-lg px-8 py-12 shadow-md md:w-1/2 mt-8 md:mt-0 z-[1]">
             <h2 className="text-2xl font-semibold mb-4">Key Features</h2>
@@ -81,7 +81,12 @@ const CourseContent = () => {
           <h2 className="md:text-4xl text-2xl text-center font-serif font-semibold mt-8 mb-4">
             Overview
           </h2>
-          <p className="md:text-xl text-md leading-relaxed font-serif">{data.overView && data.overView.join("\n")}</p>
+          <ul className="md:text-xl text-md leading-relaxed font-serif">
+            {data.overView &&
+              data.overView.map((point, index) => (
+                <li key={index} className="list-disc">{point}</li>
+              ))}
+          </ul>
         </div>
       </div>
 
@@ -107,7 +112,7 @@ const CourseContent = () => {
                   key={faqItem.id}
                 >
                   <AccordionTrigger className="text-xl focus:outline-none">
-                   {faqItem.id}.{faqItem.question}
+                    {faqItem.id}.{faqItem.question}
                   </AccordionTrigger>
                   <AccordionContent className="text-xl pt-4">
                     <ol className="custom-ordered-list">
