@@ -52,7 +52,7 @@ function Services() {
         <svg
           stroke="currentColor"
           fill="#146ef7"
-          stroke-width="0"
+          strokeWidth="0"
           viewBox="0 0 448 512"
           height="1.5em"
           width="1.5em"
@@ -71,7 +71,7 @@ function Services() {
         <svg
           stroke="currentColor"
           fill="#1ea528"
-          stroke-width="0"
+          strokeWidth="0"
           viewBox="0 0 16 16"
           height="1.5em"
           width="1.5em"
@@ -89,7 +89,7 @@ function Services() {
         <svg
           stroke="currentColor"
           fill="#bb4846"
-          stroke-width="0"
+          strokeWidth="0"
           viewBox="0 0 24 24"
           height="1.5em"
           width="1.5em"
@@ -110,7 +110,7 @@ function Services() {
         <svg
           stroke="currentColor"
           fill="#fac210"
-          stroke-width="0"
+          strokeWidth="0"
           viewBox="0 0 16 16"
           height="1.5em"
           width="1.5em"
@@ -131,7 +131,7 @@ function Services() {
         <svg
           stroke="currentColor"
           fill="#2b3b9a"
-          stroke-width="0"
+          strokeWidth="0"
           viewBox="0 0 16 16"
           height="1.5em"
           width="1.5em"
@@ -150,7 +150,7 @@ function Services() {
         <svg
           stroke="currentColor"
           fill="#775e75"
-          stroke-width="0"
+          strokeWidth="0"
           viewBox="0 0 16 16"
           height="1.5em"
           width="1.5em"
@@ -169,7 +169,7 @@ function Services() {
         <svg
           stroke="currentColor"
           fill="#745c65"
-          stroke-width="0"
+          strokeWidth="0"
           viewBox="0 0 16 16"
           height="1.5em"
           width="1.5em"
@@ -192,7 +192,7 @@ function Services() {
         <svg
           stroke="currentColor"
           fill="#6c6087"
-          stroke-width="0"
+          strokeWidth="0"
           viewBox="0 0 16 16"
           height="1.5em"
           width="1.5em"
@@ -211,7 +211,7 @@ function Services() {
         <svg
           stroke="currentColor"
           fill="#d2373e"
-          stroke-width="0"
+          strokeWidth="0"
           viewBox="0 0 16 16"
           height="1.5em"
           width="1.5em"
@@ -229,7 +229,7 @@ function Services() {
         <svg
           stroke="currentColor"
           fill="#a34e36"
-          stroke-width="0"
+          strokeWidth="0"
           viewBox="0 0 16 16"
           height="1.5em"
           width="1.5em"
