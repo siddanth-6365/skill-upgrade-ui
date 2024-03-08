@@ -111,10 +111,10 @@ const CourseContent = () => {
                   value={faqItem.id}
                   key={faqItem.id}
                 >
-                  <AccordionTrigger className="text-xl focus:outline-none">
+                  <AccordionTrigger className="text-xl font-sans focus:outline-none">
                     {faqItem.id}.{faqItem.question}
                   </AccordionTrigger>
-                  <AccordionContent className="text-xl pt-4">
+                  <AccordionContent className="text-[16px] font-sans pt-4">
                     <ol className="custom-ordered-list">
                       {faqItem.answer && faqItem.answer.map((item, index) => (
                         <li key={index}>{String.fromCharCode(97 + index)}. {item}</li>

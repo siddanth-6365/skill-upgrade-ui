@@ -14,6 +14,8 @@ const logos = [
   "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/f50ae7cbf6cc805bdadc.png",
   "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/6c585c33ca6c71c79bb7.png",
   "https://www.iitkgp.ac.in//assets/pages/images/logo.png",
+  "https://companieslogo.com/img/orig/TCS.NS_BIG-89c50e39.png?t=1631949260",
+  "https://companieslogo.com/img/orig/BOSCHLTD.NS_BIG-e1ff49a5.png?t=1601681799"
 ];
 const logos2 = [
   "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/35e044b3354aaa0caed5.png",
@@ -22,7 +24,7 @@ const logos2 = [
   "https://www.iitb.ac.in/sites/www.iitb.ac.in/themes/touchm/logo.png",
   "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/6c585c33ca6c71c79bb7.png",
   "https://www.iitkgp.ac.in//assets/pages/images/logo.png",
-];
+  ];
 
 function Slider() {
   return (
