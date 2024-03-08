@@ -93,7 +93,7 @@ const CourseContent = () => {
       <div className="md:mt-6 mt-4 px-6 flex flex-col justify-center items-center w-full">
         <div className="flex flex-col justify-center items-center md:p-6 p-2">
           <h1 className="font-bold text-center text-3xl font-serif md:text-5xl">
-            Course Overview
+            Course Curriculum
           </h1>
           <p className="md:max-w-[80%]  text-xl font-serif text-center">
             A comprehensive and dynamic syllabus designed to empower your skills
