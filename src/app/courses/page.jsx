@@ -43,7 +43,7 @@ const CourseContent = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="flex flex-col md:flex-row items-center justify-between h-full px-6 py-16 md:px-20 md:py-40">
           <div className="text-white text-center md:text-left z-[1] ">
-            <h1 className="text-4xl font-bold md:text-6xl font-serif leading-tight">
+            <h1 className="mt-4 text-2xl font-bold md:text-6xl font-serif leading-tight">
               {data.title} Traineeship Program
             </h1>
             <p className="mt-6 leading-relaxed font-serif md:text-xl">{data.tagLine}</p>
