@@ -41,17 +41,17 @@ function NavBar() {
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              <div className="flex gap-3 justify-center items-center">
-              <Image src="/logo.jpg" width={50} height={50} alt="logo" />
-
-                <Link href="/">
-                  <h2 className="text-2xl text-[#7c51f0] font-bold ">
-                    SkillUpgrade
-                  </h2>
-                  <p>Invest in yourself</p>
-                </Link>
-              </div>
-
+              <Link href="/">
+                <div className="flex gap-3 justify-center items-center">
+                  <Image src="/logo.jpg" width={50} height={50} alt="logo" />
+                  <div className="flex flex-col">
+                    <h2 className="md:text-2xl text-xl text-[#7c51f0] font-bold ">
+                      SkillUpgrade
+                    </h2>
+                    <p>Invest in yourself</p>
+                  </div>
+                </div>
+              </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
                 <button
