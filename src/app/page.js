@@ -24,9 +24,11 @@ function HeroParallaxDemo() {
       <ContactUs />
       <Footer />
       <div className="fixed bottom-10 right-10 bg-green-500 rounded-2xl">
-        <button className="p-3 text-gray-700">
-          <Link href={whatsappLink}><RiWhatsappLine className="w-8 h-8 text-white"/></Link>{" "}
-        </button>
+        <Link href={whatsappLink}>
+          <button className="p-3 text-gray-700">
+            <RiWhatsappLine className="w-8 h-8 text-white" />{" "}
+          </button>
+        </Link>
       </div>
     </>
   );

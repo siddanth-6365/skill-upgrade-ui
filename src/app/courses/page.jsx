@@ -50,11 +50,11 @@ const CourseContent = () => {
               <h1 className="leading-relaxed font-serif md:text-xl">
                 ₹{data.price}
               </h1>
-              <button className="btn bg-green-500 btn-outline px-6 py-3 text-base font-medium rounded-md">
-                <Link href="https://chat.whatsapp.com/LGKwNURO8FUCGD9qJCf2iE">
+              <Link href="https://chat.whatsapp.com/LGKwNURO8FUCGD9qJCf2iE">
+                <button className="btn bg-green-500 btn-outline px-6 py-3 text-base font-medium rounded-md">
                   Join Us
-                </Link>
-              </button>
+                </button>
+              </Link>
             </div>
           </div>
           <div className="bg-white rounded-lg px-8 py-12 shadow-md md:w-1/2 mt-4 md:mt-0 z-[1]">
