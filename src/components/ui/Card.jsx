@@ -36,7 +36,7 @@ export const Card = ({ card, key }) => {
         </Link>
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">{card.title}</div>
-          <p className="text-gray-700 h-36 text-base">{truncatedDescription}</p>
+          <p className="text-gray-700 h-32 text-base">{truncatedDescription}</p>
           <div className="flex justify-between items-center mt-4">
             <Link href={`/courses?id=${card.id}`}>
               <button className="bg-[#7c51f0] hover:bg-[#6c46d5] text-white font-bold py-2 px-4 rounded">

@@ -50,7 +50,7 @@ const CourseContent = () => {
               <h1 className="leading-relaxed font-serif md:text-xl">
                 ₹{data.price}
               </h1>
-              <button className="btn bg-[#7c51f0] btn-outline px-6 py-3 text-base font-medium rounded-md">
+              <button className="btn bg-green-500 btn-outline px-6 py-3 text-base font-medium rounded-md">
                 <Link href="https://chat.whatsapp.com/LGKwNURO8FUCGD9qJCf2iE">
                   Join Us
                 </Link>
@@ -118,14 +118,24 @@ const CourseContent = () => {
                     {faqItem.id}.{faqItem.question}
                   </AccordionTrigger>
                   <AccordionContent className="text-[16px] font-sans pt-4">
-                    <ol className="custom-ordered-list">
-                      {faqItem.answer &&
-                        faqItem.answer.map((item, index) => (
-                          <li key={index}>
-                            {String.fromCharCode(97 + index)}. {item}
-                          </li>
-                        ))}
-                    </ol>
+                    {faqItem.answer &&
+                      (faqItem.answer.length <= 26 ? (
+                        <ol className="custom-ordered-list">
+                          {faqItem.answer.map((item, index) => (
+                            <li key={index}>
+                              {String.fromCharCode(97 + index)}. {item}
+                            </li>
+                          ))}
+                        </ol>
+                      ) : (
+                        <ol className="custom-ordered-list">
+                          {faqItem.answer.map((item, index) => (
+                            <li key={index}>
+                              {index + 1}. {item}
+                            </li>
+                          ))}
+                        </ol>
+                      ))}
                   </AccordionContent>
                 </AccordionItem>
               ))}
@@ -133,7 +143,7 @@ const CourseContent = () => {
         </div>
       </div>
 
-      <div className="mt-16 px-6">
+      <div className="mt-16 px-6 flex flex-col justify-center items-center">
         <h2 className="text-2xl font-semibold mb-4 font-serif">
           Start Your Journey Today
         </h2>
