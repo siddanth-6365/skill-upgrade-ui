@@ -18,8 +18,7 @@
       {
         "id": "1",
         "question": "Catch Up with Python",
-        "answer": ["Python basics.",
-                   "Python fundamentals with tools."]
+        "answer": ["Python basics.", "Python fundamentals with tools."]
       },
       {
         "id": "2",
@@ -124,7 +123,7 @@
       {
         "id": "3",
         "question": "HTML",
-        "answer": ["Basic HTML Tags","Advance HTML Tags etc"]
+        "answer": ["Basic HTML Tags", "Advance HTML Tags etc"]
       },
       {
         "id": "4",
@@ -337,76 +336,92 @@
       {
         "id": "1",
         "question": "Introduction to Data Science",
-        "answer": ["What is data science.", "Applications & key components of data sciences.", "Data science as carrier."]
+        "answer": [
+          "What is data science.",
+          "Applications & key components of data sciences.",
+          "Data science as carrier."
+        ]
       },
       {
         "id": "2",
         "question": "Introduction To Machine Learning",
-        "answer": ["Machine learning life cycle.", "Applications of machine learning.", "Types of machine learning."," Overview of anaconda & jupyter notebook.", "Installation of anaconda."]
+        "answer": [
+          "Machine learning life cycle.",
+          "Applications of machine learning.",
+          "Types of machine learning.",
+          " Overview of anaconda & jupyter notebook.",
+          "Installation of anaconda."
+        ]
       },
       {
         "id": "3",
         "question": "Introduction To Python",
         "answer": [
-            "Python fundamentals (operators, conditionals, loops, functions)" , "Python data structure (lists, tuples, dictionary, set, arrays)."
+          "Python fundamentals (operators, conditionals, loops, functions)",
+          "Python data structure (lists, tuples, dictionary, set, arrays)."
         ]
       },
       {
         "id": "4",
         "question": "Python for DataScience",
         "answer": [
-            "File handling in python.", "NumPy", "Pandas", "Matplotlib", "Seaborn."
+          "File handling in python.",
+          "NumPy",
+          "Pandas",
+          "Matplotlib",
+          "Seaborn."
         ]
       },
       {
         "id": "5",
         "question": "Data Collection",
         "answer": [
-            "Data collection from files (CSV/EXCELS) Data collection from database (MYSQL/ SQLITE).",
-            "Data collection from API’s Data collection through web scraping (beautiful soup/selenium)."
+          "Data collection from files (CSV/EXCELS) Data collection from database (MYSQL/ SQLITE).",
+          "Data collection from API’s Data collection through web scraping (beautiful soup/selenium)."
         ]
       },
       {
         "id": "6",
         "question": "Data Wrangling and Visualization",
         "answer": [
-            "Data cleaning & preprocessing using NumPy & pandas", "Data visualization using Matplotlib, seaborn, tableau."
+          "Data cleaning & preprocessing using NumPy & pandas",
+          "Data visualization using Matplotlib, seaborn, tableau."
         ]
       },
       {
         "id": "7",
         "question": "Machine Learning Algorithms for DS",
         "answer": [
-            "Linear & logistic regression", "Decision tree, Random Forest, Navie bayes & K nearest Neighbours", "SVM & Clustering, K-Means & K-MEDOIDS."
+          "Linear & logistic regression",
+          "Decision tree, Random Forest, Navie bayes & K nearest Neighbours",
+          "SVM & Clustering, K-Means & K-MEDOIDS."
         ]
       },
       {
         "id": "8",
         "question": "Deep Learning",
-        "answer": [
-            "NLP","Neural networks", "TensorFlow", "Keras."
-        ]
+        "answer": ["NLP", "Neural networks", "TensorFlow", "Keras."]
       },
       {
         "id": "9",
         "question": "Time Series",
         "answer": [
-            "Time series analysis with Pandas", "Time series analysis with FB Prophet."
+          "Time series analysis with Pandas",
+          "Time series analysis with FB Prophet."
         ]
       },
       {
         "id": "10",
         "question": "BI Tools",
         "answer": [
-            "Intro to business intelligence", "Use of business intelligence tools at industries."
+          "Intro to business intelligence",
+          "Use of business intelligence tools at industries."
         ]
       },
       {
         "id": "11",
         "question": "Web App",
-        "answer": [
-            "drivers license"
-        ]
+        "answer": ["drivers license"]
       },
       {
         "id": "12",
@@ -436,28 +451,40 @@
         "id": "1",
         "question": "Introduction To Android Development",
         "answer": [
-          "Introduction to android", "History of Android, Android version list", "Android applications", "Android vs IOS and OHA"
+          "Introduction to android",
+          "History of Android, Android version list",
+          "Android applications",
+          "Android vs IOS and OHA"
         ]
       },
       {
         "id": "2",
         "question": "Environment & Setup",
         "answer": [
-          "Setup android studio", "AVD, Debugging tools & emulator", "Development of Ide, jdk, Structure & Components of android applications", "Architecture of android & MVC", "Importance of UI, Common components (Images, buttons, label, text fields, radio button, checkbox layout –horizontal & vertical"," links WBI, calls, emails, messages, firebase & intro & services, Java requirement for app"
+          "Setup android studio",
+          "AVD, Debugging tools & emulator",
+          "Development of Ide, jdk, Structure & Components of android applications",
+          "Architecture of android & MVC",
+          "Importance of UI, Common components (Images, buttons, label, text fields, radio button, checkbox layout –horizontal & vertical",
+          " links WBI, calls, emails, messages, firebase & intro & services, Java requirement for app"
         ]
       },
       {
         "id": "3",
         "question": "Hybrid Android Devlopment",
         "answer": [
-          "Frameworks for HMD", "Introduction to flutter", "Introduction to Dart."
+          "Frameworks for HMD",
+          "Introduction to flutter",
+          "Introduction to Dart."
         ]
       },
       {
         "id": "4",
         "question": "Dart",
         "answer": [
-          "Overview & intro, Functions & Types, String interpolation", "Object oriented programming, Classes, instances, constructions & methods, OOP design flow, Loops & lists & variable 7 parameters, Reactive programming", "Streams with controllers & transformers."
+          "Overview & intro, Functions & Types, String interpolation",
+          "Object oriented programming, Classes, instances, constructions & methods, OOP design flow, Loops & lists & variable 7 parameters, Reactive programming",
+          "Streams with controllers & transformers."
         ]
       },
       {
@@ -943,21 +970,27 @@
         "id": "1",
         "question": "The Course starts with the theoretical basics of Embedded Sysrems.",
         "answer": [
-          "Basics of an embedded system", "Types of an embedded system", "Components of an embedded system."
+          "Basics of an embedded system",
+          "Types of an embedded system",
+          "Components of an embedded system."
         ]
       },
       {
         "id": "2",
         "question": "Understand the ins and outs of microchips using Atmega328.",
         "answer": [
-          "Architecture of Atmega328", "Features of Atmega328","Components of Atmega328, SPI / UART, 12C."
+          "Architecture of Atmega328",
+          "Features of Atmega328",
+          "Components of Atmega328, SPI / UART, 12C."
         ]
       },
       {
         "id": "3",
         "question": "Learn how to work on Ardunio using Ardunio IDE.",
         "answer": [
-          "Introduction to Arduino IDE", "Installation of Arduino IDE, Embedded tools (Programmer/Debugger)", "Circuit connections using Breadboard, Program overview on IDE, Data types, Program lifecycle / Program structure, Memory management."
+          "Introduction to Arduino IDE",
+          "Installation of Arduino IDE, Embedded tools (Programmer/Debugger)",
+          "Circuit connections using Breadboard, Program overview on IDE, Data types, Program lifecycle / Program structure, Memory management."
         ]
       },
       {
@@ -2277,20 +2310,21 @@
     "tagLine": "Master the art of SAP ABAP",
     "description": "Immerse yourself in the captivating universe of SAP ABAP, where you'll decode the complexities of data and algorithms with ease. Whether you're a seasoned professional or just starting your journey in programming, this course will equip you with the skills and knowledge needed to thrive in the dynamic world of enterprise technology",
     "Overview": [
-        "This course is based on Complete ABAP where we have mentioned concepts from very scratch level."
+      "This course is based on Complete ABAP where we have mentioned concepts from very scratch level."
     ],
     "price": 3500,
     "faq": [
       {
         "id": "1",
         "question": "Basics of SAP ABAP - Part 1",
-        "answer": ["Real time system landscape & SAP GUI Overview",
-                   "Write Statement, Variables, Data Type, System Fields, Line-Color",
-                   "Integer vs Numeric vs Packed Data types",
-                   "Condense, concatenate, split Statements",
-                   "STRLEN & TRANSLATE statements",
-                   "FIND, REPLACE, SHIFT, MATCH OFFSET, FIRST OCCURENCE and ALL OCCURENCE"
-                ]
+        "answer": [
+          "Real time system landscape & SAP GUI Overview",
+          "Write Statement, Variables, Data Type, System Fields, Line-Color",
+          "Integer vs Numeric vs Packed Data types",
+          "Condense, concatenate, split Statements",
+          "STRLEN & TRANSLATE statements",
+          "FIND, REPLACE, SHIFT, MATCH OFFSET, FIRST OCCURENCE and ALL OCCURENCE"
+        ]
       },
       {
         "id": "2",
@@ -2337,44 +2371,48 @@
       },
       {
         "id": "4",
-        "question": "Module Pool Programming"
+        "question": "Module Pool Programming",
+        "answer": []
       },
       {
         "id": "5",
         "question": "Modulization techinques",
-        "answer": [
-          "Subroutine",
-          "Include",
-          "InDepth about Function Module"
-        ]
+        "answer": ["Subroutine", "Include", "InDepth about Function Module"]
       },
       {
         "id": "6",
-        "question": "Object Transport Management"
+        "question": "Object Transport Management",
+        "answer": []
       },
       {
         "id": "7",
-        "question": "Application Server and Backround Job"
+        "question": "Application Server and Backround Job",
+        "answer": []
       },
       {
         "id": "8",
-        "question": "DDIC Object Developement "
+        "question": "DDIC Object Developement ",
+        "answer": []
       },
       {
         "id": "9",
-        "question": "ABAP 7.4 and ABAP 7.5 - New open SQL Statements"
+        "question": "ABAP 7.4 and ABAP 7.5 - New open SQL Statements",
+        "answer": []
       },
       {
         "id": "10",
-        "question": "DDIC Object Developement "
+        "question": "DDIC Object Developement",
+        "answer": []
       },
       {
         "id": "11",
-        "question": "Send Email Programmatically"
+        "question": "Send Email Programmatically",
+        "answer": []
       },
       {
         "id": "12",
-        "question": "Interview Question and Discussion"
+        "question": "Interview Question and Discussion",
+        "answer": []
       },
       {
         "id": "13",
@@ -2389,75 +2427,81 @@
     "backgroundImage": "/sapu15.png",
     "title": "SAP UI5 and Fiori",
     "tagLine": "Master the art of SAP UI5 and Fiori",
-    "description": 
-"Immerse yourself in the captivating world of SAP UI5! Decode the intricacies of user interface development with our expert instructors. Enroll now to pave the way for a future fueled by cutting-edge technology!",
+    "description": "Immerse yourself in the captivating world of SAP UI5! Decode the intricacies of user interface development with our expert instructors. Enroll now to pave the way for a future fueled by cutting-edge technology!",
     "overView": [
-        "This course is based on Complete SAP UI5 and Fiori where we have mentioned concepts from very scratch level."
+      "This course is based on Complete SAP UI5 and Fiori where we have mentioned concepts from very scratch level."
     ],
     "price": 4000,
     "faq": [
       {
         "id": "1",
         "question": "Introduction to SAP UI5",
-        "answer": ["HTLML5", "CSS" , "DOM" , "Jvascript", "Jquery"
-                ]
+        "answer": ["HTLML5", "CSS", "DOM", "Jvascript", "Jquery"]
       },
       {
         "id": "2",
         "question": "FRAMEWORK BASICS",
         "answer": [
-            "Eclipse Tool Installation " , 
-            "Creating UI5 applications in Eclipse Libraries in UI5 Framework Structure of UI5 Application",
-            "Creating UI5 screen elements Layouts Types",
-            "Dialog boxes creating custom UI controls"
+          "Eclipse Tool Installation ",
+          "Creating UI5 applications in Eclipse Libraries in UI5 Framework Structure of UI5 Application",
+          "Creating UI5 screen elements Layouts Types",
+          "Dialog boxes creating custom UI controls"
         ]
       },
       {
         "id": "3",
         "question": "VIEWS",
         "answer": [
-            "MVC Architecture",
-            "Development of UI5 Applications in Eclipse with different view Types"
+          "MVC Architecture",
+          "Development of UI5 Applications in Eclipse with different view Types"
         ]
       },
       {
         "id": "4",
         "question": "DATA BINDING",
-        "answer": ["Property Binding " , 
-                   "Element level Binding ", 
-                   "Aggregation Binding",
-                   "One-way and Two-Way Binding Static Binding Dynamic Binding"]
+        "answer": [
+          "Property Binding ",
+          "Element level Binding ",
+          "Aggregation Binding",
+          "One-way and Two-Way Binding Static Binding Dynamic Binding"
+        ]
       },
       {
         "id": "5",
         "question": "Modules",
         "answer": [
-            "JSON Files and JSON Model",
-            "XML Files and XML Model",
-            "Properties Files and Internalization using Resource Models"
+          "JSON Files and JSON Model",
+          "XML Files and XML Model",
+          "Properties Files and Internalization using Resource Models"
         ]
       },
       {
         "id": "6",
         "question": "APP DEVELOPMENT",
-        "answer": ["Developing App",
-                  "Developing Split-App Applications using Master and Detail Pages",
-                  "Routing Component.js Manifest.json"]
+        "answer": [
+          "Developing App",
+          "Developing Split-App Applications using Master and Detail Pages",
+          "Routing Component.js Manifest.json"
+        ]
       },
       {
         "id": "7",
         "question": "INTEGRATION",
-        "answer": ["Introduction to ODATA Model",
-                   "Consuming ODATA Services",
-                   "CRUD Operations from UI5 Front-end Applications using ECLIPSE"]
+        "answer": [
+          "Introduction to ODATA Model",
+          "Consuming ODATA Services",
+          "CRUD Operations from UI5 Front-end Applications using ECLIPSE"
+        ]
       },
       {
         "id": "8",
-        "question": "Indepth about Fiori Concepts"
+        "question": "Indepth about Fiori Concepts",
+        "answer": []
       },
       {
         "id": "12",
-        "question": "Interview Question and Discussion"
+        "question": "Interview Question and Discussion",
+        "answer": []
       },
       {
         "id": "13",
@@ -2473,72 +2517,90 @@
     "title": "SAP ODATA DEVELOPMENT",
     "tagLine": "Master the art of SAP ODATA DEVELOPMENT",
     "description": "Immerse yourself in the captivating realm of OData! Unravel the complexities of data interaction and integration with our expert instructors. Enroll now to pave the way for a future powered by cutting-edge technology!",
-    "overView": [ "This course is based on Complete SAP UI5 and Fiori where we have mentioned concepts from very scratch level."],
+    "overView": [
+      "This course is based on Complete SAP UI5 and Fiori where we have mentioned concepts from very scratch level."
+    ],
     "price": 4000,
     "faq": [
       {
         "id": "1",
-        "question": "Introduction to ODATA technology"
+        "question": "Introduction to ODATA technology",
+        "answer": []
       },
       {
         "id": "2",
-        "question": "Netweaver Gateway Service Builder tool"
+        "question": "Netweaver Gateway Service Builder tool",
+        "answer": []
       },
       {
         "id": "3",
-        "question": "Restful constraints and ODATA Capabilities"
+        "question": "Restful constraints and ODATA Capabilities",
+        "answer": []
       },
       {
         "id": "4",
-        "question": "Defining Data Models, Entity and Entity sets"
+        "question": "Defining Data Models, Entity and Entity sets",
+        "answer": []
       },
       {
         "id": "5",
-        "question": "Generating Runtime Artifacts"
+        "question": "Generating Runtime Artifacts",
+        "answer": []
       },
       {
         "id": "6",
-        "question": "Registering and Maintaining ODATA services"
+        "question": "Registering and Maintaining ODATA services",
+        "answer": []
       },
       {
         "id": "7",
-        "question": "Model provider and Data Provider class usages"
+        "question": "Model provider and Data Provider class usages",
+        "answer": []
       },
       {
         "id": "8",
-        "question": "Mapping Based ODATA Service Implementation"
+        "question": "Mapping Based ODATA Service Implementation",
+        "answer": []
       },
       {
         "id": "9",
-        "question": "Code based service implementation – CRUD Operations"
+        "question": "Code based service implementation – CRUD Operations",
+        "answer": []
       },
       {
         "id": "10",
-        "question": "ODATA Query Options a)$Orderby b)$Filter c)$Top d)$Skip e)$expand f)$value "
+        "question": "ODATA Query Options a)$Orderby b)$Filter c)$Top d)$Skip e)$expand f)$value ",
+        "answer": []
       },
       {
         "id": "11",
-        "question": "Deep Inserts"
+        "question": "Deep Inserts",
+        "answer": []
       },
       {
         "id": "12",
-        "question": "Creating Associations and Navigation Property"
+        "question": "Creating Associations and Navigation Property",
+        "answer": []
       },
       {
         "id": "13",
-        "question": "Navigation between entities"
+        "question": "Navigation between entities",
+        "answer": []
       },
       {
         "id": "14",
-        "question": "File Upload & Download"
+        "question": "File Upload & Download",
+        "answer": []
       },
       {
         "id": "15",
-        "question": "Media resources (Image upload & download)"
+        "question": "Media resources (Image upload & download)",
+        "answer": []
       },
       {
         "id": "16",
-        "question": "Interview Question and Discussion"
+        "question": "Interview Question and Discussion",
+        "answer": []
       },
       {
         "id": "17",

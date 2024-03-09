@@ -117,7 +117,7 @@ const CourseContent = () => {
         <AccordionTrigger className="text-xl text-left font-sans focus:outline-none">
           {faqItem.id}.{faqItem.question}
         </AccordionTrigger>
-        {faqItem.answer.length > 0 ? (
+        {faqItem.answer.length ? (
           <AccordionContent className="text-[16px] font-sans pt-4">
             {faqItem.answer.length <= 26 ? (
               <ol className="custom-ordered-list">
