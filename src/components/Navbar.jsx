@@ -42,23 +42,13 @@ function NavBar() {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <div className="flex gap-3 justify-center items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                </svg>
+              <Image src="/logo.jpg" width={50} height={50} alt="logo" />
 
                 <Link href="/">
                   <h2 className="text-2xl text-[#7c51f0] font-bold ">
                     SkillUpgrade
                   </h2>
+                  <p>Invest in yourself</p>
                 </Link>
               </div>
 

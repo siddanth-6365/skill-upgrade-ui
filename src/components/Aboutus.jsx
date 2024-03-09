@@ -37,17 +37,15 @@ const Aboutus = () => {
             <h2 className="text-3xl  text-left font-bold tracking-tight text-gray-900 sm:text-4xl">
               About Us
             </h2>
-            <p className="mt-4 text-left text-md md:text-xl leading-6 md:leading-8 text-gray-600">
-              “Hello Everyone” Welcome to the world of learning. You are in the
-              right place to learn new skills and to always stay ahead of the
-              curve. We welcome you to “SKILLUPGRADE”, your destination to
-              lifelong learning and professional development. We SKILLUPGRADE
-              believe that each one of you has the potential to learn new skills
-              and grow at new heights. SKILLUPGRADE academy provides a better
-              platform designed to accommodate all levels of learners. Our
-              user-friendly interface ensures that navigating through our
-              extensive library of courses is effortless, allowing all of you to
-              focus on what matters the most.
+            <p className="mt-4 text-left text-md md:text-2xl leading-6 md:leading-8 text-gray-600">
+              <b>SkillUpgrade</b> : Invest in yourself. <br />
+              In the era of developing world, <b>SkillUpgrade</b> stands out as
+              the key to unlock your potential and make you stand out from the
+              rat race of the world. That's why we bring you a dynamic learning
+              ecosystem to empower lifelong learners like you. Our interactive
+              learning system supports enthusiastic learners with a seamless
+              experience with accessible courses. Join us now and kickstart your
+              educational journey!
             </p>
           </div>
         </div>

@@ -59,26 +59,22 @@ const Form = () => {
           variants={formVariant}
           style={{ visibility: inView ? "visible" : "hidden" }}
         >
-          <section className="">
+          <section className="" style={{ fontFamily: "Cambria, Georgia, serif" }}>
             <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-              <h2 className="mb-4 text-5xl tracking-tight font-extrabold text-center text-[#7c51f0]  ">
+              <h2 className="mb-4 text-5xl tracking-tight font-extrabold text-center text-gray-700  ">
                 Contact Us
               </h2>
               <p className="mb-4 lg:mb-16 font-light text-center text-gray-800   sm:text-xl">
-                Got a question or proposal, or just want to say hello? Go ahead.
+                Got a question or just want to say hello? Go ahead.
               </p>
               <div className="mb-6 text-xl text-gray-800 font-semibold">
-            <p>Email: <span className="text-[#7c51f0]">contact@skillupgrade.com</span></p>
-            <p>Phone No: <span className="text-[#7c51f0]">99009900099</span></p>
-            <p>
-              Operating hours:
-              <br />
-              Monday – Friday: 8.30 am to 8.30 pm <br />
-              Saturday: 10 am to 7 pm <br />
-              Sunday: Closed
+            <p className="text-gray-500">Email: <span className="text-gray-900 ">contact@skillupgrade.com</span></p>
+            <p className="text-gray-500">Phone No: <span className="text-gray-900 ">+91 82173 90082 , +91 86189 74304</span></p>
+            <p className="text-gray-500">
+              Operating hours:  <span className="text-gray-900 ">All days - 9am to 9pm.</span>
             </p>
           </div>
-          <p className="text-lg text-gray-800">
+          <p className="text-lg text-gray-500">
             For further information, feel free to contact us via email or phone. We are always
             available to assist you. Stay updated by joining our Telegram channel, WhatsApp
             group, and following us on Instagram and Facebook for the latest updates and

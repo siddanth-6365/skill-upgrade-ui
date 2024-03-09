@@ -105,41 +105,44 @@ const CourseContent = () => {
           </p>
         </div>
         <div>
-          <Accordion type="single" collapsible className=" bg-gray-200 p-4">
-            {data &&
-              data.faq &&
-              data.faq.map((faqItem) => (
-                <AccordionItem
-                  className="w-[300px] md:w-[600px]"
-                  value={faqItem.id}
-                  key={faqItem.id}
-                >
-                  <AccordionTrigger className="text-xl text-left font-sans focus:outline-none">
-                    {faqItem.id}.{faqItem.question}
-                  </AccordionTrigger>
-                  <AccordionContent className="text-[16px] font-sans pt-4">
-                    {faqItem.answer &&
-                      (faqItem.answer.length <= 26 ? (
-                        <ol className="custom-ordered-list">
-                          {faqItem.answer.map((item, index) => (
-                            <li key={index}>
-                              {String.fromCharCode(97 + index)}. {item}
-                            </li>
-                          ))}
-                        </ol>
-                      ) : (
-                        <ol className="custom-ordered-list">
-                          {faqItem.answer.map((item, index) => (
-                            <li key={index}>
-                              {index + 1}. {item}
-                            </li>
-                          ))}
-                        </ol>
-                      ))}
-                  </AccordionContent>
-                </AccordionItem>
-              ))}
-          </Accordion>
+        <Accordion type="single" collapsible className="bg-gray-200 p-4">
+  {data &&
+    data.faq &&
+    data.faq.map((faqItem) => (
+      <AccordionItem
+        className="w-[300px] md:w-[600px]"
+        value={faqItem.id}
+        key={faqItem.id}
+      >
+        <AccordionTrigger className="text-xl text-left font-sans focus:outline-none">
+          {faqItem.id}.{faqItem.question}
+        </AccordionTrigger>
+        {faqItem.answer.length > 0 ? (
+          <AccordionContent className="text-[16px] font-sans pt-4">
+            {faqItem.answer.length <= 26 ? (
+              <ol className="custom-ordered-list">
+                {faqItem.answer.map((item, index) => (
+                  <li key={index}>
+                    {String.fromCharCode(97 + index)}. {item}
+                  </li>
+                ))}
+              </ol>
+            ) : (
+              <ol className="custom-ordered-list">
+                {faqItem.answer.map((item, index) => (
+                  <li key={index}>
+                    {index + 1}. {item}
+                  </li>
+                ))}
+              </ol>
+            )}
+          </AccordionContent>
+        ): (<div></div>)}
+      </AccordionItem>
+    ))}
+</Accordion>
+
+    
         </div>
       </div>
 
