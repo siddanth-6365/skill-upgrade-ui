@@ -63,6 +63,7 @@ const Aboutus = () => {
             controls
             loop
             autoPlay
+            muted
           ></video>
         </motion.div>
       </div>
