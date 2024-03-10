@@ -60,11 +60,15 @@ const CourseContent = () => {
           <div className="bg-white rounded-lg px-8 py-12 shadow-md md:w-1/2 mt-4 md:mt-0 z-[1]">
             <h2 className="text-2xl font-semibold mb-4">Key Features</h2>
             <ul className="list-disc space-y-2">
-              <li>Live classes with industry professionals</li>
+              <li>Daily live classes with industry professionals</li>
               <li>Project support and Guidance</li>
               <li>Access to Specialized Course Materials</li>
               <li>25+ Hours of Learning</li>
               <li> Certificates from reputable MNC's around the world</li>
+              <li>
+                A high-quality physical certificate in your hands- the symbol of
+                your dedication
+              </li>
             </ul>
           </div>
         </div>
@@ -105,44 +109,44 @@ const CourseContent = () => {
           </p>
         </div>
         <div>
-        <Accordion type="single" collapsible className="bg-gray-200 p-4">
-  {data &&
-    data.faq &&
-    data.faq.map((faqItem) => (
-      <AccordionItem
-        className="w-[350px] md:w-[1000px]"
-        value={faqItem.id}
-        key={faqItem.id}
-      >
-        <AccordionTrigger className="text-xl text-left font-sans focus:outline-none">
-          {faqItem.id}.{faqItem.question}
-        </AccordionTrigger>
-        {faqItem.answer.length ? (
-          <AccordionContent className="text-[16px] font-sans pt-4">
-            {faqItem.answer.length <= 26 ? (
-              <ol className="custom-ordered-list">
-                {faqItem.answer.map((item, index) => (
-                  <li key={index}>
-                    {String.fromCharCode(97 + index)}. {item}
-                  </li>
-                ))}
-              </ol>
-            ) : (
-              <ol className="custom-ordered-list">
-                {faqItem.answer.map((item, index) => (
-                  <li key={index}>
-                    {index + 1}. {item}
-                  </li>
-                ))}
-              </ol>
-            )}
-          </AccordionContent>
-        ): (<div></div>)}
-      </AccordionItem>
-    ))}
-</Accordion>
-
-    
+          <Accordion type="single" collapsible className="bg-gray-200 p-4">
+            {data &&
+              data.faq &&
+              data.faq.map((faqItem) => (
+                <AccordionItem
+                  className="w-[350px] lg:w-[600px] md:w-[1000px]"
+                  value={faqItem.id}
+                  key={faqItem.id}
+                >
+                  <AccordionTrigger className="text-xl text-left font-sans focus:outline-none">
+                    {faqItem.id}.{faqItem.question}
+                  </AccordionTrigger>
+                  {faqItem.answer.length ? (
+                    <AccordionContent className="text-[16px] font-sans pt-4">
+                      {faqItem.answer.length <= 26 ? (
+                        <ol className="custom-ordered-list">
+                          {faqItem.answer.map((item, index) => (
+                            <li key={index}>
+                              {String.fromCharCode(97 + index)}. {item}
+                            </li>
+                          ))}
+                        </ol>
+                      ) : (
+                        <ol className="custom-ordered-list">
+                          {faqItem.answer.map((item, index) => (
+                            <li key={index}>
+                              {index + 1}. {item}
+                            </li>
+                          ))}
+                        </ol>
+                      )}
+                    </AccordionContent>
+                  ) : (
+                    <div></div>
+                  )}
+                </AccordionItem>
+              ))}
+          </Accordion>
         </div>
       </div>
 

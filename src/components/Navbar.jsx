@@ -45,7 +45,7 @@ function NavBar() {
                 <div className="flex gap-3 justify-center items-center">
                   <Image src="/logo.jpg" width={50} height={50} alt="logo" />
                   <div className="flex flex-col">
-                    <h2 className="md:text-2xl text-xl text-[#7c51f0] font-bold ">
+                    <h2 className="md:text-xl text-lg text-[#7c51f0] font-bold ">
                       SkillUpgrade
                     </h2>
                     <p>Invest in yourself</p>
@@ -64,7 +64,7 @@ function NavBar() {
                     <Image
                       src="/hamburger-menu.svg"
                       width={30}
-                      height={30}
+                      height={25}
                       alt="logo"
                       className="focus:border-none active:border-none"
                     />
