@@ -69,9 +69,9 @@ const Form = () => {
               </p>
               <div className="mb-6 text-xl text-gray-800 font-semibold">
             <p className="text-gray-500">Email: <span className="text-gray-900 ">contact@skillupgrade.com</span></p>
-            <p className="text-gray-500">Phone No: <span className="text-gray-900 ">+91 82173 90082 , +91 86189 74304</span></p>
+            <p className="text-gray-500">Phone No: <span className="text-gray-900 font-sans ">+91 82173 90082 , +91 86189 74304</span></p>
             <p className="text-gray-500">
-              Operating hours:  <span className="text-gray-900 ">All days - 9am to 9pm.</span>
+              Operating hours:  <span className="text-gray-900 font-sans">All days - 9am to 9pm.</span>
             </p>
           </div>
           <p className="text-lg text-gray-500">

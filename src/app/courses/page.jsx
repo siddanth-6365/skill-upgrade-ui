@@ -47,7 +47,7 @@ const CourseContent = () => {
             </p>
 
             <div className="mt-8 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
-              <h1 className="leading-relaxed font-serif md:text-xl">
+              <h1 className="leading-relaxed font-sans md:text-xl">
                 ₹{data.price}
               </h1>
               <Link href="https://chat.whatsapp.com/LGKwNURO8FUCGD9qJCf2iE">
@@ -60,7 +60,7 @@ const CourseContent = () => {
           <div className="bg-white rounded-lg px-8 py-12 shadow-md md:w-1/2 mt-4 md:mt-0 z-[1]">
             <h2 className="text-2xl font-semibold mb-4">Key Features</h2>
             <ul className="list-disc space-y-2">
-              <li>Live conversations with industry professionals</li>
+              <li>Live classes with industry professionals</li>
               <li>Project support and Guidance</li>
               <li>Access to Specialized Course Materials</li>
               <li>25+ Hours of Learning</li>
@@ -110,7 +110,7 @@ const CourseContent = () => {
     data.faq &&
     data.faq.map((faqItem) => (
       <AccordionItem
-        className="w-[300px] md:w-[600px]"
+        className="w-[350px] md:w-[1000px]"
         value={faqItem.id}
         key={faqItem.id}
       >

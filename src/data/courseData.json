@@ -491,7 +491,7 @@
         "id": "5",
         "question": "Flutter",
         "answer": [
-          "Introduction to flutter, Setup – android, iOS, pc, App overview, 4 step design process, Import statements & scaffold, Parameter clarification"
+          "Introduction to flutter"," Setup – android, iOS, pc, App overview"," 4 step design process"," Import statements & scaffold"," Parameter clarification"
         ]
       },
       {
@@ -499,28 +499,28 @@
         "question": "Flutter & Flutter Apps",
         "answer": [
           "Widgets (stateless vs stateful) Local import & refactoring stateless & stateful",
-          "Triggering validation & retrieving form values, Code reuse with mixins & mixins validator implementation, Grid & horizontal list, Long list & alert & toast."
+          "Triggering validation & retrieving form values"," Code reuse with mixins & mixins validator implementation"," Grid & horizontal list"," Long list & alert & toast."
         ]
       },
       {
         "id": "7",
         "question": "Forms using Flutter",
         "answer": [
-          "Boilerplate app code, create login screen & STYLE CONTAINERS, Keyboard type customizing & labels & hint text, Handling password prints, Layout control, Form validation & widget & form state"
+          "Boilerplate app code"," create login screen & STYLE CONTAINERS"," Keyboard type customizing & labels & hint text"," Handling password prints", "Layout control, Form validation & widget & form state"
         ]
       },
       {
         "id": "8",
         "question": "Understanding themes",
         "answer": [
-          "Intro to UI & UX, Theme in flutter, data class-app brightness, over writing theme properties, Refactoring text theme & adding custom fonts, Applying font family to all text theme, Material. Oi overview, Color theme, typography & iconography."
+          "Intro to UI & UX"," Theme in flutter"," data class-app brightness"," over writing theme properties"," Refactoring text theme & adding custom fonts"," Applying font family to all text theme", "Material. Oi overview, Color theme, typography & iconography."
         ]
       },
       {
         "id": "9",
         "question": "Navigation",
         "answer": [
-          "Navigation to new routes, Navigation to named routes, Send data from one screen to another."
+          "Navigation to new routes","Navigation to named routes"," Send data from one screen to another."
         ]
       },
       {
@@ -1022,7 +1022,7 @@
 
   {
     "id": 11,
-    "title": "Basics of mechanical engineering, Mechanical design and development",
+    "title": "Mechanical engineering, Mechanical design and development",
     "backgroundImage": "/background_ME.webp",
     "tagLine": "Master the art of Mechanical design and development ",
     "description": "This course introduces the fundamental principles of mechanical engineering, with a centre of attention on mechanical design and development. Students will acquire a comprehensive understanding of the core concepts of mechanical engineering, theories, and methodologies essential for designing and developing mechanical systems and components. Through a combination of theoretical lectures, practical exercises, and hands-on projects, participants will learn how to apply engineering principles to solve real-world problems in the field of mechanical design.",
@@ -1141,7 +1141,7 @@
 
   {
     "id": 12,
-    "title": "Basic CAD modeling using CATIA, SOLIDWORKS",
+    "title": "CAD modeling using CATIA, SOLIDWORKS",
     "backgroundImage": "/background_12.jpeg",
     "tagLine": "Master the art of CAD ",
     "description": "This course provides an introduction to Computer-Aided Design (CAD) using CATIA and SOLIDWORKS software. Participants will learn fundamental principles and techniques for creating 3D models, assemblies, and drawings using these industry-standard CAD tools. Through hands-on exercises and practical examples, students will gain proficiency in creating geometric shapes, applying constraints, and generating engineering drawings. This two CAD software’s are widely used in industries. No prior experience in CAD is required, although familiarity with basic engineering concepts and computer usage is beneficial. ",
@@ -1423,7 +1423,7 @@
 
   {
     "id": "13",
-    "title": "Basic CAD modeling using UG NX, PTC Creo",
+    "title": "CAD modeling using UG NX, PTC Creo",
     "backgroundImage": "/background_13.jpeg",
     "tagLine": "Master the art of CAD modeling ",
     "description": "This course is designed to introduce participants to the fundamental concepts and techniques of Computer-Aided Design (CAD) using two industry-leading software’s: UG NX and PTC Creo. Through hands-on exercises and practical examples, participants will learn the essential skills required to create 3D models, assemblies, and drawings using both software platforms. By the end of this course, participants will have gained a solid foundation in CAD modeling using UG NX and PTC Creo, enabling them to create and manipulate 3D models efficiently for various engineering applications.",
@@ -1695,7 +1695,7 @@
   {
     "id": "15",
     "backgroundImage": "/background_15.jpeg",
-    "title": "SKILLPLUS [ Basic mechanical design + CAD modeling using CATIA, SOLIDWORKS and Solidedge ]",
+    "title": "SKILLPLUS [ Mechanical design + CAD modeling using CATIA, SOLIDWORKS and Solidedge ]",
     "tagLine": "Master the art of CAD modeling ",
     "description": "Explore the world of mechanical design. This course in the combination of two different courses. This course enables to students to learn all three things at once and gain a In-depth knowledge about Mechanical design, CAD modelling software’s. This course aims to equip learners with the necessary expertise to create 3D models, assemblies, and engineering drawings for various mechanical components and systems.",
     "overView": [

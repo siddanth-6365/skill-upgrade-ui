@@ -25,8 +25,8 @@ function HeroParallaxDemo() {
       <Footer />
       <div className="fixed bottom-10 right-10 bg-green-500 rounded-2xl">
         <Link href={whatsappLink}>
-          <button className="p-3 text-gray-700">
-            <RiWhatsappLine className="w-8 h-8 text-white" />{" "}
+          <button className="p-3 flex justify-center items-center gap-2 text-gray-100">
+            <RiWhatsappLine className="w-8 h-8 text-white" />{" "} Join US
           </button>
         </Link>
       </div>

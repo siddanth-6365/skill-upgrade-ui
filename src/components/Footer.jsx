@@ -1,6 +1,7 @@
 'use client'
 import Link from "next/link";
 import React from "react";
+import Image from "next/image"
 
 const Links = [
     {
@@ -32,23 +33,15 @@ const Footer = () => {
       <footer className="text-gray-600 body-font bg-gray-100">
         <div className="bg-gray-200">
           <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
-            <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-              </svg>
-              <span className="ml-3 text-xl">SkillUpgrade</span>
-            </a>
+            <Link href="/" className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+         
+                
+                  <Image src="/logo.jpg" width={50} height={50} alt="logo" />
+            
+             
+            </Link>
             <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
-              © 2024 SkillUpgrade —
+              © 2024 SkillUpgrade 
               <a
                 href="#"
                 rel="noopener noreferrer"
