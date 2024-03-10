@@ -24,7 +24,6 @@ export const Card = ({ card, key }) => {
         transition={{ duration: 0.5, ease: "easeOut" }}
         className={`max-w-sm mx-auto flex flex-col justify-between overflow-hidden rounded-xl shadow-xl p-4 bg-gray-200  `}
         key={key}
-       
       >
         <div>
           <Link href={`/courses?id=${card.id}`}>
@@ -47,11 +46,12 @@ export const Card = ({ card, key }) => {
             </button>
           </Link>
           <div className="text-right">
-            
             <h6 className="text-gray-700 text-xl font-sans">
-          {`₹${card.price} `}
-          <span className="line-through text-gray-500">{card.price *2}</span>
-        </h6>
+              {`₹${card.price} `} <br />
+              <span className="line-through text-lg text-gray-500">
+                {card.price * 2}
+              </span>
+            </h6>
           </div>
         </div>
       </motion.div>

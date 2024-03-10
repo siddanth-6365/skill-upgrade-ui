@@ -114,7 +114,7 @@ const CourseContent = () => {
               data.faq &&
               data.faq.map((faqItem) => (
                 <AccordionItem
-                  className="w-[350px] lg:w-[600px] md:w-[1000px]"
+                  className="w-[350px]  md:w-[1000px]"
                   value={faqItem.id}
                   key={faqItem.id}
                 >
