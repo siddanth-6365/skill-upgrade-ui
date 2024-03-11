@@ -84,6 +84,7 @@ function NavBar() {
                   <a
                     key={link.id}
                     href={link.path}
+                    onClick={() => setNavbar(false)} 
                   >
                     <li
                       className={`pb-3 text-[16px] font-semibold py-2 md:px-6  items-center text-center border-b-2 md:border-b-0  hover:bg-[#7c51f0] hover:text-white border-purple-900 rounded-full  md:hover:text-white  md:hover:bg-[#7c51f0] ${
