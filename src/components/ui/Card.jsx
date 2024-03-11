@@ -40,7 +40,7 @@ export const Card = ({ card, key }) => {
           <p className="text-gray-700 text-base">{truncatedDescription}</p>
         </div>
         <div className="flex justify-between items-center mt-4">
-          <Link href={`/courses?id=${card.id}`}>
+          <Link href={`/courses/${card.id}`}>
             <button className="bg-[#7c51f0] hover:bg-[#6c46d5] text-white font-bold py-2 px-4 rounded">
               Read More
             </button>

@@ -14,31 +14,37 @@ function ServiceItem({ title, description, icon, color }) {
     setIsHovered(false);
   };
   return (
-    <div className="flex flex-col items-center mb-4 md:mb-0">
-      <div
-        className={` w-32 p-8 flex justify-center items-center rounded-full mb-2 md:mb-4`}
-        style={{ border: `2px dotted ${color}` }}
-      >
-        <div
-          className={`w-16 h-16 rounded-full flex items-center justify-center shadow-lg transition-colors duration-300 ${
-            isHovered ? "bg-gray-200" : `bg-${color}`
-          }`}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-          style={{ borderRadius: "50%" }}
-        >
-          <motion.div whileHover={{ scale: 2 }} whileTap={{ scale: 1 }}>
-            {icon}
-          </motion.div>
-        </div>
-      </div>
-      <h3 className="text-base md:text-lg text-center font-medium text-gray-800 mb-1">
-        {title}
-      </h3>
-      <p className="text-sm md:text-base text-gray-600 text-center">
-        {description}
-      </p>
+<div className="flex flex-col items-center mb-4 md:mb-0 relative">
+  <div
+    className={`w-32 p-8 flex justify-center items-center rounded-full mb-2 md:mb-4 relative`}
+    style={{ zIndex: 1 }}
+  >
+    <div
+      className={`w-16 h-16 rounded-full flex items-center justify-center shadow-lg transition-colors duration-300 ${
+        isHovered ? "bg-gray-200" : `bg-${color}`
+      }`}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      style={{ borderRadius: "50%" }}
+    >
+      <motion.div whileHover={{ scale: 2 }} whileTap={{ scale: 1 }}>
+        {icon}
+      </motion.div>
     </div>
+  </div>
+  <div
+    className={`w-36 h-36 absolute border-2 border-dotted border-transparent rounded-full animate-rotateCircle`}
+    style={{ borderColor: color }}
+  ></div>
+  <h3 className="text-base md:text-lg text-center font-medium text-gray-800 mb-1">
+    {title}
+  </h3>
+  <p className="text-sm md:text-base text-gray-600 text-center">
+    {description}
+  </p>
+</div>
+
+  
   );
 }
 
@@ -117,7 +123,7 @@ function Services() {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            fill-rule="evenodd"
+            fillRule="evenodd"
             d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"
           ></path>
         </svg>
@@ -177,7 +183,7 @@ function Services() {
         >
           <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"></path>
           <path
-            fill-rule="evenodd"
+            fillRule="evenodd"
             d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"
           ></path>
           <path d="M4 16h16V5H4v11zm9 2v2h4v2H7v-2h4v-2H2.992A.998.998 0 0 1 2 16.993V4.007C2 3.451 2.455 3 2.992 3h18.016c.548 0 .992.449.992 1.007v12.986c0 .556-.455 1.007-.992 1.007H13z"></path>
@@ -236,7 +242,7 @@ function Services() {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            fill-rule="evenodd"
+            fillRule="evenodd"
             d="M6 1h6v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8V1z"
           ></path>
           <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"></path>

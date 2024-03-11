@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState, Suspense } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import {
   Accordion,
@@ -11,11 +10,11 @@ import {
 } from "@/components/ui/accordion";
 import courseData from "@/data/courseData.json";
 
-const Page = () => {
+const Page = ({ params }) => {
   return (
     <>
-      <Suspense>
-        <CourseContent />
+      <Suspense fallback={<div>loading ...</div>}>
+        <CourseContent courseId={params.courseId[0]} />
       </Suspense>
     </>
   );
@@ -23,10 +22,8 @@ const Page = () => {
 
 export default Page;
 
-const CourseContent = () => {
+const CourseContent = ({ courseId }) => {
   const [data, setData] = useState({});
-  const searchParams = useSearchParams();
-  const courseId = searchParams.get("id");
 
   useEffect(() => {
     const course = courseData.find((course) => course.id == courseId);

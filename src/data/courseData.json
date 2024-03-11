@@ -491,7 +491,11 @@
         "id": "5",
         "question": "Flutter",
         "answer": [
-          "Introduction to flutter"," Setup – android, iOS, pc, App overview"," 4 step design process"," Import statements & scaffold"," Parameter clarification"
+          "Introduction to flutter",
+          " Setup – android, iOS, pc, App overview",
+          " 4 step design process",
+          " Import statements & scaffold",
+          " Parameter clarification"
         ]
       },
       {
@@ -499,28 +503,43 @@
         "question": "Flutter & Flutter Apps",
         "answer": [
           "Widgets (stateless vs stateful) Local import & refactoring stateless & stateful",
-          "Triggering validation & retrieving form values"," Code reuse with mixins & mixins validator implementation"," Grid & horizontal list"," Long list & alert & toast."
+          "Triggering validation & retrieving form values",
+          " Code reuse with mixins & mixins validator implementation",
+          " Grid & horizontal list",
+          " Long list & alert & toast."
         ]
       },
       {
         "id": "7",
         "question": "Forms using Flutter",
         "answer": [
-          "Boilerplate app code"," create login screen & STYLE CONTAINERS"," Keyboard type customizing & labels & hint text"," Handling password prints", "Layout control, Form validation & widget & form state"
+          "Boilerplate app code",
+          " create login screen & STYLE CONTAINERS",
+          " Keyboard type customizing & labels & hint text",
+          " Handling password prints",
+          "Layout control, Form validation & widget & form state"
         ]
       },
       {
         "id": "8",
         "question": "Understanding themes",
         "answer": [
-          "Intro to UI & UX"," Theme in flutter"," data class-app brightness"," over writing theme properties"," Refactoring text theme & adding custom fonts"," Applying font family to all text theme", "Material. Oi overview, Color theme, typography & iconography."
+          "Intro to UI & UX",
+          " Theme in flutter",
+          " data class-app brightness",
+          " over writing theme properties",
+          " Refactoring text theme & adding custom fonts",
+          " Applying font family to all text theme",
+          "Material. Oi overview, Color theme, typography & iconography."
         ]
       },
       {
         "id": "9",
         "question": "Navigation",
         "answer": [
-          "Navigation to new routes","Navigation to named routes"," Send data from one screen to another."
+          "Navigation to new routes",
+          "Navigation to named routes",
+          " Send data from one screen to another."
         ]
       },
       {
