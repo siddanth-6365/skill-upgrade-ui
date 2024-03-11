@@ -6,7 +6,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "SkillUpgrade",
-  description: "upgrade your skills with us",
+  description: "Upgrade your skills with us",
+  icons: {
+    icon: '/logo.jpg',
+  },
 };
 
 export default function RootLayout({ children }) {
