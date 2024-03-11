@@ -133,5 +133,5 @@ body {
 }
 
 .animate-rotateCircle {
-  animation: rotateCircle 2s linear infinite;
+  animation: rotateCircle 1s linear infinite;
 }

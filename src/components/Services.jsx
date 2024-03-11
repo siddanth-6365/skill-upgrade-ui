@@ -36,7 +36,7 @@ function ServiceItem({ title, description, icon, color }) {
     className={`w-36 h-36 absolute border-2 border-dotted border-transparent rounded-full animate-rotateCircle`}
     style={{ borderColor: color }}
   ></div>
-  <h3 className="text-base md:text-lg text-center font-medium text-gray-800 mb-1">
+  <h3 className="text-base md:mt-2 mt-4 md:text-lg text-center font-medium text-gray-800 mb-1">
     {title}
   </h3>
   <p className="text-sm md:text-base text-gray-600 text-center">
