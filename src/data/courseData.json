@@ -816,7 +816,7 @@
     "faq": [
       {
         "id": "1",
-        "question": "1. Introduction to VLSI Systems",
+        "question": "Introduction to VLSI Systems",
         "answer": [
           "What is VLSI",
           "Historical Background",
@@ -829,7 +829,7 @@
       },
       {
         "id": "2",
-        "question": "2. MOS Transistor theory",
+        "question": "MOS Transistor theory",
         "answer": [
           "MOS Transistor Structure",
           "MOS Transistor Operation",
@@ -841,12 +841,12 @@
       },
       {
         "id": "3",
-        "question": "3. CMOS logic, fabrication and layout",
+        "question": "CMOS logic, fabrication and layout",
         "answer": ["CMOS Logic", "CMOS Fabrication", "CMOS Layout"]
       },
       {
         "id": "4",
-        "question": "4. Circuit Simulation & Memory system design",
+        "question": "Circuit Simulation & Memory system design",
         "answer": [
           "Purpose of Circuit Simulation",
           "Components of Circuit Simulation",
@@ -867,7 +867,7 @@
       },
       {
         "id": "5",
-        "question": "5. Circuit characterization and performance estimation",
+        "question": "Circuit characterization and performance estimation",
         "answer": [
           "Circuit Characterization",
           "Performance Estimation",
@@ -876,12 +876,12 @@
       },
       {
         "id": "6",
-        "question": "6. Combinational and sequential circuit design",
+        "question": "Combinational and sequential circuit design",
         "answer": ["Combinational Circuit Design", "Sequential Circuit Design"]
       },
       {
         "id": "7",
-        "question": "7. Design methodology and tools",
+        "question": "Design methodology and tools",
         "answer": [
           "Design Methodology (Design Thinking, Agile Development, Waterfall Model)",
           "Design Tools (Computer-Aided Design (CAD) Software, Electronic Design Automation (EDA) Tools, Simulation and Modeling Software)"
@@ -889,7 +889,7 @@
       },
       {
         "id": "8",
-        "question": "8. MINOR & MAJOR PROJECT",
+        "question": "MINOR & MAJOR PROJECT",
         "answer": ["Minor Project", "Major Project", "Project Overview"]
       }
     ]
@@ -1034,7 +1034,7 @@
       "To encourage the students by teamwork, collaboration, and effective communication skills through group projects and presentations.",
       "To prepare students for further studies or careers in mechanical engineering and related fields."
     ],
-    "price": 599,
+    "price": 999,
     "faq": [
       {
         "id": "1",
@@ -1155,7 +1155,7 @@
       "Develop proficiency in navigating the software environment and customizing settings.",
       "Gain practical skills applicable to mechanical design and product development projects."
     ],
-    "price": 2500,
+    "price": 1499,
     "faq": [
       {
         "id": 1,
@@ -1434,7 +1434,7 @@
       "Explore assembly modeling concepts, including component relationships and constraints.",
       "Provide an overview of drawing creation and annotation tools for documenting designs."
     ],
-    "price": 2500,
+    "price": 1499,
     "faq": [
       {
         "id": 1,
@@ -1562,7 +1562,7 @@
       "Study the relationship between GD&T, manufacturing processes, and inspection techniques.",
       "Reveal proficiency in using GD&T to communicate design requirements accurately."
     ],
-    "price": 699,
+    "price": 999,
     "faq": [
       {
         "id": 1,
