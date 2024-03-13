@@ -31,19 +31,19 @@ const CourseContent = ({ courseId }) => {
   }, [courseData, courseId]);
   return (
     <>
-      <div className="bg-cover bg-center h-screen min-h-screen relative">
+      <div className="bg-cover bg-center md:h-screen min-h-screen relative">
         <Image src={data.backgroundImage} alt="Landing page background" fill />
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="flex flex-col md:flex-row justify-center items-center h-full px-6 py-16 md:px-20 md:py-40">
-          <div className="text-white text-center md:text-left z-[1] ">
-            <h1 className="mt-4 text-xl font-bold md:text-5xl font-serif leading-tight">
+          <div className="text-white mt-4 text-center md:text-left z-[1] ">
+            <h1 className="mt-6 text-xl font-bold md:text-5xl font-serif leading-tight">
               {data.title} Traineeship Program
             </h1>
-            <p className="mt-6 leading-relaxed font-serif md:text-xl">
+            <p className="mt-2 leading-relaxed font-serif md:text-xl">
               {data.tagLine}
             </p>
 
-            <div className="mt-8 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
+            <div className="mt-2 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
               <h1 className="leading-relaxed font-sans md:text-xl">
                 ₹{data.price}
               </h1>
@@ -54,8 +54,8 @@ const CourseContent = ({ courseId }) => {
               </a>
             </div>
           </div>
-          <div className="bg-white rounded-lg px-8 py-12 shadow-md md:w-1/2 mt-4 md:mt-0 z-[1]">
-            <h2 className="text-2xl font-semibold mb-4">Key Features</h2>
+          <div className="bg-white rounded-lg px-8 py-8 shadow-md md:w-1/2 mt-4 md:mt-0 z-[1]">
+            <h2 className="text-2xl md:text-xl font-semibold mb-4">Key Features</h2>
             <ul className="list-disc space-y-2">
               <li>Daily live classes with industry professionals</li>
               <li>Project support and Guidance</li>
