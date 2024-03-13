@@ -26,7 +26,7 @@ export const Card = ({ card, key }) => {
         key={key}
       >
         <div>
-          <Link href={`/courses?id=${card.id}`}>
+          <Link href={`/courses/${card.id}`}>
             <img
               ref={containerRef}
               className="object-cover object-center w-full h-64 rounded-lg"

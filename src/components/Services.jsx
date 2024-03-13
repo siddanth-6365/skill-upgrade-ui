@@ -14,37 +14,35 @@ function ServiceItem({ title, description, icon, color }) {
     setIsHovered(false);
   };
   return (
-<div className="flex flex-col items-center mb-4 md:mb-0 relative">
-  <div
-    className={`w-32 p-8 flex justify-center items-center rounded-full mb-2 md:mb-4 relative`}
-    style={{ zIndex: 1 }}
-  >
-    <div
-      className={`w-16 h-16 rounded-full flex items-center justify-center shadow-lg transition-colors duration-300 ${
-        isHovered ? "bg-gray-200" : `bg-${color}`
-      }`}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      style={{ borderRadius: "50%" }}
-    >
-      <motion.div whileHover={{ scale: 2 }} whileTap={{ scale: 1 }}>
-        {icon}
-      </motion.div>
+    <div className="flex flex-col items-center mb-4 md:mb-0 relative">
+      <div
+        className={`w-32 p-8 flex justify-center items-center rounded-full mb-2 md:mb-4 relative`}
+        style={{ zIndex: 1 }}
+      >
+        <div
+          className={`w-16 h-16 rounded-full flex items-center justify-center shadow-lg transition-colors duration-300 ${
+            isHovered ? "bg-gray-200" : `bg-${color}`
+          }`}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+          style={{ borderRadius: "50%" }}
+        >
+          <motion.div whileHover={{ scale: 2 }} whileTap={{ scale: 1 }}>
+            {icon}
+          </motion.div>
+        </div>
+      </div>
+      <div
+        className={`w-36 h-36 absolute border-2 border-dotted border-transparent rounded-full animate-rotateCircle`}
+        style={{ borderColor: color }}
+      ></div>
+      <h3 className="text-base md:mt-2 mt-4 md:text-lg text-center font-medium text-gray-800 mb-1">
+        {title}
+      </h3>
+      <p className="text-sm md:text-base text-gray-600 text-center">
+        {description}
+      </p>
     </div>
-  </div>
-  <div
-    className={`w-36 h-36 absolute border-2 border-dotted border-transparent rounded-full animate-rotateCircle`}
-    style={{ borderColor: color }}
-  ></div>
-  <h3 className="text-base md:mt-2 mt-4 md:text-lg text-center font-medium text-gray-800 mb-1">
-    {title}
-  </h3>
-  <p className="text-sm md:text-base text-gray-600 text-center">
-    {description}
-  </p>
-</div>
-
-  
   );
 }
 
@@ -257,17 +255,11 @@ function Services() {
   });
 
   return (
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0, y: 50 }}
-      animate={inView ? { opacity: 1, y: 0 } : {}}
-      transition={{ duration: 0.5, ease: "easeOut" }}
-      className="mx-auto max-w-8xl px-4  grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 p-8"
-    >
+    <div className="mx-auto max-w-8xl px-4  grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 p-8">
       {services.map((service) => (
         <ServiceItem key={service.title} {...service} />
       ))}
-    </motion.div>
+    </div>
   );
 }
 
