@@ -21,7 +21,7 @@ function Slider() {
   return (
     <div className="mt-12 ">
      <div>
-      <h1 className="text-4xl font-bold text-center mb-6"> Our Alumni Works At </h1>
+      <h1 className="text-4xl font-bold text-center mb-6"> Our Alumni Work At </h1>
       </div>
       <Marquee direction="left" speed={60} delay={1}>
         {logos.map((logo, index) => (
