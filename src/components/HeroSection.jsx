@@ -41,7 +41,7 @@ function HeroSection() {
           <h1>Upgrade</h1>
           <h1 className="text-gray-300">Your Skills</h1>
           <h1 className="text-gray-300">With Us!</h1>
-          <h1 className="text-xl md:text-4xl text-gray-400"> Wheather it is {displayText}</h1>
+          <h1 className="text-xl md:text-4xl text-gray-400"> Whether it is {displayText}</h1>
         
         </div>
       </div>
