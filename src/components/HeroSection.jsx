@@ -3,9 +3,9 @@ import React, { useState, useEffect }  from "react"
 import Image from "next/image";
 
 function HeroSection() {
-  const roleArray = ["Information technology",
-    "EC & EEE",
-    "MECHANICAL "];
+  const roleArray = ["IT",
+    "EC", "EEE",
+    "MECHANICAL"];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [currentLetterIndex, setCurrentLetterIndex] = useState(0);
   const [displayText, setDisplayText] = useState("");
